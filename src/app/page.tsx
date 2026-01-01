@@ -16,16 +16,22 @@ export default function Home() {
             Generate
           </Link>
           <Link
+            href="/image-picker"
+            className="text-gray-600 hover:text-gray-900 transition-colors"
+          >
+            Image Picker
+          </Link>
+          <Link
+            href="/visualizer"
+            className="text-gray-600 hover:text-gray-900 transition-colors"
+          >
+            Visualizer
+          </Link>
+          <Link
             href="/palettes"
             className="text-gray-600 hover:text-gray-900 transition-colors"
           >
             Explore
-          </Link>
-          <Link
-            href="/contrast-checker"
-            className="text-gray-600 hover:text-gray-900 transition-colors"
-          >
-            Contrast Checker
           </Link>
         </nav>
       </header>
