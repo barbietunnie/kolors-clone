@@ -2,7 +2,6 @@
 
 import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
-import Link from 'next/link';
 import { HexColorPicker } from 'react-colorful';
 import { normalizeHex, checkContrast, getContrastRating, suggestAccessibleColor } from '@/lib/colors';
 
@@ -111,29 +110,6 @@ function ContrastCheckerContent() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="text-2xl font-bold text-gray-900">
-            Kolors
-          </Link>
-          <nav className="flex items-center gap-6">
-            <Link href="/generate" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Generate
-            </Link>
-            <Link href="/color-picker" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Color Picker
-            </Link>
-            <Link href="/contrast-checker" className="text-gray-900 font-medium">
-              Contrast Checker
-            </Link>
-            <Link href="/palettes" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Explore
-            </Link>
-          </nav>
-        </div>
-      </header>
-
       <div className="max-w-6xl mx-auto px-6 py-12">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Contrast Checker</h1>

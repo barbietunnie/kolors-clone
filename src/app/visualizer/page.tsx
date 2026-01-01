@@ -2,7 +2,6 @@
 
 import { useState, useCallback, useEffect, useMemo, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
-import Link from 'next/link';
 import { normalizeHex, generateHarmoniousPalette } from '@/lib/colors';
 import { templates, type Template } from '@/data/templates';
 import { TemplateGallery } from '@/components/visualizer/TemplateGallery';
@@ -101,29 +100,6 @@ function VisualizerContent() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="text-2xl font-bold text-gray-900">
-            Kolors
-          </Link>
-          <nav className="flex items-center gap-6">
-            <Link href="/generate" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Generate
-            </Link>
-            <Link href="/image-picker" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Image Picker
-            </Link>
-            <Link href="/visualizer" className="text-gray-900 font-medium">
-              Visualizer
-            </Link>
-            <Link href="/palettes" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Explore
-            </Link>
-          </nav>
-        </div>
-      </header>
-
       {/* Main content */}
       <main className="max-w-7xl mx-auto px-6 py-12">
         {/* Page title */}
