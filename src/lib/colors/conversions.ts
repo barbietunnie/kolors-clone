@@ -203,3 +203,128 @@ export function saturate(hex: string, amount: number): string {
 export function desaturate(hex: string, amount: number): string {
   return chroma(hex).desaturate(amount).hex().toUpperCase();
 }
+
+/**
+ * Color family type for classification
+ */
+export type ColorFamily =
+  | 'Red'
+  | 'Orange'
+  | 'Yellow'
+  | 'Green'
+  | 'Cyan'
+  | 'Blue'
+  | 'Purple'
+  | 'Pink'
+  | 'Brown'
+  | 'Grey'
+  | 'White'
+  | 'Black';
+
+/**
+ * Get the color family for a given hex color
+ * Uses HSL-based classification similar to Coolors.co
+ */
+export function getColorFamily(hex: string): ColorFamily {
+  try {
+    const color = chroma(hex);
+    const [h, s, l] = color.hsl();
+
+    // Normalize values (s and l are 0-1, h is 0-360 or NaN for greys)
+    const hue = isNaN(h) ? 0 : h;
+    const saturation = s * 100; // Convert to percentage
+    const lightness = l * 100;  // Convert to percentage
+
+    // Handle achromatic colors first (very low saturation)
+    if (saturation <= 5) {
+      if (lightness >= 95) return 'White';
+      if (lightness <= 8) return 'Black';
+      return 'Grey';
+    }
+
+    // Handle very light colors
+    if (lightness >= 97) return 'White';
+
+    // Handle very dark colors
+    if (lightness <= 5) return 'Black';
+
+    // Handle near-grey colors (low saturation)
+    if (saturation <= 10) {
+      if (lightness >= 85) return 'White';
+      if (lightness <= 15) return 'Black';
+      return 'Grey';
+    }
+
+    // Brown detection: warm hues with low-to-moderate saturation and low-to-moderate lightness
+    // Browns are essentially dark/desaturated oranges and reds
+    const isWarmHue = (hue >= 0 && hue <= 50) || hue >= 350;
+    if (isWarmHue && saturation >= 10 && saturation <= 70 && lightness >= 8 && lightness <= 55) {
+      // Additional check: browns typically have specific characteristics
+      // Check if it's more brown-like (darker, less saturated warm colors)
+      if (lightness <= 45 || (saturation <= 50 && lightness <= 55)) {
+        return 'Brown';
+      }
+    }
+
+    // Chromatic color classification by hue
+    // Red: 0-10° and 350-360°
+    if (hue >= 350 || hue < 10) {
+      // Check if it's a pink-ish red (lighter reds)
+      if (lightness >= 60 && saturation <= 60) return 'Pink';
+      return 'Red';
+    }
+
+    // Orange: 10-40°
+    if (hue >= 10 && hue < 40) {
+      // Light desaturated oranges might be brown
+      if (saturation <= 50 && lightness <= 50) return 'Brown';
+      return 'Orange';
+    }
+
+    // Yellow: 40-70°
+    if (hue >= 40 && hue < 70) {
+      // Dark yellows are often brown (like olive, khaki)
+      if (lightness <= 45 && saturation <= 60) return 'Brown';
+      return 'Yellow';
+    }
+
+    // Green: 70-165°
+    if (hue >= 70 && hue < 165) {
+      return 'Green';
+    }
+
+    // Cyan: 165-200°
+    if (hue >= 165 && hue < 200) {
+      return 'Cyan';
+    }
+
+    // Blue: 200-260°
+    if (hue >= 200 && hue < 260) {
+      return 'Blue';
+    }
+
+    // Purple: 260-300°
+    if (hue >= 260 && hue < 300) {
+      return 'Purple';
+    }
+
+    // Pink: 300-350°
+    if (hue >= 300 && hue < 350) {
+      // Darker pinks with more saturation might be purple/magenta
+      if (lightness <= 35 && saturation >= 50) return 'Purple';
+      return 'Pink';
+    }
+
+    // Fallback (shouldn't reach here)
+    return 'Grey';
+  } catch {
+    return 'Grey';
+  }
+}
+
+/**
+ * Check if a color belongs to a specific family
+ */
+export function isColorInFamily(hex: string, family: ColorFamily): boolean {
+  return getColorFamily(hex) === family;
+}

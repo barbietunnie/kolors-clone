@@ -11,6 +11,7 @@ import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { namedColors, colorCategories, type NamedColor } from '@/data/colors';
 import { ColorCard } from '@/components/colors/ColorCard';
+import { getColorFamily, type ColorFamily } from '@/lib/colors';
 import chroma from 'chroma-js';
 
 type SortOption = 'name' | 'hue' | 'brightness' | 'saturation';
@@ -33,19 +34,15 @@ export default function ColorsPage() {
       );
     }
 
-    // Filter by color category (find colors similar to selected category)
+    // Filter by color family using HSL-based classification
     if (selectedCategory) {
-      const categoryColor = colorCategories.find(c => c.name === selectedCategory);
-      if (categoryColor) {
-        result = result.filter((c) => {
-          try {
-            // Use deltaE for perceptual color difference
-            return chroma.deltaE(c.hex, categoryColor.hex) < 50;
-          } catch {
-            return false;
-          }
-        });
-      }
+      result = result.filter((c) => {
+        try {
+          return getColorFamily(c.hex) === selectedCategory;
+        } catch {
+          return false;
+        }
+      });
     }
 
     // Sort
