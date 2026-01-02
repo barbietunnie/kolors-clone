@@ -29,6 +29,14 @@ A fast, intuitive color palette generator inspired by [Coolors.co](https://coolo
 - **Auto-Suggest** - Get accessible color alternatives
 - **UI Preview** - Buttons, links, containers
 
+### Color Library (`/colors`)
+- **540+ Named Colors** - Comprehensive collection of named colors
+- **Search** - By color name or HEX code
+- **Filter by Family** - Red, Orange, Yellow, Green, Cyan, Blue, Purple, Pink, Brown, Grey, White, Black
+- **Sort Options** - Alphabetical, by Hue, by Brightness, by Saturation
+- **Quick Actions** - Copy HEX, view in Color Picker
+- **One-Click Details** - Link to full color information
+
 ### Explore Palettes (`/palettes`)
 - **Curated Collection** - 28 hand-picked palettes
 - **Filter by Color** - Red, Orange, Yellow, Green, Blue, Purple, Pink, Gray
@@ -97,12 +105,14 @@ src/
 │   ├── generate/          # Palette generator
 │   ├── color-picker/      # Color info tool
 │   ├── contrast-checker/  # WCAG accessibility
+│   ├── colors/            # Color library browser
 │   ├── palettes/          # Browse palettes
 │   └── gradient-maker/    # Gradient creator
 ├── components/
 │   ├── ui/                # Reusable UI components
 │   ├── generator/         # Palette generator components
 │   ├── color-picker/      # Color picker components
+│   ├── colors/            # Color library components
 │   └── palettes/          # Palette browsing components
 ├── lib/
 │   └── colors/            # Color utility functions
