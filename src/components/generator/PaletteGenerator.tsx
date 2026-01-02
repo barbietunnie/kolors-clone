@@ -1,13 +1,19 @@
 'use client';
 
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback, useRef } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import { usePaletteStore } from '@/store/paletteStore';
+import { useFavoritesStore } from '@/store/favoritesStore';
+import { useHistoryStore } from '@/store/historyStore';
+import { usePreferencesStore } from '@/store/preferencesStore';
 import { useKeyboardShortcuts } from '@/hooks/useKeyboardShortcuts';
 import { paletteToUrl, parsePaletteFromUrl } from '@/lib/colors';
 import { ColorColumn } from './ColorColumn';
 import { GeneratorToolbar } from './GeneratorToolbar';
 import { ExportModal } from './ExportModal';
+import { ShareModal } from './ShareModal';
+import { FavoritesPanel } from './FavoritesPanel';
+import { HistoryPanel } from './HistoryPanel';
 
 interface PaletteGeneratorProps {
   initialColors?: string;
@@ -30,9 +36,19 @@ export function PaletteGenerator({ initialColors }: PaletteGeneratorProps) {
     canRedo,
   } = usePaletteStore();
 
+  const { addFavorite, removeFavorite, isFavorite, getFavoriteByColors } = useFavoritesStore();
+  const { addToHistory } = useHistoryStore();
+  const { autoSaveToHistory } = usePreferencesStore();
+
   const [showExport, setShowExport] = useState(false);
+  const [showShare, setShowShare] = useState(false);
+  const [showFavorites, setShowFavorites] = useState(false);
+  const [showHistory, setShowHistory] = useState(false);
   const [draggedIndex, setDraggedIndex] = useState<number | null>(null);
   const [focusedIndex, setFocusedIndex] = useState(0);
+
+  // Track previous colors for history
+  const prevColorsRef = useRef<string[]>([]);
 
   // Initialize palette
   useEffect(() => {
@@ -48,13 +64,38 @@ export function PaletteGenerator({ initialColors }: PaletteGeneratorProps) {
     }
   }, [initialColors, colors.length, setColors, generateNewPalette]);
 
-  // Update URL when colors change
+  // Update URL when colors change and save to history
   useEffect(() => {
     if (colors.length > 0) {
       const url = paletteToUrl(colors);
       window.history.replaceState(null, '', `/generate/${url}`);
+
+      // Save to history if colors changed and auto-save is enabled
+      const currentHexes = colors.map(c => c.hex);
+      const prevHexes = prevColorsRef.current;
+
+      if (autoSaveToHistory && currentHexes.join('-') !== prevHexes.join('-')) {
+        addToHistory(currentHexes);
+      }
+
+      prevColorsRef.current = currentHexes;
     }
-  }, [colors]);
+  }, [colors, autoSaveToHistory, addToHistory]);
+
+  // Get current colors as hex strings
+  const currentColorHexes = colors.map(c => c.hex);
+  const isCurrentFavorite = isFavorite(currentColorHexes);
+
+  const handleToggleFavorite = useCallback(() => {
+    if (isCurrentFavorite) {
+      const favorite = getFavoriteByColors(currentColorHexes);
+      if (favorite) {
+        removeFavorite(favorite.id);
+      }
+    } else {
+      addFavorite(currentColorHexes);
+    }
+  }, [isCurrentFavorite, currentColorHexes, addFavorite, removeFavorite, getFavoriteByColors]);
 
   // Keyboard shortcuts
   useKeyboardShortcuts([
@@ -165,10 +206,15 @@ export function PaletteGenerator({ initialColors }: PaletteGeneratorProps) {
         onRedo={redo}
         onAddColor={addColor}
         onExport={() => setShowExport(true)}
+        onShare={() => setShowShare(true)}
+        onFavorites={() => setShowFavorites(true)}
+        onHistory={() => setShowHistory(true)}
+        onToggleFavorite={handleToggleFavorite}
         canUndo={canUndo()}
         canRedo={canRedo()}
         canAddColor={colors.length < 10}
         colorCount={colors.length}
+        isFavorite={isCurrentFavorite}
       />
 
       {/* Export modal */}
@@ -176,6 +222,26 @@ export function PaletteGenerator({ initialColors }: PaletteGeneratorProps) {
         isOpen={showExport}
         onClose={() => setShowExport(false)}
         colors={colors}
+      />
+
+      {/* Share modal */}
+      <ShareModal
+        isOpen={showShare}
+        onClose={() => setShowShare(false)}
+        colors={colors}
+      />
+
+      {/* Favorites panel */}
+      <FavoritesPanel
+        isOpen={showFavorites}
+        onClose={() => setShowFavorites(false)}
+        currentColors={currentColorHexes}
+      />
+
+      {/* History panel */}
+      <HistoryPanel
+        isOpen={showHistory}
+        onClose={() => setShowHistory(false)}
       />
     </div>
   );
