@@ -1,66 +1,11 @@
 import Link from "next/link";
-import { ThemeToggle } from "@/components/ui/ThemeToggle";
+import { Header } from "@/components/Header";
 
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Header */}
-      <header className="flex items-center justify-between px-6 py-4 border-b border-card-border">
-        <Link href="/" className="text-2xl font-bold text-foreground">
-          Kolors
-        </Link>
-        <nav className="flex items-center gap-6">
-          <Link
-            href="/generate"
-            className="text-muted hover:text-foreground transition-colors"
-          >
-            Generate
-          </Link>
-          <Link
-            href="/image-picker"
-            className="text-muted hover:text-foreground transition-colors"
-          >
-            Image Picker
-          </Link>
-          <Link
-            href="/visualizer"
-            className="text-muted hover:text-foreground transition-colors"
-          >
-            Visualizer
-          </Link>
-          <Link
-            href="/colors"
-            className="text-gray-600 hover:text-gray-900 transition-colors"
-          >
-            Colors
-          </Link>
-          <Link
-            href="/gradients"
-            className="text-gray-600 hover:text-gray-900 transition-colors"
-          >
-            Gradients
-          </Link>
-          <Link
-            href="/palettes"
-            className="text-muted hover:text-foreground transition-colors"
-          >
-            Explore
-          </Link>
-          <Link
-            href="/color-libraries"
-            className="text-muted hover:text-foreground transition-colors"
-          >
-            Libraries
-          </Link>
-          <Link
-            href="/collage"
-            className="text-muted hover:text-foreground transition-colors"
-          >
-            Collage
-          </Link>
-          <ThemeToggle />
-        </nav>
-      </header>
+      <Header />
 
       {/* Hero */}
       <main className="flex-1 flex flex-col items-center justify-center px-6 text-center">
