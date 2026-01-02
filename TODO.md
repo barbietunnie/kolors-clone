@@ -4,29 +4,29 @@
 
 ### High Priority
 
-- [ ] **Image Picker** (`/image-picker`)
-  - [ ] Drag & drop image upload (react-dropzone already installed)
-  - [ ] Display uploaded image with canvas overlay
-  - [ ] Auto-extract dominant colors (5-10 colors) using median cut algorithm
-  - [ ] Manual color picker - click on image to sample colors
-  - [ ] Adjustable palette size slider (2-10 colors)
-  - [ ] "Open in Generator" button
-  - [ ] Support JPG, PNG, WebP (max 10MB)
-  - [ ] Consider using `color-thief-browser` or `quantize` library
+- [x] **Image Picker** (`/image-picker`)
+  - [x] Drag & drop image upload (react-dropzone already installed)
+  - [x] Display uploaded image with canvas overlay
+  - [x] Auto-extract dominant colors (5-10 colors) using median cut algorithm
+  - [x] Manual color picker - click on image to sample colors
+  - [x] Adjustable palette size slider (2-10 colors)
+  - [x] "Open in Generator" button
+  - [x] Support JPG, PNG, WebP (max 10MB)
+  - [x] Consider using `color-thief-browser` or `quantize` library
 
-- [ ] **Palette Visualizer** (`/visualizer`)
-  - [ ] Template gallery with SVG mockups:
-    - [ ] Website landing page
-    - [ ] Mobile app UI
-    - [ ] Business card
-    - [ ] Social media post
-    - [ ] Logo template
-    - [ ] Dashboard UI
-  - [ ] Upload custom SVG option
-  - [ ] Apply palette to template (color replacement)
-  - [ ] Spacebar to shuffle palette colors
-  - [ ] Download recolored design (SVG/PNG)
-  - [ ] Color mapping UI
+- [x] **Palette Visualizer** (`/visualizer`)
+  - [x] Template gallery with SVG mockups:
+    - [x] Website landing page
+    - [x] Mobile app UI
+    - [x] Business card
+    - [x] Social media post
+    - [x] Logo template
+    - [x] Dashboard UI
+  - [x] Upload custom SVG option
+  - [x] Apply palette to template (color replacement)
+  - [x] Spacebar to shuffle palette colors
+  - [x] Download recolored design (SVG/PNG)
+  - [x] Color mapping UI
 
 ### Medium Priority
 
@@ -48,26 +48,26 @@
 
 ### Low Priority
 
-- [ ] **Dark Mode**
-  - [ ] App-wide dark theme toggle
-  - [ ] Persist preference
-  - [ ] Auto-detect system preference
+- [x] **Dark Mode**
+  - [x] App-wide dark theme toggle
+  - [x] Persist preference
+  - [x] Auto-detect system preference
 
-- [ ] **Mobile Responsiveness**
-  - [ ] Improve palette generator on mobile
-  - [ ] Touch-friendly color picker
-  - [ ] Swipe gestures for color navigation
+- [x] **Mobile Responsiveness**
+  - [x] Improve palette generator on mobile
+  - [x] Touch-friendly color picker
+  - [x] Swipe gestures for color navigation
 
-- [ ] **Collage Maker**
-  - [ ] Create color collages
-  - [ ] Grid layouts (2x2, 3x3, custom)
-  - [ ] Export as image
+- [x] **Collage Maker** (`/collage-maker`)
+  - [x] Create color collages
+  - [x] Grid layouts (2x2, 3x3, custom)
+  - [x] Export as image
 
-- [ ] **Color Libraries**
-  - [ ] Pantone color matching
-  - [ ] Material Design colors
-  - [ ] Tailwind CSS colors
-  - [ ] CSS named colors
+- [x] **Color Libraries** (`/color-libraries`)
+  - [ ] Pantone color matching (requires license)
+  - [x] Material Design colors
+  - [x] Tailwind CSS colors
+  - [x] CSS named colors
 
 ## Bug Fixes
 
@@ -83,7 +83,7 @@
 
 ## UI/UX Improvements
 
-- [ ] Add Gradient Maker to main navigation on all pages
+- [x] Add Gradient Maker to main navigation on all pages
 - [ ] Loading skeletons for better perceived performance
 - [ ] Keyboard navigation improvements
 - [ ] Tooltip consistency across all tools
@@ -108,6 +108,10 @@
 - [x] Contrast Checker (`/contrast-checker`)
 - [x] Explore Palettes (`/palettes`)
 - [x] Gradient Maker (`/gradient-maker`)
+- [x] Image Picker (`/image-picker`)
+- [x] Palette Visualizer (`/visualizer`)
+- [x] Collage Maker (`/collage-maker`)
+- [x] Color Libraries (`/color-libraries`)
 
 ### Core Features
 - [x] Color conversions (HEX, RGB, HSL, HSB, CMYK, LAB)
@@ -122,23 +126,31 @@
 - [x] Export (CSS, SCSS, Tailwind, JSON, Array)
 - [x] URL-based palette sharing
 - [x] Curated palette collection with filters
+- [x] Dark mode with system preference detection
+- [x] Mobile responsive design
+- [x] Color collage creation
+- [x] Material Design, Tailwind CSS, and CSS named color libraries
 
 ---
 
 ## Next Session Prompt
 
 ```
-Continue building the Kolors clone by implementing Image Picker and Palette Visualizer.
+Continue building the Kolors clone by implementing medium priority features.
 
-Project: /home/user/kolors-clone (Next.js 14, TypeScript, Tailwind, pnpm)
-Branch: claude/clone-coolors-app-UQK08
+Project: /home/user/kolors-clone (Next.js 16, TypeScript, Tailwind v4, pnpm)
+Branch: claude/implement-low-priority-todos-fmTyB
 
-Implemented: Palette Generator, Color Picker, Contrast Checker, Explore Palettes, Gradient Maker
+Implemented: All tools complete (Palette Generator, Color Picker, Contrast Checker,
+Explore Palettes, Gradient Maker, Image Picker, Visualizer, Collage Maker, Color Libraries)
+Features: Dark mode, mobile responsiveness, color libraries
+
 Libraries: chroma-js, react-colorful, framer-motion, zustand, react-dropzone
 
 Tasks:
-1. Image Picker (/image-picker) - Extract colors from uploaded images
-2. Palette Visualizer (/visualizer) - Preview palettes on SVG mockups
+1. Local Storage - Save favorite palettes, history, preferences
+2. More Export Formats - PDF, ASE, PNG, SVG exports
+3. Share Features - Shareable links, social sharing, embed codes
 
 Follow existing patterns, wrap useSearchParams in Suspense, test with pnpm build, commit and push.
 ```

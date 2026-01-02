@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useEffect, useMemo, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
-import Link from 'next/link';
+import { Header } from '@/components/Header';
 import { normalizeHex, generateHarmoniousPalette } from '@/lib/colors';
 import { templates, type Template } from '@/data/templates';
 import { TemplateGallery } from '@/components/visualizer/TemplateGallery';
@@ -100,47 +100,26 @@ function VisualizerContent() {
   const allTemplates = useMemo(() => [...templates, ...customTemplates], [customTemplates]);
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="text-2xl font-bold text-gray-900">
-            Kolors
-          </Link>
-          <nav className="flex items-center gap-6">
-            <Link href="/generate" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Generate
-            </Link>
-            <Link href="/image-picker" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Image Picker
-            </Link>
-            <Link href="/visualizer" className="text-gray-900 font-medium">
-              Visualizer
-            </Link>
-            <Link href="/palettes" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Explore
-            </Link>
-          </nav>
-        </div>
-      </header>
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
+      <Header />
 
       {/* Main content */}
-      <main className="max-w-7xl mx-auto px-6 py-12">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
         {/* Page title */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+        <div className="text-center mb-8 sm:mb-12">
+          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
             Palette Visualizer
           </h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
             Preview your color palette on real design mockups. Select a template and see how your colors look in context.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 sm:gap-8">
           {/* Left column - Template Gallery */}
           <div className="xl:col-span-1 space-y-6">
-            <div className="bg-white rounded-xl border border-gray-200 p-6">
-              <h2 className="text-lg font-semibold text-gray-900 mb-4">Templates</h2>
+            <div className="bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 p-4 sm:p-6">
+              <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Templates</h2>
               <TemplateGallery
                 selectedTemplate={selectedTemplate}
                 onSelectTemplate={setSelectedTemplate}
@@ -152,11 +131,11 @@ function VisualizerContent() {
             <CustomSVGUpload onSVGUpload={handleCustomSVGUpload} />
 
             {/* Tips */}
-            <div className="bg-gray-100 rounded-xl p-6">
-              <h3 className="font-semibold text-gray-900 mb-3">Keyboard Shortcuts</h3>
-              <ul className="space-y-2 text-sm text-gray-600">
+            <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 sm:p-6">
+              <h3 className="font-semibold text-gray-900 dark:text-white mb-3">Keyboard Shortcuts</h3>
+              <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-400">
                 <li className="flex items-center gap-2">
-                  <kbd className="px-2 py-1 bg-white rounded text-xs font-mono shadow">Space</kbd>
+                  <kbd className="px-2 py-1 bg-white dark:bg-gray-700 rounded text-xs font-mono shadow">Space</kbd>
                   <span>Shuffle palette mapping</span>
                 </li>
               </ul>
@@ -189,8 +168,8 @@ export default function VisualizerPage() {
   return (
     <Suspense
       fallback={
-        <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900" />
+        <div className="min-h-screen bg-gray-50 dark:bg-gray-950 flex items-center justify-center">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900 dark:border-white" />
         </div>
       }
     >
