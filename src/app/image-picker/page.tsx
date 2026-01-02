@@ -1,11 +1,11 @@
 'use client';
 
 import { useState, useCallback, useEffect } from 'react';
-import { Header } from '@/components/Header';
 import { extractColorsFromImage, rgbToHexString } from '@/lib/colors';
 import { ImageDropzone } from '@/components/image-picker/ImageDropzone';
 import { ImageColorPicker } from '@/components/image-picker/ImageColorPicker';
 import { ExtractedPalette } from '@/components/image-picker/ExtractedPalette';
+import { Header } from '@/components/ui/Header';
 
 export default function ImagePickerPage() {
   const [imageData, setImageData] = useState<ImageData | null>(null);
@@ -71,27 +71,27 @@ export default function ImagePickerPage() {
   }, [imageData, paletteSize, extractColors]);
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
+    <div className="min-h-screen bg-background">
       <Header />
 
       {/* Main content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+      <main className="max-w-7xl mx-auto px-6 py-12">
         {/* Page title */}
-        <div className="text-center mb-8 sm:mb-12">
-          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+        <div className="text-center mb-12">
+          <h1 className="text-4xl font-bold text-foreground mb-4">
             Extract Colors from Image
           </h1>
-          <p className="text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+          <p className="text-lg text-muted max-w-2xl mx-auto">
             Upload an image to automatically extract a color palette.
             Click on the image to pick specific colors.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Left column - Image upload and picker */}
           <div className="space-y-6">
-            <div className="bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 p-4 sm:p-6">
-              <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Upload Image</h2>
+            <div className="bg-card-bg rounded-xl border border-card-border p-6">
+              <h2 className="text-lg font-semibold text-foreground mb-4">Upload Image</h2>
               <ImageDropzone
                 onImageLoad={handleImageLoad}
                 currentImage={imageUrl}
@@ -99,8 +99,8 @@ export default function ImagePickerPage() {
             </div>
 
             {imageData && imageUrl && (
-              <div className="bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 p-4 sm:p-6">
-                <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Pick Colors</h2>
+              <div className="bg-card-bg rounded-xl border border-card-border p-6">
+                <h2 className="text-lg font-semibold text-foreground mb-4">Pick Colors</h2>
                 <ImageColorPicker
                   imageUrl={imageUrl}
                   imageData={imageData}
@@ -123,16 +123,16 @@ export default function ImagePickerPage() {
             />
 
             {/* Tips */}
-            <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 sm:p-6">
-              <h3 className="font-semibold text-gray-900 dark:text-white mb-3">Tips</h3>
-              <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-400">
+            <div className="bg-muted-bg rounded-xl p-6">
+              <h3 className="font-semibold text-foreground mb-3">Tips</h3>
+              <ul className="space-y-2 text-sm text-muted">
                 <li className="flex items-start gap-2">
                   <span className="text-purple-600 dark:text-purple-400 font-bold">P</span>
-                  <span>Press <kbd className="px-1.5 py-0.5 bg-white dark:bg-gray-700 rounded text-xs font-mono">P</kbd> to toggle color picker mode</span>
+                  <span>Press <kbd className="px-1.5 py-0.5 bg-card-bg rounded text-xs font-mono">P</kbd> to toggle color picker mode</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-purple-600 dark:text-purple-400 font-bold">R</span>
-                  <span>Press <kbd className="px-1.5 py-0.5 bg-white dark:bg-gray-700 rounded text-xs font-mono">R</kbd> to re-extract colors</span>
+                  <span>Press <kbd className="px-1.5 py-0.5 bg-card-bg rounded text-xs font-mono">R</kbd> to re-extract colors</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <svg className="w-4 h-4 text-purple-600 dark:text-purple-400 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">

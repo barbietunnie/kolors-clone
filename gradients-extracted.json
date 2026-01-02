@@ -1,0 +1,2613 @@
+[
+  {
+    "name": "Neon Lagoon",
+    "css": "linear-gradient(90deg, rgb(0, 255, 135) 0%, rgb(96, 239, 255) 100%)",
+    "colors": [
+      "#00FF87",
+      "#60EFFF"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Digital Sky",
+    "css": "linear-gradient(90deg, rgb(0, 97, 255) 0%, rgb(96, 239, 255) 100%)",
+    "colors": [
+      "#0061FF",
+      "#60EFFF"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Synth Dusk",
+    "css": "linear-gradient(90deg, rgb(255, 27, 107) 0%, rgb(69, 202, 255) 100%)",
+    "colors": [
+      "#FF1B6B",
+      "#45CAFF"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Cosmic Pop",
+    "css": "linear-gradient(90deg, rgb(64, 201, 255) 0%, rgb(232, 28, 255) 100%)",
+    "colors": [
+      "#40C9FF",
+      "#E81CFF"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Citrus Shine",
+    "css": "linear-gradient(90deg, rgb(255, 147, 15) 0%, rgb(255, 249, 91) 100%)",
+    "colors": [
+      "#FF930F",
+      "#FFF95B"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Sunset Candy",
+    "css": "linear-gradient(90deg, rgb(255, 15, 123) 0%, rgb(248, 155, 41) 100%)",
+    "colors": [
+      "#FF0F7B",
+      "#F89B29"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Magic Garden",
+    "css": "linear-gradient(90deg, rgb(191, 15, 255) 0%, rgb(203, 255, 73) 100%)",
+    "colors": [
+      "#BF0FFF",
+      "#CBFF49"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Lavender Dream",
+    "css": "linear-gradient(90deg, rgb(105, 110, 255) 0%, rgb(248, 172, 255) 100%)",
+    "colors": [
+      "#696EFF",
+      "#F8ACFF"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Mint Blush",
+    "css": "linear-gradient(90deg, rgb(169, 255, 104) 0%, rgb(255, 137, 137) 100%)",
+    "colors": [
+      "#A9FF68",
+      "#FF8989"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Rose Mist",
+    "css": "linear-gradient(90deg, rgb(255, 88, 88) 0%, rgb(255, 200, 200) 100%)",
+    "colors": [
+      "#FF5858",
+      "#FFC8C8"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Electric Shore",
+    "css": "linear-gradient(90deg, rgb(89, 92, 255) 0%, rgb(198, 248, 255) 100%)",
+    "colors": [
+      "#595CFF",
+      "#C6F8FF"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Peach Cloud",
+    "css": "linear-gradient(90deg, rgb(255, 165, 133) 0%, rgb(255, 237, 160) 100%)",
+    "colors": [
+      "#FFA585",
+      "#FFEDA0"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Dream Circuit",
+    "css": "linear-gradient(90deg, rgb(132, 255, 201) 0%, rgb(170, 178, 255) 50%, rgb(236, 160, 255) 100%)",
+    "colors": [
+      "#84FFC9",
+      "#AAB2FF",
+      "#ECA0FF"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Bloom Rush",
+    "css": "linear-gradient(90deg, rgb(239, 112, 155) 0%, rgb(250, 147, 114) 100%)",
+    "colors": [
+      "#EF709B",
+      "#FA9372"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Spring Heat",
+    "css": "linear-gradient(90deg, rgb(178, 239, 145) 0%, rgb(250, 147, 114) 100%)",
+    "colors": [
+      "#B2EF91",
+      "#FA9372"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Crystal Pulse",
+    "css": "linear-gradient(90deg, rgb(155, 248, 244) 0%, rgb(111, 123, 247) 100%)",
+    "colors": [
+      "#9BF8F4",
+      "#6F7BF7"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Velvet Mirage",
+    "css": "linear-gradient(90deg, rgb(249, 197, 141) 0%, rgb(244, 146, 240) 100%)",
+    "colors": [
+      "#F9C58D",
+      "#F492F0"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Luna Fade",
+    "css": "linear-gradient(90deg, rgb(244, 146, 240) 0%, rgb(161, 141, 206) 100%)",
+    "colors": [
+      "#F492F0",
+      "#A18DCE"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Coral Ember",
+    "css": "linear-gradient(90deg, rgb(249, 177, 110) 0%, rgb(246, 128, 128) 100%)",
+    "colors": [
+      "#F9B16E",
+      "#F68080"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Midnight Calm",
+    "css": "linear-gradient(90deg, rgb(155, 175, 217) 0%, rgb(16, 55, 131) 100%)",
+    "colors": [
+      "#9BAFD9",
+      "#103783"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Golden Haze",
+    "css": "linear-gradient(90deg, rgb(251, 208, 124) 0%, rgb(247, 247, 121) 100%)",
+    "colors": [
+      "#FBD07C",
+      "#F7F779"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Tropical Bloom",
+    "css": "linear-gradient(90deg, rgb(197, 249, 215) 0%, rgb(247, 212, 134) 50%, rgb(242, 122, 125) 100%)",
+    "colors": [
+      "#C5F9D7",
+      "#F7D486",
+      "#F27A7D"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Frosted Light",
+    "css": "linear-gradient(90deg, rgb(235, 244, 245) 0%, rgb(181, 198, 224) 100%)",
+    "colors": [
+      "#EBF4F5",
+      "#B5C6E0"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Cotton Fade",
+    "css": "linear-gradient(90deg, rgb(246, 213, 247) 0%, rgb(251, 233, 215) 100%)",
+    "colors": [
+      "#F6D5F7",
+      "#FBE9D7"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Twilight Gold",
+    "css": "linear-gradient(90deg, rgb(67, 35, 113) 0%, rgb(250, 174, 123) 100%)",
+    "colors": [
+      "#432371",
+      "#FAAE7B"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Petal Air",
+    "css": "linear-gradient(90deg, rgb(233, 183, 206) 0%, rgb(211, 243, 241) 100%)",
+    "colors": [
+      "#E9B7CE",
+      "#D3F3F1"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Neon Mirage",
+    "css": "linear-gradient(90deg, rgb(67, 156, 251) 0%, rgb(241, 135, 251) 100%)",
+    "colors": [
+      "#439CFB",
+      "#F187FB"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Turbo Pulse",
+    "css": "linear-gradient(90deg, rgb(29, 189, 230) 0%, rgb(241, 81, 94) 100%)",
+    "colors": [
+      "#1DBDE6",
+      "#F1515E"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Pixel Meadow",
+    "css": "linear-gradient(90deg, rgb(87, 235, 222) 0%, rgb(174, 251, 42) 100%)",
+    "colors": [
+      "#57EBDE",
+      "#AEFB2A"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Synth Stream",
+    "css": "linear-gradient(90deg, rgb(66, 4, 126) 0%, rgb(7, 244, 158) 100%)",
+    "colors": [
+      "#42047E",
+      "#07F49E"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Lemon Grove",
+    "css": "linear-gradient(90deg, rgb(244, 242, 105) 0%, rgb(92, 178, 112) 100%)",
+    "colors": [
+      "#F4F269",
+      "#5CB270"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Dusty Lilac",
+    "css": "linear-gradient(90deg, rgb(177, 144, 186) 0%, rgb(232, 181, 149) 100%)",
+    "colors": [
+      "#B190BA",
+      "#E8B595"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Lilac Frost",
+    "css": "linear-gradient(90deg, rgb(181, 151, 246) 0%, rgb(150, 198, 234) 100%)",
+    "colors": [
+      "#B597F6",
+      "#96C6EA"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Powder Bloom",
+    "css": "linear-gradient(90deg, rgb(201, 222, 244) 0%, rgb(245, 204, 212) 50%, rgb(184, 164, 201) 100%)",
+    "colors": [
+      "#C9DEF4",
+      "#F5CCD4",
+      "#B8A4C9"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Violet Breeze",
+    "css": "linear-gradient(90deg, rgb(124, 101, 169) 0%, rgb(150, 212, 202) 100%)",
+    "colors": [
+      "#7C65A9",
+      "#96D4CA"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Pastel Cloud",
+    "css": "linear-gradient(90deg, rgb(246, 207, 190) 0%, rgb(185, 220, 242) 100%)",
+    "colors": [
+      "#F6CFBE",
+      "#B9DCF2"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Blossom Air",
+    "css": "linear-gradient(90deg, rgb(202, 239, 215) 0%, rgb(245, 191, 215) 50%, rgb(171, 201, 233) 100%)",
+    "colors": [
+      "#CAEFD7",
+      "#F5BFD7",
+      "#ABC9E9"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Oceanic Flow",
+    "css": "linear-gradient(90deg, rgb(159, 204, 250) 0%, rgb(9, 116, 241) 100%)",
+    "colors": [
+      "#9FCCFA",
+      "#0974F1"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Amber Heat",
+    "css": "linear-gradient(90deg, rgb(255, 184, 142) 0%, rgb(234, 87, 83) 100%)",
+    "colors": [
+      "#FFB88E",
+      "#EA5753"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Purple Shift",
+    "css": "linear-gradient(90deg, rgb(211, 151, 250) 0%, rgb(131, 100, 232) 100%)",
+    "colors": [
+      "#D397FA",
+      "#8364E8"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Mint Flow",
+    "css": "linear-gradient(90deg, rgb(141, 233, 213) 0%, rgb(50, 196, 192) 100%)",
+    "colors": [
+      "#8DE9D5",
+      "#32C4C0"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Sunset Flame",
+    "css": "linear-gradient(90deg, rgb(245, 230, 173) 0%, rgb(241, 60, 119) 100%)",
+    "colors": [
+      "#F5E6AD",
+      "#F13C77"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Emerald Pulse",
+    "css": "linear-gradient(90deg, rgb(130, 244, 177) 0%, rgb(48, 198, 124) 100%)",
+    "colors": [
+      "#82F4B1",
+      "#30C67C"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Plum Surge",
+    "css": "linear-gradient(90deg, rgb(212, 172, 251) 0%, rgb(184, 79, 206) 100%)",
+    "colors": [
+      "#D4ACFB",
+      "#B84FCE"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Citrus Fire",
+    "css": "linear-gradient(90deg, rgb(247, 186, 44) 0%, rgb(234, 84, 89) 100%)",
+    "colors": [
+      "#F7BA2C",
+      "#EA5459"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Ionic Blue",
+    "css": "linear-gradient(90deg, rgb(97, 244, 222) 0%, rgb(110, 120, 255) 100%)",
+    "colors": [
+      "#61F4DE",
+      "#6E78FF"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Sky Spark",
+    "css": "linear-gradient(90deg, rgb(255, 203, 107) 0%, rgb(61, 139, 255) 100%)",
+    "colors": [
+      "#FFCB6B",
+      "#3D8BFF"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Pixel Punch",
+    "css": "linear-gradient(90deg, rgb(168, 243, 104) 0%, rgb(249, 3, 94) 100%)",
+    "colors": [
+      "#A8F368",
+      "#F9035E"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Royal Beam",
+    "css": "linear-gradient(90deg, rgb(245, 201, 0) 0%, rgb(24, 49, 130) 100%)",
+    "colors": [
+      "#F5C900",
+      "#183182"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Crimson Honey",
+    "css": "linear-gradient(90deg, rgb(255, 207, 103) 0%, rgb(211, 50, 29) 100%)",
+    "colors": [
+      "#FFCF67",
+      "#D3321D"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Deep Mint",
+    "css": "linear-gradient(90deg, rgb(149, 249, 195) 0%, rgb(11, 56, 102) 100%)",
+    "colors": [
+      "#95F9C3",
+      "#0B3866"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Arctic Shift",
+    "css": "linear-gradient(90deg, rgb(77, 201, 230) 0%, rgb(33, 12, 174) 100%)",
+    "colors": [
+      "#4DC9E6",
+      "#210CAE"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Solar Orchid",
+    "css": "linear-gradient(90deg, rgb(238, 184, 109) 0%, rgb(153, 70, 178) 100%)",
+    "colors": [
+      "#EEB86D",
+      "#9946B2"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Retro Pulse",
+    "css": "linear-gradient(90deg, rgb(217, 207, 121) 0%, rgb(86, 18, 214) 100%)",
+    "colors": [
+      "#D9CF79",
+      "#5612D6"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Cosmic Bloom",
+    "css": "linear-gradient(90deg, rgb(226, 219, 31) 0%, rgb(174, 16, 249) 100%)",
+    "colors": [
+      "#E2DB1F",
+      "#AE10F9"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Aqua Code",
+    "css": "linear-gradient(90deg, rgb(126, 242, 157) 0%, rgb(15, 104, 169) 100%)",
+    "colors": [
+      "#7EF29D",
+      "#0F68A9"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Sunburn Edge",
+    "css": "linear-gradient(90deg, rgb(233, 208, 34) 0%, rgb(230, 11, 9) 100%)",
+    "colors": [
+      "#E9D022",
+      "#E60B09"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Lemon Dust",
+    "css": "linear-gradient(90deg, rgb(255, 251, 175) 0%, rgb(171, 42, 237) 100%)",
+    "colors": [
+      "#FFFBAF",
+      "#AB2AED"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Lavender Sand",
+    "css": "linear-gradient(90deg, rgb(255, 239, 193) 0%, rgb(135, 79, 158) 100%)",
+    "colors": [
+      "#FFEFC1",
+      "#874F9E"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Mars Echo",
+    "css": "linear-gradient(90deg, rgb(239, 116, 92) 0%, rgb(52, 7, 61) 100%)",
+    "colors": [
+      "#EF745C",
+      "#34073D"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Bubble Flash",
+    "css": "linear-gradient(90deg, rgb(250, 255, 137) 0%, rgb(234, 114, 173) 100%)",
+    "colors": [
+      "#FAFF89",
+      "#EA72AD"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Indigo Drive",
+    "css": "linear-gradient(90deg, rgb(145, 155, 255) 0%, rgb(19, 58, 148) 100%)",
+    "colors": [
+      "#919BFF",
+      "#133A94"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Candy Bloom",
+    "css": "linear-gradient(90deg, rgb(222, 184, 245) 0%, rgb(186, 66, 192) 100%)",
+    "colors": [
+      "#DEB8F5",
+      "#BA42C0"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Tropical Byte",
+    "css": "linear-gradient(90deg, rgb(243, 245, 32) 0%, rgb(89, 209, 2) 100%)",
+    "colors": [
+      "#F3F520",
+      "#59D102"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Petal Circuit",
+    "css": "linear-gradient(90deg, rgb(234, 152, 218) 0%, rgb(91, 108, 249) 100%)",
+    "colors": [
+      "#EA98DA",
+      "#5B6CF9"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Melon Vibe",
+    "css": "linear-gradient(90deg, rgb(255, 202, 166) 0%, rgb(248, 101, 148) 100%)",
+    "colors": [
+      "#FFCAA6",
+      "#F86594"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Fresh Core",
+    "css": "linear-gradient(90deg, rgb(182, 243, 201) 0%, rgb(71, 102, 244) 100%)",
+    "colors": [
+      "#B6F3C9",
+      "#4766F4"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Spicy Sunrise",
+    "css": "linear-gradient(90deg, rgb(243, 105, 110) 0%, rgb(248, 169, 2) 100%)",
+    "colors": [
+      "#F3696E",
+      "#F8A902"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Glacier Jet",
+    "css": "linear-gradient(90deg, rgb(111, 247, 232) 0%, rgb(31, 126, 161) 100%)",
+    "colors": [
+      "#6FF7E8",
+      "#1F7EA1"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Hybrid Beam",
+    "css": "linear-gradient(90deg, rgb(244, 233, 0) 0%, rgb(96, 182, 241) 100%)",
+    "colors": [
+      "#F4E900",
+      "#60B6F1"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Amber Burn",
+    "css": "linear-gradient(90deg, rgb(255, 215, 138) 0%, rgb(244, 118, 45) 100%)",
+    "colors": [
+      "#FFD78A",
+      "#F4762D"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Candy Storm",
+    "css": "linear-gradient(90deg, rgb(255, 168, 189) 0%, rgb(36, 42, 207) 100%)",
+    "colors": [
+      "#FFA8BD",
+      "#242ACF"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Blush Heat",
+    "css": "linear-gradient(90deg, rgb(248, 153, 125) 0%, rgb(173, 51, 109) 100%)",
+    "colors": [
+      "#F8997D",
+      "#AD336D"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Neon Lagoon",
+    "css": "linear-gradient(90deg, rgb(111, 227, 225) 0%, rgb(82, 87, 229) 100%)",
+    "colors": [
+      "#6FE3E1",
+      "#5257E5"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Desert Bloom",
+    "css": "linear-gradient(90deg, rgb(249, 164, 112) 0%, rgb(188, 85, 111) 100%)",
+    "colors": [
+      "#F9A470",
+      "#BC556F"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Tropic Shock",
+    "css": "linear-gradient(90deg, rgb(237, 227, 66) 0%, rgb(255, 81, 235) 100%)",
+    "colors": [
+      "#EDE342",
+      "#FF51EB"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Aqua Leaf",
+    "css": "linear-gradient(90deg, rgb(110, 241, 149) 0%, rgb(0, 227, 253) 100%)",
+    "colors": [
+      "#6EF195",
+      "#00E3FD"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Night Petal",
+    "css": "linear-gradient(90deg, rgb(57, 45, 105) 0%, rgb(181, 123, 238) 100%)",
+    "colors": [
+      "#392D69",
+      "#B57BEE"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Spring Punch",
+    "css": "linear-gradient(90deg, rgb(110, 238, 135) 0%, rgb(95, 197, 46) 100%)",
+    "colors": [
+      "#6EEE87",
+      "#5FC52E"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Lavender Pulse",
+    "css": "linear-gradient(90deg, rgb(252, 176, 243) 0%, rgb(61, 5, 221) 100%)",
+    "colors": [
+      "#FCB0F3",
+      "#3D05DD"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Miami Pop",
+    "css": "linear-gradient(90deg, rgb(131, 245, 229) 0%, rgb(231, 97, 189) 100%)",
+    "colors": [
+      "#83F5E5",
+      "#E761BD"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Flaming Lemon",
+    "css": "linear-gradient(90deg, rgb(247, 162, 161) 0%, rgb(255, 237, 0) 100%)",
+    "colors": [
+      "#F7A2A1",
+      "#FFED00"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Sunlit Depth",
+    "css": "linear-gradient(90deg, rgb(248, 207, 106) 0%, rgb(33, 120, 221) 100%)",
+    "colors": [
+      "#F8CF6A",
+      "#2178DD"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Peach Foam",
+    "css": "linear-gradient(90deg, rgb(248, 153, 153) 0%, rgb(246, 192, 186) 100%)",
+    "colors": [
+      "#F89999",
+      "#F6C0BA"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Lilac Whisper",
+    "css": "linear-gradient(90deg, rgb(157, 128, 203) 0%, rgb(247, 194, 230) 100%)",
+    "colors": [
+      "#9D80CB",
+      "#F7C2E6"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Bubble Veil",
+    "css": "linear-gradient(90deg, rgb(249, 205, 195) 0%, rgb(250, 206, 251) 100%)",
+    "colors": [
+      "#F9CDC3",
+      "#FACEFB"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Almond Silk",
+    "css": "linear-gradient(90deg, rgb(241, 225, 194) 0%, rgb(252, 188, 152) 100%)",
+    "colors": [
+      "#F1E1C2",
+      "#FCBC98"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Bliss Fade",
+    "css": "linear-gradient(90deg, rgb(247, 192, 236) 0%, rgb(167, 189, 234) 100%)",
+    "colors": [
+      "#F7C0EC",
+      "#A7BDEA"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Pale Frost",
+    "css": "linear-gradient(90deg, rgb(246, 196, 237) 0%, rgb(225, 218, 230) 100%)",
+    "colors": [
+      "#F6C4ED",
+      "#E1DAE6"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Mint Cloud",
+    "css": "linear-gradient(90deg, rgb(135, 244, 181) 0%, rgb(147, 203, 241) 100%)",
+    "colors": [
+      "#87F4B5",
+      "#93CBF1"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Sky Bloom",
+    "css": "linear-gradient(90deg, rgb(221, 180, 246) 0%, rgb(141, 208, 252) 100%)",
+    "colors": [
+      "#DDB4F6",
+      "#8DD0FC"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Fruit Sorbet",
+    "css": "linear-gradient(90deg, rgb(242, 146, 237) 0%, rgb(243, 99, 100) 100%)",
+    "colors": [
+      "#F292ED",
+      "#F36364"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Arctic Sprint",
+    "css": "linear-gradient(90deg, rgb(90, 178, 247) 0%, rgb(18, 207, 243) 100%)",
+    "colors": [
+      "#5AB2F7",
+      "#12CFF3"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Sunberry Twist",
+    "css": "linear-gradient(90deg, rgb(248, 108, 167) 0%, rgb(244, 212, 68) 100%)",
+    "colors": [
+      "#F86CA7",
+      "#F4D444"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Deep Current",
+    "css": "linear-gradient(90deg, rgb(48, 197, 210) 0%, rgb(71, 16, 105) 100%)",
+    "colors": [
+      "#30C5D2",
+      "#471069"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Indigo Smoke",
+    "css": "linear-gradient(90deg, rgb(98, 116, 231) 0%, rgb(135, 82, 163) 100%)",
+    "colors": [
+      "#6274E7",
+      "#8752A3"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Lemon Breeze",
+    "css": "linear-gradient(90deg, rgb(238, 217, 145) 0%, rgb(204, 247, 244) 100%)",
+    "colors": [
+      "#EED991",
+      "#CCF7F4"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Calm Flash",
+    "css": "linear-gradient(90deg, rgb(148, 145, 226) 0%, rgb(175, 242, 216) 100%)",
+    "colors": [
+      "#9491E2",
+      "#AFF2D8"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Orchid Fog",
+    "css": "linear-gradient(90deg, rgb(232, 189, 249) 0%, rgb(216, 222, 214) 100%)",
+    "colors": [
+      "#E8BDF9",
+      "#D8DED6"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Fresh Nectar",
+    "css": "linear-gradient(90deg, rgb(149, 236, 176) 0%, rgb(243, 249, 138) 100%)",
+    "colors": [
+      "#95ECB0",
+      "#F3F98A"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Marine Mint",
+    "css": "linear-gradient(90deg, rgb(47, 234, 168) 0%, rgb(2, 140, 243) 100%)",
+    "colors": [
+      "#2FEAA8",
+      "#028CF3"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Electric Violet",
+    "css": "linear-gradient(90deg, rgb(135, 17, 193) 0%, rgb(36, 114, 252) 100%)",
+    "colors": [
+      "#8711C1",
+      "#2472FC"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Neon Rose",
+    "css": "linear-gradient(90deg, rgb(196, 113, 242) 0%, rgb(247, 108, 198) 100%)",
+    "colors": [
+      "#C471F2",
+      "#F76CC6"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Cool Haze",
+    "css": "linear-gradient(90deg, rgb(69, 205, 233) 0%, rgb(122, 143, 211) 100%)",
+    "colors": [
+      "#45CDE9",
+      "#7A8FD3"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Eco Boost",
+    "css": "linear-gradient(90deg, rgb(9, 151, 115) 0%, rgb(67, 182, 146) 100%)",
+    "colors": [
+      "#099773",
+      "#43B692"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Sky Shot",
+    "css": "linear-gradient(90deg, rgb(7, 200, 249) 0%, rgb(13, 65, 225) 100%)",
+    "colors": [
+      "#07C8F9",
+      "#0D41E1"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Steel Mist",
+    "css": "linear-gradient(90deg, rgb(109, 144, 185) 0%, rgb(187, 199, 220) 100%)",
+    "colors": [
+      "#6D90B9",
+      "#BBC7DC"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Ocean Dust",
+    "css": "linear-gradient(90deg, rgb(155, 178, 229) 0%, rgb(105, 140, 191) 100%)",
+    "colors": [
+      "#9BB2E5",
+      "#698CBF"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Berry Night",
+    "css": "linear-gradient(90deg, rgb(244, 67, 105) 0%, rgb(62, 59, 146) 100%)",
+    "colors": [
+      "#F44369",
+      "#3E3B92"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Chrome Orchid",
+    "css": "linear-gradient(90deg, rgb(9, 101, 192) 0%, rgb(197, 58, 148) 100%)",
+    "colors": [
+      "#0965C0",
+      "#C53A94"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Violet Smoke",
+    "css": "linear-gradient(90deg, rgb(131, 56, 227) 0%, rgb(224, 169, 187) 100%)",
+    "colors": [
+      "#8338E3",
+      "#E0A9BB"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Ocean Mint",
+    "css": "linear-gradient(90deg, rgb(20, 82, 119) 0%, rgb(131, 208, 203) 100%)",
+    "colors": [
+      "#145277",
+      "#83D0CB"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Sunset Bloom",
+    "css": "linear-gradient(90deg, rgb(244, 7, 82) 0%, rgb(249, 171, 143) 100%)",
+    "colors": [
+      "#F40752",
+      "#F9AB8F"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Slate Gray",
+    "css": "linear-gradient(90deg, rgb(133, 142, 150) 0%, rgb(96, 105, 107) 100%)",
+    "colors": [
+      "#858E96",
+      "#60696B"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Muted Cloud",
+    "css": "linear-gradient(90deg, rgb(135, 163, 163) 0%, rgb(172, 141, 154) 100%)",
+    "colors": [
+      "#87A3A3",
+      "#AC8D9A"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Mango Flame",
+    "css": "linear-gradient(90deg, rgb(247, 76, 6) 0%, rgb(249, 188, 44) 100%)",
+    "colors": [
+      "#F74C06",
+      "#F9BC2C"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Digital Berry",
+    "css": "linear-gradient(90deg, rgb(180, 41, 249) 0%, rgb(38, 197, 243) 100%)",
+    "colors": [
+      "#B429F9",
+      "#26C5F3"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Blue Magenta",
+    "css": "linear-gradient(90deg, rgb(92, 115, 185) 0%, rgb(179, 48, 225) 100%)",
+    "colors": [
+      "#5C73B9",
+      "#B330E1"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Twilight Steel",
+    "css": "linear-gradient(90deg, rgb(8, 32, 62) 0%, rgb(85, 124, 147) 100%)",
+    "colors": [
+      "#08203E",
+      "#557C93"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Rose Ember",
+    "css": "linear-gradient(90deg, rgb(188, 27, 104) 0%, rgb(211, 152, 155) 100%)",
+    "colors": [
+      "#BC1B68",
+      "#D3989B"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Flame Petal",
+    "css": "linear-gradient(90deg, rgb(242, 131, 103) 0%, rgb(255, 82, 130) 100%)",
+    "colors": [
+      "#F28367",
+      "#FF5282"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Stone Mint",
+    "css": "linear-gradient(90deg, rgb(164, 198, 184) 0%, rgb(94, 67, 93) 100%)",
+    "colors": [
+      "#A4C6B8",
+      "#5E435D"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Sun Pop",
+    "css": "linear-gradient(90deg, rgb(249, 101, 91) 0%, rgb(238, 130, 26) 100%)",
+    "colors": [
+      "#F9655B",
+      "#EE821A"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Retro Night",
+    "css": "linear-gradient(90deg, rgb(41, 82, 112) 0%, rgb(82, 65, 117) 100%)",
+    "colors": [
+      "#295270",
+      "#524175"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Velvet Flame",
+    "css": "linear-gradient(90deg, rgb(131, 72, 158) 0%, rgb(197, 48, 46) 100%)",
+    "colors": [
+      "#83489E",
+      "#C5302E"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Electric Sky",
+    "css": "linear-gradient(90deg, rgb(69, 111, 232) 0%, rgb(25, 176, 236) 100%)",
+    "colors": [
+      "#456FE8",
+      "#19B0EC"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Bubble Flow",
+    "css": "linear-gradient(90deg, rgb(233, 31, 168) 0%, rgb(185, 223, 238) 100%)",
+    "colors": [
+      "#E91FA8",
+      "#B9DFEE"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Aqua Bolt",
+    "css": "linear-gradient(90deg, rgb(34, 120, 251) 0%, rgb(107, 223, 219) 100%)",
+    "colors": [
+      "#2278FB",
+      "#6BDFDB"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Cyber Rose",
+    "css": "linear-gradient(90deg, rgb(200, 29, 119) 0%, rgb(103, 16, 194) 100%)",
+    "colors": [
+      "#C81D77",
+      "#6710C2"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Cloud Circuit",
+    "css": "linear-gradient(90deg, rgb(173, 253, 162) 0%, rgb(17, 211, 243) 100%)",
+    "colors": [
+      "#ADFDA2",
+      "#11D3F3"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Steel Wave",
+    "css": "linear-gradient(90deg, rgb(36, 55, 72) 0%, rgb(75, 116, 159) 100%)",
+    "colors": [
+      "#243748",
+      "#4B749F"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Coral Spark",
+    "css": "linear-gradient(90deg, rgb(249, 200, 35) 0%, rgb(252, 80, 110) 100%)",
+    "colors": [
+      "#F9C823",
+      "#FC506E"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Lime Rush",
+    "css": "linear-gradient(90deg, rgb(81, 194, 111) 0%, rgb(242, 233, 1) 100%)",
+    "colors": [
+      "#51C26F",
+      "#F2E901"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Tech Flow",
+    "css": "linear-gradient(90deg, rgb(18, 179, 235) 0%, rgb(84, 96, 249) 100%)",
+    "colors": [
+      "#12B3EB",
+      "#5460F9"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Blush Sky",
+    "css": "linear-gradient(90deg, rgb(221, 131, 173) 0%, rgb(195, 225, 252) 100%)",
+    "colors": [
+      "#DD83AD",
+      "#C3E1FC"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Neon Bloom",
+    "css": "linear-gradient(90deg, rgb(198, 33, 229) 0%, rgb(125, 124, 249) 100%)",
+    "colors": [
+      "#C621E5",
+      "#7D7CF9"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Dusty Olive",
+    "css": "linear-gradient(90deg, rgb(190, 177, 91) 0%, rgb(213, 207, 172) 100%)",
+    "colors": [
+      "#BEB15B",
+      "#D5CFAC"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Electric Petal",
+    "css": "linear-gradient(90deg, rgb(237, 113, 173) 0%, rgb(114, 119, 241) 100%)",
+    "colors": [
+      "#ED71AD",
+      "#7277F1"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Mint Nectar",
+    "css": "linear-gradient(90deg, rgb(30, 215, 181) 0%, rgb(240, 249, 167) 100%)",
+    "colors": [
+      "#1ED7B5",
+      "#F0F9A7"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Twilight Fade",
+    "css": "linear-gradient(90deg, rgb(171, 189, 255) 0%, rgb(137, 75, 119) 100%)",
+    "colors": [
+      "#ABBDFF",
+      "#894B77"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Sky Mauve",
+    "css": "linear-gradient(90deg, rgb(199, 179, 204) 0%, rgb(38, 138, 178) 100%)",
+    "colors": [
+      "#C7B3CC",
+      "#268AB2"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Pop Breeze",
+    "css": "linear-gradient(90deg, rgb(88, 239, 236) 0%, rgb(232, 92, 144) 50%, rgb(252, 201, 186) 100%)",
+    "colors": [
+      "#58EFEC",
+      "#E85C90",
+      "#FCC9BA"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Cotton Voltage",
+    "css": "linear-gradient(90deg, rgb(249, 231, 187) 0%, rgb(233, 124, 187) 50%, rgb(61, 71, 217) 100%)",
+    "colors": [
+      "#F9E7BB",
+      "#E97CBB",
+      "#3D47D9"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Retro Bloom",
+    "css": "linear-gradient(90deg, rgb(216, 189, 190) 0%, rgb(189, 144, 227) 50%, rgb(204, 87, 95) 100%)",
+    "colors": [
+      "#D8BDBE",
+      "#BD90E3",
+      "#CC575F"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Peach Forest",
+    "css": "linear-gradient(90deg, rgb(229, 243, 146) 0%, rgb(228, 158, 113) 50%, rgb(212, 95, 151) 100%)",
+    "colors": [
+      "#E5F392",
+      "#E49E71",
+      "#D45F97"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Sweet Amethyst",
+    "css": "linear-gradient(90deg, rgb(238, 221, 243) 0%, rgb(238, 146, 177) 50%, rgb(99, 48, 180) 100%)",
+    "colors": [
+      "#EEDDF3",
+      "#EE92B1",
+      "#6330B4"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Citrus Ember",
+    "css": "linear-gradient(90deg, rgb(212, 234, 98) 0%, rgb(237, 113, 30) 50%, rgb(233, 41, 92) 100%)",
+    "colors": [
+      "#D4EA62",
+      "#ED711E",
+      "#E9295C"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Solar Ice",
+    "css": "linear-gradient(90deg, rgb(240, 235, 192) 0%, rgb(157, 221, 244) 50%, rgb(233, 58, 40) 100%)",
+    "colors": [
+      "#F0EBC0",
+      "#9DDDF4",
+      "#E93A28"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Bubble Voltage",
+    "css": "linear-gradient(90deg, rgb(104, 227, 249) 0%, rgb(245, 90, 155) 50%, rgb(79, 78, 215) 100%)",
+    "colors": [
+      "#68E3F9",
+      "#F55A9B",
+      "#4F4ED7"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Crystal Punch",
+    "css": "linear-gradient(90deg, rgb(69, 160, 234) 0%, rgb(236, 169, 187) 50%, rgb(249, 101, 142) 100%)",
+    "colors": [
+      "#45A0EA",
+      "#ECA9BB",
+      "#F9658E"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Candy Prism",
+    "css": "linear-gradient(90deg, rgb(244, 231, 132) 0%, rgb(242, 67, 137) 50%, rgb(164, 120, 241) 100%)",
+    "colors": [
+      "#F4E784",
+      "#F24389",
+      "#A478F1"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Peach Garden",
+    "css": "linear-gradient(90deg, rgb(223, 242, 203) 0%, rgb(240, 161, 58) 50%, rgb(238, 96, 154) 100%)",
+    "colors": [
+      "#DFF2CB",
+      "#F0A13A",
+      "#EE609A"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Digital Rose",
+    "css": "linear-gradient(90deg, rgb(93, 224, 240) 0%, rgb(247, 166, 245) 50%, rgb(230, 79, 111) 100%)",
+    "colors": [
+      "#5DE0F0",
+      "#F7A6F5",
+      "#E64F6F"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Sunset Cream",
+    "css": "linear-gradient(90deg, rgb(249, 245, 224) 0%, rgb(245, 137, 92) 50%, rgb(179, 78, 204) 100%)",
+    "colors": [
+      "#F9F5E0",
+      "#F5895C",
+      "#B34ECC"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Pastel Pop",
+    "css": "linear-gradient(90deg, rgb(236, 222, 196) 0%, rgb(98, 244, 249) 50%, rgb(244, 159, 218) 100%)",
+    "colors": [
+      "#ECDEC4",
+      "#62F4F9",
+      "#F49FDA"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Candy Circuit",
+    "css": "linear-gradient(90deg, rgb(94, 222, 239) 0%, rgb(220, 233, 86) 50%, rgb(233, 143, 192) 100%)",
+    "colors": [
+      "#5EDEEF",
+      "#DCE956",
+      "#E98FC0"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Soda Light",
+    "css": "linear-gradient(90deg, rgb(247, 234, 96) 0%, rgb(60, 242, 222) 50%, rgb(247, 116, 187) 100%)",
+    "colors": [
+      "#F7EA60",
+      "#3CF2DE",
+      "#F774BB"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Digital Petal",
+    "css": "linear-gradient(90deg, rgb(164, 233, 249) 0%, rgb(197, 174, 242) 50%, rgb(133, 120, 234) 100%)",
+    "colors": [
+      "#A4E9F9",
+      "#C5AEF2",
+      "#8578EA"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Starburst Night",
+    "css": "linear-gradient(90deg, rgb(255, 241, 191) 0%, rgb(236, 69, 141) 50%, rgb(71, 78, 215) 100%)",
+    "colors": [
+      "#FFF1BF",
+      "#EC458D",
+      "#474ED7"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Lollipop Crush",
+    "css": "linear-gradient(90deg, rgb(252, 243, 196) 0%, rgb(249, 98, 160) 50%, rgb(170, 150, 249) 100%)",
+    "colors": [
+      "#FCF3C4",
+      "#F962A0",
+      "#AA96F9"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Candy Heat",
+    "css": "linear-gradient(90deg, rgb(252, 239, 100) 0%, rgb(252, 196, 75) 50%, rgb(244, 76, 125) 100%)",
+    "colors": [
+      "#FCEF64",
+      "#FCC44B",
+      "#F44C7D"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Cotton Radar",
+    "css": "linear-gradient(90deg, rgb(79, 230, 241) 0%, rgb(166, 166, 222) 50%, rgb(237, 144, 207) 100%)",
+    "colors": [
+      "#4FE6F1",
+      "#A6A6DE",
+      "#ED90CF"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Ice Beam",
+    "css": "linear-gradient(90deg, rgb(83, 219, 242) 0%, rgb(206, 158, 236) 50%, rgb(58, 127, 242) 100%)",
+    "colors": [
+      "#53DBF2",
+      "#CE9EEC",
+      "#3A7FF2"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Mellow Ice",
+    "css": "linear-gradient(90deg, rgb(211, 238, 244) 0%, rgb(241, 238, 200) 50%, rgb(243, 164, 108) 100%)",
+    "colors": [
+      "#D3EEF4",
+      "#F1EEC8",
+      "#F3A46C"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Spark Drift",
+    "css": "linear-gradient(90deg, rgb(240, 234, 252) 0%, rgb(97, 206, 242) 50%, rgb(245, 56, 185) 100%)",
+    "colors": [
+      "#F0EAFC",
+      "#61CEF2",
+      "#F538B9"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Apricot Noise",
+    "css": "linear-gradient(90deg, rgb(248, 249, 199) 0%, rgb(242, 193, 234) 50%, rgb(246, 123, 107) 100%)",
+    "colors": [
+      "#F8F9C7",
+      "#F2C1EA",
+      "#F67B6B"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Peach Snow",
+    "css": "linear-gradient(90deg, rgb(174, 209, 239) 0%, rgb(242, 223, 193) 50%, rgb(240, 185, 239) 100%)",
+    "colors": [
+      "#AED1EF",
+      "#F2DFC1",
+      "#F0B9EF"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Glow Silk",
+    "css": "linear-gradient(90deg, rgb(242, 243, 226) 0%, rgb(178, 229, 248) 50%, rgb(244, 179, 239) 100%)",
+    "colors": [
+      "#F2F3E2",
+      "#B2E5F8",
+      "#F4B3EF"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Blush Coral",
+    "css": "linear-gradient(90deg, rgb(252, 212, 202) 0%, rgb(244, 142, 195) 50%, rgb(252, 148, 179) 100%)",
+    "colors": [
+      "#FCD4CA",
+      "#F48EC3",
+      "#FC94B3"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Twilight Cream",
+    "css": "linear-gradient(90deg, rgb(202, 207, 249) 0%, rgb(245, 203, 217) 50%, rgb(244, 188, 205) 100%)",
+    "colors": [
+      "#CACFF9",
+      "#F5CBD9",
+      "#F4BCCD"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Fairy Dust",
+    "css": "linear-gradient(90deg, rgb(252, 244, 223) 0%, rgb(239, 183, 234) 50%, rgb(214, 111, 238) 100%)",
+    "colors": [
+      "#FCF4DF",
+      "#EFB7EA",
+      "#D66FEE"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Floral Cloud",
+    "css": "linear-gradient(90deg, rgb(202, 242, 239) 0%, rgb(201, 239, 220) 50%, rgb(242, 187, 241) 100%)",
+    "colors": [
+      "#CAF2EF",
+      "#C9EFDC",
+      "#F2BBF1"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Orchid Rain",
+    "css": "linear-gradient(90deg, rgb(215, 235, 235) 0%, rgb(244, 175, 233) 50%, rgb(157, 126, 243) 100%)",
+    "colors": [
+      "#D7EBEB",
+      "#F4AFE9",
+      "#9D7EF3"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Gentle Sky",
+    "css": "linear-gradient(90deg, rgb(247, 233, 232) 0%, rgb(233, 240, 170) 50%, rgb(153, 172, 235) 100%)",
+    "colors": [
+      "#F7E9E8",
+      "#E9F0AA",
+      "#99ACEB"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Mint Petal",
+    "css": "linear-gradient(90deg, rgb(248, 218, 220) 0%, rgb(182, 237, 200) 50%, rgb(238, 172, 220) 100%)",
+    "colors": [
+      "#F8DADC",
+      "#B6EDC8",
+      "#EEACDC"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Rose Circuit",
+    "css": "linear-gradient(90deg, rgb(244, 230, 241) 0%, rgb(243, 160, 215) 50%, rgb(179, 232, 247) 100%)",
+    "colors": [
+      "#F4E6F1",
+      "#F3A0D7",
+      "#B3E8F7"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Blush Aurora",
+    "css": "linear-gradient(90deg, rgb(252, 219, 202) 0%, rgb(230, 165, 204) 50%, rgb(213, 179, 232) 100%)",
+    "colors": [
+      "#FCDBCA",
+      "#E6A5CC",
+      "#D5B3E8"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Golden Twilight",
+    "css": "linear-gradient(90deg, rgb(220, 241, 128) 0%, rgb(240, 205, 151) 50%, rgb(53, 81, 138) 100%)",
+    "colors": [
+      "#DCF180",
+      "#F0CD97",
+      "#35518A"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Sunset Mint",
+    "css": "linear-gradient(90deg, rgb(184, 233, 212) 0%, rgb(244, 152, 90) 50%, rgb(18, 36, 63) 100%)",
+    "colors": [
+      "#B8E9D4",
+      "#F4985A",
+      "#12243F"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Tropical Mist",
+    "css": "linear-gradient(90deg, rgb(35, 158, 171) 0%, rgb(116, 222, 238) 100%)",
+    "colors": [
+      "#239EAB",
+      "#74DEEE"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Deep Abyss",
+    "css": "linear-gradient(90deg, rgb(14, 28, 38) 0%, rgb(42, 69, 75) 50%, rgb(41, 72, 97) 100%)",
+    "colors": [
+      "#0E1C26",
+      "#2A454B",
+      "#294861"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Cotton Candy Blast",
+    "css": "linear-gradient(90deg, rgb(28, 220, 232) 0%, rgb(187, 119, 237) 50%, rgb(243, 74, 98) 100%)",
+    "colors": [
+      "#1CDCE8",
+      "#BB77ED",
+      "#F34A62"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Burnt Horizon",
+    "css": "linear-gradient(90deg, rgb(189, 71, 51) 0%, rgb(25, 93, 186) 100%)",
+    "colors": [
+      "#BD4733",
+      "#195DBA"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Cloud Drift",
+    "css": "linear-gradient(90deg, rgb(44, 108, 188) 0%, rgb(113, 195, 247) 50%, rgb(246, 246, 246) 100%)",
+    "colors": [
+      "#2C6CBC",
+      "#71C3F7",
+      "#F6F6F6"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Velvet Plum",
+    "css": "linear-gradient(90deg, rgb(244, 17, 158) 0%, rgb(74, 49, 62) 100%)",
+    "colors": [
+      "#F4119E",
+      "#4A313E"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Muted Charm",
+    "css": "linear-gradient(90deg, rgb(160, 73, 112) 0%, rgb(109, 108, 131) 50%, rgb(59, 127, 153) 100%)",
+    "colors": [
+      "#A04970",
+      "#6D6C83",
+      "#3B7F99"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Tropical Bay",
+    "css": "linear-gradient(90deg, rgb(28, 62, 53) 0%, rgb(153, 242, 209) 100%)",
+    "colors": [
+      "#1C3E35",
+      "#99F2D1"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Crimson Silence",
+    "css": "linear-gradient(90deg, rgb(193, 30, 56) 0%, rgb(34, 11, 52) 100%)",
+    "colors": [
+      "#C11E38",
+      "#220B34"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Molten Sunset",
+    "css": "linear-gradient(90deg, rgb(230, 35, 20) 0%, rgb(241, 158, 24) 100%)",
+    "colors": [
+      "#E62314",
+      "#F19E18"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Steel Ember",
+    "css": "linear-gradient(90deg, rgb(99, 139, 149) 0%, rgb(244, 113, 31) 100%)",
+    "colors": [
+      "#638B95",
+      "#F4711F"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Cactus Bloom",
+    "css": "linear-gradient(90deg, rgb(218, 59, 58) 0%, rgb(101, 221, 145) 100%)",
+    "colors": [
+      "#DA3B3A",
+      "#65DD91"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Golden Twilight",
+    "css": "linear-gradient(90deg, rgb(84, 79, 125) 0%, rgb(255, 203, 80) 100%)",
+    "colors": [
+      "#544F7D",
+      "#FFCB50"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Neon Clash",
+    "css": "linear-gradient(90deg, rgb(10, 182, 248) 0%, rgb(237, 45, 83) 100%)",
+    "colors": [
+      "#0AB6F8",
+      "#ED2D53"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Lavender Smoke",
+    "css": "linear-gradient(90deg, rgb(109, 81, 165) 0%, rgb(228, 167, 197) 100%)",
+    "colors": [
+      "#6D51A5",
+      "#E4A7C5"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Cherry Punch",
+    "css": "linear-gradient(90deg, rgb(248, 61, 92) 0%, rgb(253, 75, 47) 100%)",
+    "colors": [
+      "#F83D5C",
+      "#FD4B2F"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Royal Mirage",
+    "css": "linear-gradient(90deg, rgb(131, 35, 136) 0%, rgb(227, 67, 107) 50%, rgb(240, 119, 47) 100%)",
+    "colors": [
+      "#832388",
+      "#E3436B",
+      "#F0772F"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Lime Inferno",
+    "css": "linear-gradient(90deg, rgb(42, 141, 8) 0%, rgb(242, 231, 19) 50%, rgb(247, 30, 6) 100%)",
+    "colors": [
+      "#2A8D08",
+      "#F2E713",
+      "#F71E06"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Crimson Depth",
+    "css": "linear-gradient(90deg, rgb(224, 31, 45) 0%, rgb(148, 60, 34) 100%)",
+    "colors": [
+      "#E01F2D",
+      "#943C22"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Golden Flame",
+    "css": "linear-gradient(90deg, rgb(244, 217, 65) 0%, rgb(236, 130, 53) 100%)",
+    "colors": [
+      "#F4D941",
+      "#EC8235"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Mystic Forest",
+    "css": "linear-gradient(90deg, rgb(88, 181, 128) 0%, rgb(166, 123, 224) 50%, rgb(102, 36, 192) 100%)",
+    "colors": [
+      "#58B580",
+      "#A67BE0",
+      "#6624C0"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Velvet Rush",
+    "css": "linear-gradient(90deg, rgb(207, 65, 75) 0%, rgb(133, 33, 112) 100%)",
+    "colors": [
+      "#CF414B",
+      "#852170"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Urban Moss",
+    "css": "linear-gradient(90deg, rgb(94, 94, 94) 0%, rgb(164, 163, 88) 100%)",
+    "colors": [
+      "#5E5E5E",
+      "#A4A358"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Purple Ember",
+    "css": "linear-gradient(90deg, rgb(177, 91, 134) 0%, rgb(68, 15, 80) 100%)",
+    "colors": [
+      "#B15B86",
+      "#440F50"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Raspberry Blaze",
+    "css": "linear-gradient(90deg, rgb(185, 76, 152) 0%, rgb(240, 7, 59) 100%)",
+    "colors": [
+      "#B94C98",
+      "#F0073B"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Electric Sunset",
+    "css": "linear-gradient(90deg, rgb(59, 207, 212) 0%, rgb(252, 147, 5) 50%, rgb(242, 0, 148) 100%)",
+    "colors": [
+      "#3BCFD4",
+      "#FC9305",
+      "#F20094"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Amber Coast",
+    "css": "linear-gradient(90deg, rgb(28, 144, 191) 0%, rgb(235, 138, 61) 100%)",
+    "colors": [
+      "#1C90BF",
+      "#EB8A3D"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Punchy Sky",
+    "css": "linear-gradient(90deg, rgb(239, 86, 106) 0%, rgb(98, 122, 247) 100%)",
+    "colors": [
+      "#EF566A",
+      "#627AF7"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Neon Royal",
+    "css": "linear-gradient(90deg, rgb(252, 71, 120) 0%, rgb(57, 82, 245) 100%)",
+    "colors": [
+      "#FC4778",
+      "#3952F5"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Twilight Ember",
+    "css": "linear-gradient(90deg, rgb(43, 9, 72) 0%, rgb(206, 101, 59) 100%)",
+    "colors": [
+      "#2B0948",
+      "#CE653B"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Blush Sunrise",
+    "css": "linear-gradient(90deg, rgb(253, 241, 203) 0%, rgb(176, 16, 65) 100%)",
+    "colors": [
+      "#FDF1CB",
+      "#B01041"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Stone Moss",
+    "css": "linear-gradient(90deg, rgb(63, 63, 66) 0%, rgb(93, 93, 60) 100%)",
+    "colors": [
+      "#3F3F42",
+      "#5D5D3C"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Golden Dusk",
+    "css": "linear-gradient(90deg, rgb(189, 167, 52) 0%, rgb(247, 242, 171) 100%)",
+    "colors": [
+      "#BDA734",
+      "#F7F2AB"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Lavender Candy",
+    "css": "linear-gradient(90deg, rgb(129, 5, 118) 0%, rgb(252, 193, 207) 100%)",
+    "colors": [
+      "#810576",
+      "#FCC1CF"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Cyber Nature",
+    "css": "linear-gradient(90deg, rgb(0, 238, 110) 0%, rgb(12, 117, 230) 100%)",
+    "colors": [
+      "#00EE6E",
+      "#0C75E6"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Orange Heat",
+    "css": "linear-gradient(90deg, rgb(246, 76, 24) 0%, rgb(238, 149, 57) 100%)",
+    "colors": [
+      "#F64C18",
+      "#EE9539"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Aged Bronze",
+    "css": "linear-gradient(90deg, rgb(107, 100, 36) 0%, rgb(211, 206, 186) 100%)",
+    "colors": [
+      "#6B6424",
+      "#D3CEBA"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Violet Dreamscape",
+    "css": "linear-gradient(90deg, rgb(14, 7, 37) 0%, rgb(92, 3, 188) 33%, rgb(229, 54, 171) 66%, rgb(244, 229, 240) 100%)",
+    "colors": [
+      "#0E0725",
+      "#5C03BC",
+      "#E536AB",
+      "#F4E5F0"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Battle Glory",
+    "css": "linear-gradient(90deg, rgb(26, 39, 102) 0%, rgb(174, 27, 30) 50%, rgb(252, 159, 50) 100%)",
+    "colors": [
+      "#1A2766",
+      "#AE1B1E",
+      "#FC9F32"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Aqua Honey",
+    "css": "linear-gradient(90deg, rgb(44, 178, 186) 0%, rgb(251, 185, 45) 100%)",
+    "colors": [
+      "#2CB2BA",
+      "#FBB92D"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Peach Rush",
+    "css": "linear-gradient(90deg, rgb(247, 135, 112) 0%, rgb(255, 96, 123) 100%)",
+    "colors": [
+      "#F78770",
+      "#FF607B"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Magenta Shock",
+    "css": "linear-gradient(90deg, rgb(161, 6, 244) 0%, rgb(231, 7, 250) 100%)",
+    "colors": [
+      "#A106F4",
+      "#E707FA"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Frozen Light",
+    "css": "linear-gradient(90deg, rgb(202, 208, 255) 0%, rgb(227, 227, 227) 100%)",
+    "colors": [
+      "#CAD0FF",
+      "#E3E3E3"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Royal Candy",
+    "css": "linear-gradient(90deg, rgb(102, 49, 119) 0%, rgb(198, 63, 123) 100%)",
+    "colors": [
+      "#663177",
+      "#C63F7B"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Tech Jungle",
+    "css": "linear-gradient(90deg, rgb(12, 12, 12) 0%, rgb(15, 151, 28) 100%)",
+    "colors": [
+      "#0C0C0C",
+      "#0F971C"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Ruby Clash",
+    "css": "linear-gradient(90deg, rgb(203, 66, 136) 0%, rgb(182, 53, 59) 100%)",
+    "colors": [
+      "#CB4288",
+      "#B6353B"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Plum Glow",
+    "css": "linear-gradient(90deg, rgb(62, 25, 110) 0%, rgb(212, 108, 118) 50%, rgb(255, 192, 124) 100%)",
+    "colors": [
+      "#3E196E",
+      "#D46C76",
+      "#FFC07C"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Ocean Vine",
+    "css": "linear-gradient(90deg, rgb(43, 69, 132) 0%, rgb(74, 158, 72) 100%)",
+    "colors": [
+      "#2B4584",
+      "#4A9E48"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Crimson Orchid",
+    "css": "linear-gradient(90deg, rgb(186, 52, 41) 0%, rgb(146, 67, 169) 100%)",
+    "colors": [
+      "#BA3429",
+      "#9243A9"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Night Dive",
+    "css": "linear-gradient(90deg, rgb(2, 3, 68) 0%, rgb(40, 184, 213) 100%)",
+    "colors": [
+      "#020344",
+      "#28B8D5"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Midnight Flame",
+    "css": "linear-gradient(90deg, rgb(230, 87, 99) 0%, rgb(8, 8, 8) 100%)",
+    "colors": [
+      "#E65763",
+      "#080808"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Moon Dust",
+    "css": "linear-gradient(90deg, rgb(34, 5, 45) 0%, rgb(204, 179, 209) 100%)",
+    "colors": [
+      "#22052D",
+      "#CCB3D1"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Emerald Depth",
+    "css": "linear-gradient(90deg, rgb(74, 155, 127) 0%, rgb(10, 52, 49) 100%)",
+    "colors": [
+      "#4A9B7F",
+      "#0A3431"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Wine Shadow",
+    "css": "linear-gradient(90deg, rgb(31, 0, 33) 0%, rgb(117, 16, 6) 100%)",
+    "colors": [
+      "#1F0021",
+      "#751006"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Blue Abyss",
+    "css": "linear-gradient(90deg, rgb(9, 104, 229) 0%, rgb(9, 25, 112) 100%)",
+    "colors": [
+      "#0968E5",
+      "#091970"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Teal Eclipse",
+    "css": "linear-gradient(90deg, rgb(67, 193, 151) 0%, rgb(28, 21, 84) 100%)",
+    "colors": [
+      "#43C197",
+      "#1C1554"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Forest Machine",
+    "css": "linear-gradient(90deg, rgb(11, 44, 36) 0%, rgb(36, 122, 77) 100%)",
+    "colors": [
+      "#0B2C24",
+      "#247A4D"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Ice Night",
+    "css": "linear-gradient(90deg, rgb(228, 231, 228) 0%, rgb(10, 22, 71) 100%)",
+    "colors": [
+      "#E4E7E4",
+      "#0A1647"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Bubble Sky",
+    "css": "linear-gradient(90deg, rgb(60, 140, 222) 0%, rgb(237, 115, 168) 100%)",
+    "colors": [
+      "#3C8CDE",
+      "#ED73A8"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Atomic Fizz",
+    "css": "linear-gradient(90deg, rgb(226, 11, 140) 0%, rgb(248, 75, 0) 100%)",
+    "colors": [
+      "#E20B8C",
+      "#F84B00"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Violet Dust",
+    "css": "linear-gradient(90deg, rgb(242, 194, 238) 0%, rgb(231, 99, 249) 100%)",
+    "colors": [
+      "#F2C2EE",
+      "#E763F9"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Neon Breeze",
+    "css": "linear-gradient(90deg, rgb(5, 201, 249) 0%, rgb(229, 246, 27) 100%)",
+    "colors": [
+      "#05C9F9",
+      "#E5F61B"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Peach Cloud",
+    "css": "linear-gradient(90deg, rgb(249, 125, 91) 0%, rgb(249, 168, 123) 100%)",
+    "colors": [
+      "#F97D5B",
+      "#F9A87B"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Twilight Steel",
+    "css": "linear-gradient(90deg, rgb(67, 108, 137) 0%, rgb(139, 44, 64) 100%)",
+    "colors": [
+      "#436C89",
+      "#8B2C40"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Lush Fields",
+    "css": "linear-gradient(90deg, rgb(93, 169, 47) 0%, rgb(155, 212, 106) 100%)",
+    "colors": [
+      "#5DA92F",
+      "#9BD46A"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Void Spark",
+    "css": "linear-gradient(90deg, rgb(0, 3, 40) 0%, rgb(0, 69, 142) 100%)",
+    "colors": [
+      "#000328",
+      "#00458E"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Royal Grape",
+    "css": "linear-gradient(90deg, rgb(73, 41, 87) 0%, rgb(116, 74, 109) 100%)",
+    "colors": [
+      "#492957",
+      "#744A6D"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Crystal Pulse",
+    "css": "linear-gradient(90deg, rgb(1, 219, 255) 0%, rgb(145, 141, 172) 100%)",
+    "colors": [
+      "#01DBFF",
+      "#918DAC"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Tangerine Mist",
+    "css": "linear-gradient(90deg, rgb(245, 92, 122) 0%, rgb(246, 188, 102) 100%)",
+    "colors": [
+      "#F55C7A",
+      "#F6BC66"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Cyber Bloom",
+    "css": "linear-gradient(90deg, rgb(252, 239, 4) 0%, rgb(220, 65, 155) 100%)",
+    "colors": [
+      "#FCEF04",
+      "#DC419B"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Earth Matter",
+    "css": "linear-gradient(90deg, rgb(90, 68, 58) 0%, rgb(46, 112, 59) 100%)",
+    "colors": [
+      "#5A443A",
+      "#2E703B"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Solar Crown",
+    "css": "linear-gradient(90deg, rgb(65, 19, 174) 0%, rgb(214, 186, 85) 100%)",
+    "colors": [
+      "#4113AE",
+      "#D6BA55"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Wood & Wine",
+    "css": "linear-gradient(90deg, rgb(46, 112, 55) 0%, rgb(166, 63, 78) 100%)",
+    "colors": [
+      "#2E7037",
+      "#A63F4E"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Cherry Smoke",
+    "css": "linear-gradient(90deg, rgb(173, 70, 137) 0%, rgb(237, 92, 134) 100%)",
+    "colors": [
+      "#AD4689",
+      "#ED5C86"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Rust Furnace",
+    "css": "linear-gradient(90deg, rgb(140, 17, 5) 0%, rgb(37, 34, 30) 100%)",
+    "colors": [
+      "#8C1105",
+      "#25221E"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Shadow Gold",
+    "css": "linear-gradient(90deg, rgb(183, 156, 5) 0%, rgb(22, 22, 22) 100%)",
+    "colors": [
+      "#B79C05",
+      "#161616"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Pixel Spark",
+    "css": "linear-gradient(90deg, rgb(10, 51, 249) 0%, rgb(246, 241, 81) 100%)",
+    "colors": [
+      "#0A33F9",
+      "#F6F151"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Toxic Night",
+    "css": "linear-gradient(90deg, rgb(104, 141, 21) 0%, rgb(20, 21, 22) 100%)",
+    "colors": [
+      "#688D15",
+      "#141516"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Cloud Alloy",
+    "css": "linear-gradient(90deg, rgb(131, 153, 162) 0%, rgb(238, 242, 243) 100%)",
+    "colors": [
+      "#8399A2",
+      "#EEF2F3"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Ocean Fade",
+    "css": "linear-gradient(90deg, rgb(30, 108, 142) 0%, rgb(46, 119, 117) 100%)",
+    "colors": [
+      "#1E6C8E",
+      "#2E7775"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Velvet Pulse",
+    "css": "linear-gradient(90deg, rgb(249, 12, 113) 0%, rgb(48, 0, 26) 100%)",
+    "colors": [
+      "#F90C71",
+      "#30001A"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Dust & Ember",
+    "css": "linear-gradient(90deg, rgb(31, 20, 13) 0%, rgb(155, 128, 116) 100%)",
+    "colors": [
+      "#1F140D",
+      "#9B8074"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Spiced Bloom",
+    "css": "linear-gradient(90deg, rgb(212, 120, 26) 0%, rgb(170, 54, 120) 100%)",
+    "colors": [
+      "#D4781A",
+      "#AA3678"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Jungle Code",
+    "css": "linear-gradient(90deg, rgb(70, 184, 61) 0%, rgb(17, 30, 11) 100%)",
+    "colors": [
+      "#46B83D",
+      "#111E0B"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Steel & Flame",
+    "css": "linear-gradient(90deg, rgb(90, 103, 118) 0%, rgb(255, 123, 116) 100%)",
+    "colors": [
+      "#5A6776",
+      "#FF7B74"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Blood Moon",
+    "css": "linear-gradient(90deg, rgb(118, 3, 15) 0%, rgb(18, 27, 103) 100%)",
+    "colors": [
+      "#76030F",
+      "#121B67"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Tropical Flash",
+    "css": "linear-gradient(90deg, rgb(175, 252, 175) 0%, rgb(18, 223, 243) 100%)",
+    "colors": [
+      "#AFFCAF",
+      "#12DFF3"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Fire in the Dark",
+    "css": "linear-gradient(90deg, rgb(1, 1, 1) 0%, rgb(233, 93, 60) 100%)",
+    "colors": [
+      "#010101",
+      "#E95D3C"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Neon Grain",
+    "css": "linear-gradient(90deg, rgb(195, 198, 0) 0%, rgb(133, 140, 11) 100%)",
+    "colors": [
+      "#C3C600",
+      "#858C0B"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Crimson Void",
+    "css": "linear-gradient(90deg, rgb(127, 0, 18) 0%, rgb(27, 10, 7) 100%)",
+    "colors": [
+      "#7F0012",
+      "#1B0A07"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Forest Fog",
+    "css": "linear-gradient(90deg, rgb(33, 86, 0) 0%, rgb(217, 218, 206) 100%)",
+    "colors": [
+      "#215600",
+      "#D9DACE"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Old Gold",
+    "css": "linear-gradient(90deg, rgb(102, 88, 3) 0%, rgb(158, 155, 107) 100%)",
+    "colors": [
+      "#665803",
+      "#9E9B6B"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Sugar Pop",
+    "css": "linear-gradient(90deg, rgb(247, 86, 170) 0%, rgb(247, 86, 114) 100%)",
+    "colors": [
+      "#F756AA",
+      "#F75672"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Olive Core",
+    "css": "linear-gradient(90deg, rgb(67, 71, 11) 0%, rgb(118, 126, 32) 100%)",
+    "colors": [
+      "#43470B",
+      "#767E20"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Royal Clash",
+    "css": "linear-gradient(90deg, rgb(207, 32, 62) 0%, rgb(80, 93, 160) 100%)",
+    "colors": [
+      "#CF203E",
+      "#505DA0"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Skyfade",
+    "css": "linear-gradient(90deg, rgb(114, 122, 154) 0%, rgb(216, 219, 233) 100%)",
+    "colors": [
+      "#727A9A",
+      "#D8DBE9"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Midnight Mist",
+    "css": "linear-gradient(90deg, rgb(33, 31, 47) 0%, rgb(145, 140, 169) 100%)",
+    "colors": [
+      "#211F2F",
+      "#918CA9"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Lemon Flame",
+    "css": "linear-gradient(90deg, rgb(232, 157, 31) 0%, rgb(228, 233, 93) 100%)",
+    "colors": [
+      "#E89D1F",
+      "#E4E95D"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Mint Ocean",
+    "css": "linear-gradient(90deg, rgb(52, 135, 86) 0%, rgb(84, 182, 202) 100%)",
+    "colors": [
+      "#348756",
+      "#54B6CA"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Clay & Cream",
+    "css": "linear-gradient(90deg, rgb(94, 55, 25) 0%, rgb(178, 164, 150) 100%)",
+    "colors": [
+      "#5E3719",
+      "#B2A496"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Dusty Rose",
+    "css": "linear-gradient(90deg, rgb(184, 156, 147) 0%, rgb(142, 104, 101) 100%)",
+    "colors": [
+      "#B89C93",
+      "#8E6865"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Golden Meadow",
+    "css": "linear-gradient(90deg, rgb(255, 206, 6) 0%, rgb(108, 150, 13) 100%)",
+    "colors": [
+      "#FFCE06",
+      "#6C960D"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Herb Garden",
+    "css": "linear-gradient(90deg, rgb(128, 155, 14) 0%, rgb(174, 183, 120) 100%)",
+    "colors": [
+      "#809B0E",
+      "#AEB778"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Sunrise Orbit",
+    "css": "linear-gradient(90deg, rgb(7, 65, 112) 0%, rgb(126, 144, 18) 50%, rgb(255, 247, 8) 100%)",
+    "colors": [
+      "#074170",
+      "#7E9012",
+      "#FFF708"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Lime Spark",
+    "css": "linear-gradient(90deg, rgb(250, 250, 0) 0%, rgb(112, 150, 12) 100%)",
+    "colors": [
+      "#FAFA00",
+      "#70960C"
+    ],
+    "link": ""
+  }
+]

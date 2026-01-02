@@ -8,10 +8,15 @@ interface GeneratorToolbarProps {
   onRedo: () => void;
   onAddColor: () => void;
   onExport: () => void;
+  onShare: () => void;
+  onFavorites: () => void;
+  onHistory: () => void;
+  onToggleFavorite: () => void;
   canUndo: boolean;
   canRedo: boolean;
   canAddColor: boolean;
   colorCount: number;
+  isFavorite: boolean;
 }
 
 export function GeneratorToolbar({
@@ -20,10 +25,15 @@ export function GeneratorToolbar({
   onRedo,
   onAddColor,
   onExport,
+  onShare,
+  onFavorites,
+  onHistory,
+  onToggleFavorite,
   canUndo,
   canRedo,
   canAddColor,
   colorCount,
+  isFavorite,
 }: GeneratorToolbarProps) {
   return (
     <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50">
@@ -89,6 +99,53 @@ export function GeneratorToolbar({
 
         <div className="w-px h-6 bg-gray-300" />
 
+        {/* Favorite toggle */}
+        <Tooltip content={isFavorite ? "Remove from favorites" : "Add to favorites"} position="top">
+          <button
+            onClick={onToggleFavorite}
+            className={`p-2 rounded-lg transition-colors ${
+              isFavorite
+                ? 'text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20'
+                : 'text-gray-700 hover:bg-gray-100'
+            }`}
+          >
+            <svg
+              className="w-5 h-5"
+              fill={isFavorite ? 'currentColor' : 'none'}
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+            </svg>
+          </button>
+        </Tooltip>
+
+        {/* View favorites */}
+        <Tooltip content="View favorites" position="top">
+          <button
+            onClick={onFavorites}
+            className="p-2 text-gray-700 rounded-lg hover:bg-gray-100 transition-colors"
+          >
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+            </svg>
+          </button>
+        </Tooltip>
+
+        {/* View history */}
+        <Tooltip content="View history" position="top">
+          <button
+            onClick={onHistory}
+            className="p-2 text-gray-700 rounded-lg hover:bg-gray-100 transition-colors"
+          >
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </button>
+        </Tooltip>
+
+        <div className="w-px h-6 bg-gray-300" />
+
         {/* Export */}
         <Tooltip content="Export palette" position="top">
           <button
@@ -102,11 +159,9 @@ export function GeneratorToolbar({
         </Tooltip>
 
         {/* Share */}
-        <Tooltip content="Copy link" position="top">
+        <Tooltip content="Share palette" position="top">
           <button
-            onClick={() => {
-              navigator.clipboard.writeText(window.location.href);
-            }}
+            onClick={onShare}
             className="p-2 text-gray-700 rounded-lg hover:bg-gray-100 transition-colors"
           >
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

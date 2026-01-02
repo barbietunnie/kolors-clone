@@ -3,40 +3,30 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --gray-50: #f9fafb;
-  --gray-100: #f3f4f6;
-  --gray-200: #e5e7eb;
-  --gray-300: #d1d5db;
-  --gray-400: #9ca3af;
-  --gray-500: #6b7280;
-  --gray-600: #4b5563;
-  --gray-700: #374151;
-  --gray-800: #1f2937;
-  --gray-900: #111827;
   --card-bg: #ffffff;
   --card-border: #e5e7eb;
+  --muted: #6b7280;
+  --muted-bg: #f9fafb;
+  color-scheme: light;
 }
 
-.dark {
-  --background: #0f0f0f;
-  --foreground: #ededed;
-  --gray-50: #171717;
-  --gray-100: #1f1f1f;
-  --gray-200: #262626;
-  --gray-300: #3f3f3f;
-  --gray-400: #525252;
-  --gray-500: #737373;
-  --gray-600: #a3a3a3;
-  --gray-700: #d4d4d4;
-  --gray-800: #e5e5e5;
-  --gray-900: #f5f5f5;
-  --card-bg: #1a1a1a;
-  --card-border: #2a2a2a;
+html.dark {
+  --background: #0a0a0a;
+  --foreground: #fafafa;
+  --card-bg: #171717;
+  --card-border: #262626;
+  --muted: #a1a1aa;
+  --muted-bg: #1c1c1c;
+  color-scheme: dark;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-card-bg: var(--card-bg);
+  --color-card-border: var(--card-border);
+  --color-muted: var(--muted);
+  --color-muted-bg: var(--muted-bg);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -77,46 +67,4 @@ body {
 .react-colorful__hue-pointer {
   width: 20px !important;
   height: 20px !important;
-}
-
-/* Dark mode utility classes */
-.bg-themed {
-  background-color: var(--background);
-}
-
-.bg-themed-card {
-  background-color: var(--card-bg);
-}
-
-.border-themed {
-  border-color: var(--card-border);
-}
-
-.text-themed {
-  color: var(--foreground);
-}
-
-.text-themed-muted {
-  color: var(--gray-600);
-}
-
-/* Touch-friendly utilities for mobile */
-@media (max-width: 768px) {
-  .touch-target {
-    min-height: 44px;
-    min-width: 44px;
-  }
-}
-
-/* Swipe gesture indicator */
-.swipe-indicator {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  opacity: 0.5;
-  transition: opacity 0.2s;
-}
-
-.swipe-indicator:hover {
-  opacity: 1;
 }

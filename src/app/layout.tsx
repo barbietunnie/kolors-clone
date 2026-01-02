@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { ThemeProvider } from "@/components/ThemeProvider";
 import "./globals.css";
+import { ThemeProvider } from "@/components/ui/ThemeProvider";
 
 export const metadata: Metadata = {
   title: "Kolors - Color Palette Generator",
@@ -14,28 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function() {
-                try {
-                  var stored = localStorage.getItem('kolors-theme');
-                  if (stored) {
-                    var theme = JSON.parse(stored).state.theme;
-                    if (theme === 'dark' || (theme === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-                      document.documentElement.classList.add('dark');
-                    }
-                  } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                    document.documentElement.classList.add('dark');
-                  }
-                } catch (e) {}
-              })();
-            `,
-          }}
-        />
-      </head>
-      <body className="antialiased">
+      <body className="antialiased bg-background text-foreground">
         <ThemeProvider>
           {children}
         </ThemeProvider>
