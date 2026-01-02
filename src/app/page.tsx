@@ -29,6 +29,18 @@ export default function Home() {
             Visualizer
           </Link>
           <Link
+            href="/colors"
+            className="text-gray-600 hover:text-gray-900 transition-colors"
+          >
+            Colors
+          </Link>
+          <Link
+            href="/gradients"
+            className="text-gray-600 hover:text-gray-900 transition-colors"
+          >
+            Gradients
+          </Link>
+          <Link
             href="/palettes"
             className="text-muted hover:text-foreground transition-colors"
           >

@@ -42,12 +42,14 @@
 
 ### Tools
 - [x] Palette Generator (`/generate`)
-- [x] Color Picker (`/color-picker`)
-- [x] Contrast Checker (`/contrast-checker`)
-- [x] Explore Palettes (`/palettes`)
-- [x] Gradient Maker (`/gradient-maker`)
 - [x] Image Picker (`/image-picker`)
 - [x] Palette Visualizer (`/visualizer`)
+- [x] Color Picker (`/color-picker`)
+- [x] Contrast Checker (`/contrast-checker`)
+- [x] Color Library (`/colors`) - 540+ named colors
+- [x] Gradient Library (`/gradients`) - 284 named gradients
+- [x] Explore Palettes (`/palettes`)
+- [x] Gradient Maker (`/gradient-maker`)
 - [x] Collage Maker (`/collage`)
 - [x] Color Libraries (`/color-libraries`)
 
@@ -64,6 +66,11 @@
 - [x] Export (CSS, SCSS, Tailwind, JSON, Array)
 - [x] URL-based palette sharing
 - [x] Curated palette collection with filters
+- [x] Image color extraction with click-to-pick
+- [x] Palette visualization on design mockups
+- [x] Custom SVG template upload
+- [x] Color library with search, filter, and sort
+- [x] Gradient library with search, filter, and sort
 
 ### UI/UX
 - [x] Dark Mode with system preference detection
