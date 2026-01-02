@@ -15,6 +15,7 @@ export function Header({ showNav = true }: HeaderProps) {
     { href: '/generate', label: 'Generate' },
     { href: '/image-picker', label: 'Image Picker' },
     { href: '/visualizer', label: 'Visualizer' },
+    { href: '/trending', label: 'Trending' },
     { href: '/palettes', label: 'Explore' },
     { href: '/color-libraries', label: 'Libraries' },
     { href: '/collage', label: 'Collage' },

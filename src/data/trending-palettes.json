@@ -1,0 +1,3599 @@
+[
+  {
+    "id": "trending-1",
+    "colors": [
+      "#780000",
+      "#C1121F",
+      "#FDF0D5",
+      "#003049",
+      "#669BBC"
+    ],
+    "name": "Trending Palette",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 1759
+  },
+  {
+    "id": "trending-2",
+    "colors": [
+      "#CDB4DB",
+      "#FFC8DD",
+      "#FFAFCC",
+      "#BDE0FE",
+      "#A2D2FF"
+    ],
+    "name": "Popular Mix",
+    "tags": [
+      "trending",
+      "light",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 3029
+  },
+  {
+    "id": "trending-3",
+    "colors": [
+      "#CCD5AE",
+      "#E9EDC9",
+      "#FEFAE0",
+      "#FAEDCD",
+      "#D4A373"
+    ],
+    "name": "Color Story",
+    "tags": [
+      "trending",
+      "light",
+      "warm",
+      "gradient"
+    ],
+    "likes": 4975
+  },
+  {
+    "id": "trending-4",
+    "colors": [
+      "#8ECAE6",
+      "#219EBC",
+      "#023047",
+      "#FFB703",
+      "#FB8500"
+    ],
+    "name": "Modern Blend",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 3397
+  },
+  {
+    "id": "trending-5",
+    "colors": [
+      "#606C38",
+      "#283618",
+      "#FEFAE0",
+      "#DDA15E",
+      "#BC6C25"
+    ],
+    "name": "Creative Combo",
+    "tags": [
+      "trending",
+      "warm",
+      "gradient"
+    ],
+    "likes": 4305
+  },
+  {
+    "id": "trending-6",
+    "colors": [
+      "#03045E",
+      "#023E8A",
+      "#0077B6",
+      "#0096C7",
+      "#00B4D8",
+      "#48CAE4",
+      "#90E0EF",
+      "#ADE8F4",
+      "#CAF0F8"
+    ],
+    "name": "Fresh Palette",
+    "tags": [
+      "trending",
+      "vibrant",
+      "cool",
+      "gradient"
+    ],
+    "likes": 1759
+  },
+  {
+    "id": "trending-7",
+    "colors": [
+      "#03045E",
+      "#0077B6",
+      "#00B4D8",
+      "#90E0EF",
+      "#CAF0F8"
+    ],
+    "name": "Stylish Hues",
+    "tags": [
+      "trending",
+      "vibrant",
+      "cool",
+      "gradient"
+    ],
+    "likes": 4904
+  },
+  {
+    "id": "trending-8",
+    "colors": [
+      "#000000",
+      "#14213D",
+      "#FCA311",
+      "#E5E5E5",
+      "#FFFFFF"
+    ],
+    "name": "Design Palette",
+    "tags": [
+      "trending",
+      "muted",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 2615
+  },
+  {
+    "id": "trending-9",
+    "colors": [
+      "#F4F1DE",
+      "#E07A5F",
+      "#3D405B",
+      "#81B29A",
+      "#F2CC8F"
+    ],
+    "name": "Artistic Blend",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 971
+  },
+  {
+    "id": "trending-10",
+    "colors": [
+      "#EDAFB8",
+      "#F7E1D7",
+      "#DEDBD2",
+      "#B0C4B1",
+      "#4A5759"
+    ],
+    "name": "Visual Harmony",
+    "tags": [
+      "trending",
+      "light",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 3351
+  },
+  {
+    "id": "trending-11",
+    "colors": [
+      "#880D1E",
+      "#DD2D4A",
+      "#F26A8D",
+      "#F49CBB",
+      "#CBEEF3"
+    ],
+    "name": "Trending Palette 2",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 4976
+  },
+  {
+    "id": "trending-12",
+    "colors": [
+      "#FFE5EC",
+      "#FFC2D1",
+      "#FFB3C6",
+      "#FF8FAB",
+      "#FB6F92"
+    ],
+    "name": "Popular Mix 2",
+    "tags": [
+      "trending",
+      "light",
+      "vibrant",
+      "warm",
+      "gradient"
+    ],
+    "likes": 4760
+  },
+  {
+    "id": "trending-13",
+    "colors": [
+      "#CB997E",
+      "#DDBEA9",
+      "#FFE8D6",
+      "#B7B7A4",
+      "#A5A58D",
+      "#6B705C"
+    ],
+    "name": "Color Story 2",
+    "tags": [
+      "trending",
+      "warm",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 2843
+  },
+  {
+    "id": "trending-14",
+    "colors": [
+      "#0D1B2A",
+      "#1B263B",
+      "#415A77",
+      "#778DA9",
+      "#E0E1DD"
+    ],
+    "name": "Modern Blend 2",
+    "tags": [
+      "trending",
+      "muted",
+      "cool",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 3794
+  },
+  {
+    "id": "trending-15",
+    "colors": [
+      "#335C67",
+      "#FFF3B0",
+      "#E09F3E",
+      "#9E2A2B",
+      "#540B0E"
+    ],
+    "name": "Creative Combo 2",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 3806
+  },
+  {
+    "id": "trending-16",
+    "colors": [
+      "#F0EAD2",
+      "#DDE5B6",
+      "#ADC178",
+      "#A98467",
+      "#6C584C"
+    ],
+    "name": "Fresh Palette 2",
+    "tags": [
+      "trending",
+      "warm",
+      "gradient"
+    ],
+    "likes": 1550
+  },
+  {
+    "id": "trending-17",
+    "colors": [
+      "#EDEDE9",
+      "#D6CCC2",
+      "#F5EBE0",
+      "#E3D5CA",
+      "#D5BDAF"
+    ],
+    "name": "Stylish Hues 2",
+    "tags": [
+      "trending",
+      "light",
+      "muted",
+      "warm",
+      "neutral"
+    ],
+    "likes": 2104
+  },
+  {
+    "id": "trending-18",
+    "colors": [
+      "#03071E",
+      "#370617",
+      "#6A040F",
+      "#9D0208",
+      "#D00000",
+      "#DC2F02",
+      "#E85D04",
+      "#F48C06",
+      "#FAA307",
+      "#FFBA08"
+    ],
+    "name": "Design Palette 2",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 3099
+  },
+  {
+    "id": "trending-19",
+    "colors": [
+      "#006D77",
+      "#83C5BE",
+      "#EDF6F9",
+      "#FFDDD2",
+      "#E29578"
+    ],
+    "name": "Artistic Blend 2",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 3039
+  },
+  {
+    "id": "trending-20",
+    "colors": [
+      "#0B4650",
+      "#E6FF2B",
+      "#F9F7F2",
+      "#898A8D",
+      "#FFFFFF"
+    ],
+    "name": "Visual Harmony 2",
+    "tags": [
+      "trending",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 1258
+  },
+  {
+    "id": "trending-21",
+    "colors": [
+      "#355070",
+      "#6D597A",
+      "#B56576",
+      "#E56B6F",
+      "#EAAC8B"
+    ],
+    "name": "Trending Palette 3",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 2776
+  },
+  {
+    "id": "trending-22",
+    "colors": [
+      "#E27396",
+      "#EA9AB2",
+      "#EFCFE3",
+      "#EAF2D7",
+      "#B3DEE2"
+    ],
+    "name": "Popular Mix 3",
+    "tags": [
+      "trending",
+      "light",
+      "gradient"
+    ],
+    "likes": 4699
+  },
+  {
+    "id": "trending-23",
+    "colors": [
+      "#003049",
+      "#D62828",
+      "#F77F00",
+      "#FCBF49",
+      "#EAE2B7"
+    ],
+    "name": "Color Story 3",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 602
+  },
+  {
+    "id": "trending-24",
+    "colors": [
+      "#DAD7CD",
+      "#A3B18A",
+      "#588157",
+      "#3A5A40",
+      "#344E41"
+    ],
+    "name": "Modern Blend 3",
+    "tags": [
+      "trending",
+      "muted",
+      "warm",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 1160
+  },
+  {
+    "id": "trending-25",
+    "colors": [
+      "#134074",
+      "#13315C",
+      "#0B2545",
+      "#8DA9C4",
+      "#EEF4ED"
+    ],
+    "name": "Creative Combo 3",
+    "tags": [
+      "trending",
+      "cool",
+      "gradient"
+    ],
+    "likes": 3031
+  },
+  {
+    "id": "trending-26",
+    "colors": [
+      "#FFBE0B",
+      "#FB5607",
+      "#FF006E",
+      "#8338EC",
+      "#3A86FF"
+    ],
+    "name": "Fresh Palette 3",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 2124
+  },
+  {
+    "id": "trending-27",
+    "colors": [
+      "#565264",
+      "#706677",
+      "#A6808C",
+      "#CCB7AE",
+      "#D6CFCB"
+    ],
+    "name": "Stylish Hues 3",
+    "tags": [
+      "trending",
+      "muted",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 3038
+  },
+  {
+    "id": "trending-28",
+    "colors": [
+      "#FBF8CC",
+      "#FDE4CF",
+      "#FFCFD2",
+      "#F1C0E8",
+      "#CFBAF0",
+      "#A3C4F3",
+      "#90DBF4",
+      "#8EECF5",
+      "#98F5E1",
+      "#B9FBC0"
+    ],
+    "name": "Design Palette 3",
+    "tags": [
+      "trending",
+      "light",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 944
+  },
+  {
+    "id": "trending-29",
+    "colors": [
+      "#590D22",
+      "#800F2F",
+      "#A4133C",
+      "#C9184A",
+      "#FF4D6D",
+      "#FF758F",
+      "#FF8FA3",
+      "#FFB3C1",
+      "#FFCCD5",
+      "#FFF0F3"
+    ],
+    "name": "Artistic Blend 3",
+    "tags": [
+      "trending",
+      "vibrant",
+      "warm",
+      "gradient"
+    ],
+    "likes": 4555
+  },
+  {
+    "id": "trending-30",
+    "colors": [
+      "#582F0E",
+      "#7F4F24",
+      "#936639",
+      "#A68A64",
+      "#B6AD90",
+      "#C2C5AA",
+      "#A4AC86",
+      "#656D4A",
+      "#414833",
+      "#333D29"
+    ],
+    "name": "Visual Harmony 3",
+    "tags": [
+      "trending",
+      "warm",
+      "gradient"
+    ],
+    "likes": 606
+  },
+  {
+    "id": "trending-31",
+    "colors": [
+      "#000814",
+      "#001D3D",
+      "#003566",
+      "#FFC300",
+      "#FFD60A"
+    ],
+    "name": "Trending Palette 4",
+    "tags": [
+      "trending",
+      "dark",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 1846
+  },
+  {
+    "id": "trending-32",
+    "colors": [
+      "#EDF2FB",
+      "#E2EAFC",
+      "#D7E3FC",
+      "#CCDBFD",
+      "#C1D3FE",
+      "#B6CCFE",
+      "#ABC4FF"
+    ],
+    "name": "Popular Mix 4",
+    "tags": [
+      "trending",
+      "light",
+      "vibrant",
+      "cool",
+      "gradient"
+    ],
+    "likes": 1960
+  },
+  {
+    "id": "trending-33",
+    "colors": [
+      "#F8F9FA",
+      "#E9ECEF",
+      "#DEE2E6",
+      "#CED4DA",
+      "#ADB5BD",
+      "#6C757D",
+      "#495057",
+      "#343A40",
+      "#212529"
+    ],
+    "name": "Color Story 4",
+    "tags": [
+      "trending",
+      "muted",
+      "cool",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 2607
+  },
+  {
+    "id": "trending-34",
+    "colors": [
+      "#390099",
+      "#9E0059",
+      "#FF0054",
+      "#FF5400",
+      "#FFBD00"
+    ],
+    "name": "Modern Blend 4",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 1149
+  },
+  {
+    "id": "trending-35",
+    "colors": [
+      "#F6BD60",
+      "#F7EDE2",
+      "#F5CAC3",
+      "#84A59D",
+      "#F28482"
+    ],
+    "name": "Creative Combo 4",
+    "tags": [
+      "trending",
+      "light",
+      "warm",
+      "gradient"
+    ],
+    "likes": 1081
+  },
+  {
+    "id": "trending-36",
+    "colors": [
+      "#D8E2DC",
+      "#FFE5D9",
+      "#FFCAD4",
+      "#F4ACB7",
+      "#9D8189"
+    ],
+    "name": "Fresh Palette 4",
+    "tags": [
+      "trending",
+      "light",
+      "warm",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 1537
+  },
+  {
+    "id": "trending-37",
+    "colors": [
+      "#FEC5BB",
+      "#FCD5CE",
+      "#FAE1DD",
+      "#F8EDEB",
+      "#E8E8E4",
+      "#D8E2DC",
+      "#ECE4DB",
+      "#FFE5D9",
+      "#FFD7BA",
+      "#FEC89A"
+    ],
+    "name": "Stylish Hues 4",
+    "tags": [
+      "trending",
+      "light",
+      "warm",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 2095
+  },
+  {
+    "id": "trending-38",
+    "colors": [
+      "#FFB5A7",
+      "#FCD5CE",
+      "#F8EDEB",
+      "#F9DCC4",
+      "#FEC89A"
+    ],
+    "name": "Design Palette 4",
+    "tags": [
+      "trending",
+      "light",
+      "vibrant",
+      "warm",
+      "gradient"
+    ],
+    "likes": 1450
+  },
+  {
+    "id": "trending-39",
+    "colors": [
+      "#3D348B",
+      "#7678ED",
+      "#F7B801",
+      "#F18701",
+      "#F35B04"
+    ],
+    "name": "Artistic Blend 4",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 1417
+  },
+  {
+    "id": "trending-40",
+    "colors": [
+      "#CFDBD5",
+      "#E8EDDF",
+      "#F5CB5C",
+      "#242423",
+      "#333533"
+    ],
+    "name": "Visual Harmony 4",
+    "tags": [
+      "trending",
+      "muted",
+      "warm",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 4559
+  },
+  {
+    "id": "trending-41",
+    "colors": [
+      "#012A4A",
+      "#013A63",
+      "#01497C",
+      "#014F86",
+      "#2A6F97",
+      "#2C7DA0",
+      "#468FAF",
+      "#61A5C2",
+      "#89C2D9",
+      "#A9D6E5"
+    ],
+    "name": "Trending Palette 5",
+    "tags": [
+      "trending",
+      "cool",
+      "gradient"
+    ],
+    "likes": 4925
+  },
+  {
+    "id": "trending-42",
+    "colors": [
+      "#D8F3DC",
+      "#B7E4C7",
+      "#95D5B2",
+      "#74C69D",
+      "#52B788",
+      "#40916C",
+      "#2D6A4F",
+      "#1B4332",
+      "#081C15"
+    ],
+    "name": "Popular Mix 5",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 1471
+  },
+  {
+    "id": "trending-43",
+    "colors": [
+      "#FFADAD",
+      "#FFD6A5",
+      "#FDFFB6",
+      "#CAFFBF",
+      "#9BF6FF",
+      "#A0C4FF",
+      "#BDB2FF",
+      "#FFC6FF",
+      "#FFFFFC"
+    ],
+    "name": "Color Story 5",
+    "tags": [
+      "trending",
+      "light",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 4048
+  },
+  {
+    "id": "trending-44",
+    "colors": [
+      "#006BA6",
+      "#0496FF",
+      "#FFBC42",
+      "#D81159",
+      "#8F2D56"
+    ],
+    "name": "Modern Blend 5",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 2331
+  },
+  {
+    "id": "trending-45",
+    "colors": [
+      "#F9DBBD",
+      "#FFA5AB",
+      "#DA627D",
+      "#A53860",
+      "#450920"
+    ],
+    "name": "Creative Combo 5",
+    "tags": [
+      "trending",
+      "vibrant",
+      "warm",
+      "gradient"
+    ],
+    "likes": 4132
+  },
+  {
+    "id": "trending-46",
+    "colors": [
+      "#250902",
+      "#38040E",
+      "#640D14",
+      "#800E13",
+      "#AD2831"
+    ],
+    "name": "Fresh Palette 5",
+    "tags": [
+      "trending",
+      "dark",
+      "vibrant",
+      "warm",
+      "gradient"
+    ],
+    "likes": 2043
+  },
+  {
+    "id": "trending-47",
+    "colors": [
+      "#283D3B",
+      "#197278",
+      "#EDDDD4",
+      "#C44536",
+      "#772E25"
+    ],
+    "name": "Stylish Hues 5",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 2190
+  },
+  {
+    "id": "trending-48",
+    "colors": [
+      "#FC7051",
+      "#FF8E47",
+      "#4AE867",
+      "#59F4FF"
+    ],
+    "name": "Design Palette 5",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 3372
+  },
+  {
+    "id": "trending-49",
+    "colors": [
+      "#00296B",
+      "#003F88",
+      "#00509D",
+      "#FDC500",
+      "#FFD500"
+    ],
+    "name": "Artistic Blend 5",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 569
+  },
+  {
+    "id": "trending-50",
+    "colors": [
+      "#0466C8",
+      "#0353A4",
+      "#023E7D",
+      "#002855",
+      "#001845",
+      "#001233",
+      "#33415C",
+      "#5C677D",
+      "#7D8597",
+      "#979DAC"
+    ],
+    "name": "Visual Harmony 5",
+    "tags": [
+      "trending",
+      "cool",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 2055
+  },
+  {
+    "id": "trending-51",
+    "colors": [
+      "#001524",
+      "#15616D",
+      "#FFECD1",
+      "#FF7D00",
+      "#78290F"
+    ],
+    "name": "Trending Palette 6",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 4760
+  },
+  {
+    "id": "trending-52",
+    "colors": [
+      "#E63946",
+      "#F1FAEE",
+      "#A8DADC",
+      "#457B9D",
+      "#1D3557"
+    ],
+    "name": "Popular Mix 6",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 3681
+  },
+  {
+    "id": "trending-53",
+    "colors": [
+      "#353535",
+      "#3C6E71",
+      "#FFFFFF",
+      "#D9D9D9",
+      "#284B63"
+    ],
+    "name": "Color Story 6",
+    "tags": [
+      "trending",
+      "muted",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 1306
+  },
+  {
+    "id": "trending-54",
+    "colors": [
+      "#21295C",
+      "#1B3B6F",
+      "#065A82",
+      "#1C7293",
+      "#9EB3C2"
+    ],
+    "name": "Modern Blend 6",
+    "tags": [
+      "trending",
+      "cool",
+      "gradient"
+    ],
+    "likes": 2636
+  },
+  {
+    "id": "trending-55",
+    "colors": [
+      "#264653",
+      "#2A9D8F",
+      "#E9C46A",
+      "#F4A261",
+      "#E76F51"
+    ],
+    "name": "Creative Combo 6",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 2631
+  },
+  {
+    "id": "trending-56",
+    "colors": [
+      "#957186",
+      "#D9B8C4",
+      "#703D57",
+      "#402A2C",
+      "#241715"
+    ],
+    "name": "Fresh Palette 6",
+    "tags": [
+      "trending",
+      "muted",
+      "warm",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 4789
+  },
+  {
+    "id": "trending-57",
+    "colors": [
+      "#22223B",
+      "#4A4E69",
+      "#9A8C98",
+      "#C9ADA7",
+      "#F2E9E4"
+    ],
+    "name": "Stylish Hues 6",
+    "tags": [
+      "trending",
+      "muted",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 3549
+  },
+  {
+    "id": "trending-58",
+    "colors": [
+      "#220901",
+      "#621708",
+      "#941B0C",
+      "#BC3908",
+      "#F6AA1C"
+    ],
+    "name": "Design Palette 6",
+    "tags": [
+      "trending",
+      "vibrant",
+      "warm",
+      "gradient"
+    ],
+    "likes": 2473
+  },
+  {
+    "id": "trending-59",
+    "colors": [
+      "#C16A4A",
+      "#B55A3C",
+      "#9E4B3A",
+      "#A35C4A",
+      "#8F3E2D"
+    ],
+    "name": "Artistic Blend 6",
+    "tags": [
+      "trending",
+      "warm",
+      "gradient"
+    ],
+    "likes": 4757
+  },
+  {
+    "id": "trending-60",
+    "colors": [
+      "#A00D1C",
+      "#E10600",
+      "#FF8873",
+      "#FEBE9F",
+      "#EFD1C5",
+      "#7C4067",
+      "#DB8FC0",
+      "#FECAE3",
+      "#EFE1E8"
+    ],
+    "name": "Visual Harmony 6",
+    "tags": [
+      "trending",
+      "vibrant",
+      "warm",
+      "gradient"
+    ],
+    "likes": 1757
+  },
+  {
+    "id": "trending-61",
+    "colors": [
+      "#D9ED92",
+      "#B5E48C",
+      "#99D98C",
+      "#76C893",
+      "#52B69A",
+      "#34A0A4",
+      "#168AAD",
+      "#1A759F",
+      "#1E6091",
+      "#184E77"
+    ],
+    "name": "Trending Palette 7",
+    "tags": [
+      "trending",
+      "cool",
+      "gradient"
+    ],
+    "likes": 1536
+  },
+  {
+    "id": "trending-62",
+    "colors": [
+      "#386641",
+      "#6A994E",
+      "#A7C957",
+      "#F2E8CF",
+      "#BC4749"
+    ],
+    "name": "Popular Mix 7",
+    "tags": [
+      "trending",
+      "warm",
+      "gradient"
+    ],
+    "likes": 4295
+  },
+  {
+    "id": "trending-63",
+    "colors": [
+      "#FF6700",
+      "#EBEBEB",
+      "#C0C0C0",
+      "#3A6EA5",
+      "#004E98"
+    ],
+    "name": "Color Story 7",
+    "tags": [
+      "trending",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 3509
+  },
+  {
+    "id": "trending-64",
+    "colors": [
+      "#FFFCF2",
+      "#CCC5B9",
+      "#403D39",
+      "#252422",
+      "#EB5E28"
+    ],
+    "name": "Modern Blend 7",
+    "tags": [
+      "trending",
+      "warm",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 594
+  },
+  {
+    "id": "trending-65",
+    "colors": [
+      "#0A0908",
+      "#49111C",
+      "#F2F4F3",
+      "#A9927D",
+      "#5E503F"
+    ],
+    "name": "Creative Combo 7",
+    "tags": [
+      "trending",
+      "muted",
+      "warm",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 2661
+  },
+  {
+    "id": "trending-66",
+    "colors": [
+      "#FF595E",
+      "#FFCA3A",
+      "#8AC926",
+      "#1982C4",
+      "#6A4C93"
+    ],
+    "name": "Fresh Palette 7",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 2287
+  },
+  {
+    "id": "trending-67",
+    "colors": [
+      "#3F0D12",
+      "#A71D31",
+      "#F1F0CC",
+      "#D5BF86",
+      "#8D775F"
+    ],
+    "name": "Stylish Hues 7",
+    "tags": [
+      "trending",
+      "warm",
+      "gradient"
+    ],
+    "likes": 1255
+  },
+  {
+    "id": "trending-68",
+    "colors": [
+      "#7BDFF2",
+      "#B2F7EF",
+      "#EFF7F6",
+      "#F7D6E0",
+      "#F2B5D4"
+    ],
+    "name": "Design Palette 7",
+    "tags": [
+      "trending",
+      "light",
+      "gradient"
+    ],
+    "likes": 1952
+  },
+  {
+    "id": "trending-69",
+    "colors": [
+      "#0B132B",
+      "#1C2541",
+      "#3A506B",
+      "#5BC0BE",
+      "#6FFFE9"
+    ],
+    "name": "Artistic Blend 7",
+    "tags": [
+      "trending",
+      "cool",
+      "gradient"
+    ],
+    "likes": 535
+  },
+  {
+    "id": "trending-70",
+    "colors": [
+      "#6B9080",
+      "#A4C3B2",
+      "#CCE3DE",
+      "#EAF4F4",
+      "#F6FFF8"
+    ],
+    "name": "Visual Harmony 7",
+    "tags": [
+      "trending",
+      "light",
+      "cool",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 1496
+  },
+  {
+    "id": "trending-71",
+    "colors": [
+      "#CAD2C5",
+      "#84A98C",
+      "#52796F",
+      "#354F52",
+      "#2F3E46"
+    ],
+    "name": "Trending Palette 8",
+    "tags": [
+      "trending",
+      "muted",
+      "cool",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 1184
+  },
+  {
+    "id": "trending-72",
+    "colors": [
+      "#3A4F4A",
+      "#355F5A",
+      "#2F5F5A",
+      "#2F4F4A"
+    ],
+    "name": "Popular Mix 8",
+    "tags": [
+      "trending",
+      "dark",
+      "muted",
+      "gradient"
+    ],
+    "likes": 4475
+  },
+  {
+    "id": "trending-73",
+    "colors": [
+      "#EDE0D4",
+      "#E6CCB2",
+      "#DDB892",
+      "#B08968",
+      "#7F5539",
+      "#9C6644"
+    ],
+    "name": "Color Story 8",
+    "tags": [
+      "trending",
+      "warm",
+      "gradient"
+    ],
+    "likes": 4277
+  },
+  {
+    "id": "trending-74",
+    "colors": [
+      "#F72585",
+      "#B5179E",
+      "#7209B7",
+      "#560BAD",
+      "#480CA8",
+      "#3A0CA3",
+      "#3F37C9",
+      "#4361EE",
+      "#4895EF",
+      "#4CC9F0"
+    ],
+    "name": "Modern Blend 8",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 2376
+  },
+  {
+    "id": "trending-75",
+    "colors": [
+      "#007F5F",
+      "#2B9348",
+      "#55A630",
+      "#80B918",
+      "#AACC00",
+      "#BFD200",
+      "#D4D700",
+      "#DDDF00",
+      "#EEEF20",
+      "#FFFF3F"
+    ],
+    "name": "Creative Combo 8",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 3282
+  },
+  {
+    "id": "trending-76",
+    "colors": [
+      "#EDC4B3",
+      "#E6B8A2",
+      "#DEAB90",
+      "#D69F7E",
+      "#CD9777",
+      "#C38E70",
+      "#B07D62",
+      "#9D6B53",
+      "#8A5A44",
+      "#774936"
+    ],
+    "name": "Fresh Palette 8",
+    "tags": [
+      "trending",
+      "warm",
+      "gradient"
+    ],
+    "likes": 2179
+  },
+  {
+    "id": "trending-77",
+    "colors": [
+      "#641220",
+      "#6E1423",
+      "#85182A",
+      "#A11D33",
+      "#A71E34",
+      "#B21E35",
+      "#BD1F36",
+      "#C71F37",
+      "#DA1E37",
+      "#E01E37"
+    ],
+    "name": "Stylish Hues 8",
+    "tags": [
+      "trending",
+      "vibrant",
+      "warm",
+      "gradient"
+    ],
+    "likes": 3523
+  },
+  {
+    "id": "trending-78",
+    "colors": [
+      "#F72585",
+      "#7209B7",
+      "#3A0CA3",
+      "#4361EE",
+      "#4CC9F0"
+    ],
+    "name": "Design Palette 8",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 2145
+  },
+  {
+    "id": "trending-79",
+    "colors": [
+      "#0081A7",
+      "#00AFB9",
+      "#FDFCDC",
+      "#FED9B7",
+      "#F07167"
+    ],
+    "name": "Artistic Blend 8",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 2799
+  },
+  {
+    "id": "trending-80",
+    "colors": [
+      "#084B83",
+      "#42BFDD",
+      "#BBE6E4",
+      "#F0F6F6",
+      "#FF66B3"
+    ],
+    "name": "Visual Harmony 8",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 1701
+  },
+  {
+    "id": "trending-81",
+    "colors": [
+      "#CC444B",
+      "#DA5552",
+      "#DF7373",
+      "#E39695",
+      "#E4B1AB"
+    ],
+    "name": "Trending Palette 9",
+    "tags": [
+      "trending",
+      "warm",
+      "gradient"
+    ],
+    "likes": 2658
+  },
+  {
+    "id": "trending-82",
+    "colors": [
+      "#E7ECEF",
+      "#274C77",
+      "#6096BA",
+      "#A3CEF1",
+      "#8B8C89"
+    ],
+    "name": "Popular Mix 9",
+    "tags": [
+      "trending",
+      "cool",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 1220
+  },
+  {
+    "id": "trending-83",
+    "colors": [
+      "#6F1D1B",
+      "#BB9457",
+      "#432818",
+      "#99582A",
+      "#FFE6A7"
+    ],
+    "name": "Color Story 9",
+    "tags": [
+      "trending",
+      "warm",
+      "gradient"
+    ],
+    "likes": 3770
+  },
+  {
+    "id": "trending-84",
+    "colors": [
+      "#9381FF",
+      "#B8B8FF",
+      "#F8F7FF",
+      "#FFEEDD",
+      "#FFD8BE"
+    ],
+    "name": "Modern Blend 9",
+    "tags": [
+      "trending",
+      "light",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 3823
+  },
+  {
+    "id": "trending-85",
+    "colors": [
+      "#BCE784",
+      "#5DD39E",
+      "#348AA7",
+      "#525174",
+      "#513B56"
+    ],
+    "name": "Creative Combo 9",
+    "tags": [
+      "trending",
+      "cool",
+      "gradient"
+    ],
+    "likes": 4694
+  },
+  {
+    "id": "trending-86",
+    "colors": [
+      "#3C1642",
+      "#086375",
+      "#1DD3B0",
+      "#AFFC41",
+      "#B2FF9E"
+    ],
+    "name": "Fresh Palette 9",
+    "tags": [
+      "trending",
+      "vibrant",
+      "cool",
+      "gradient"
+    ],
+    "likes": 745
+  },
+  {
+    "id": "trending-87",
+    "colors": [
+      "#EB6025",
+      "#FEC746",
+      "#1BBDC8"
+    ],
+    "name": "Stylish Hues 9",
+    "tags": [
+      "trending",
+      "vibrant"
+    ],
+    "likes": 1880
+  },
+  {
+    "id": "trending-88",
+    "colors": [
+      "#7A5A2E",
+      "#8B6B2E",
+      "#9C7A3C",
+      "#A07C3A",
+      "#B08A3E",
+      "#C49A6C",
+      "#A58B5C"
+    ],
+    "name": "Design Palette 9",
+    "tags": [
+      "trending",
+      "warm",
+      "gradient"
+    ],
+    "likes": 880
+  },
+  {
+    "id": "trending-89",
+    "colors": [
+      "#3C80CB",
+      "#15405D",
+      "#5EC235",
+      "#E5B02B",
+      "#DDD80F",
+      "#FFFFFF",
+      "#E5E5E5",
+      "#4C5C65",
+      "#2C363D",
+      "#191919"
+    ],
+    "name": "Artistic Blend 9",
+    "tags": [
+      "trending",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 2006
+  },
+  {
+    "id": "trending-90",
+    "colors": [
+      "#D2CDB8",
+      "#E9E5DC",
+      "#E4E0CE",
+      "#DED39E",
+      "#466469",
+      "#4790A1",
+      "#278668",
+      "#5F483D",
+      "#BFA454",
+      "#C22E3A"
+    ],
+    "name": "Visual Harmony 9",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 823
+  },
+  {
+    "id": "trending-91",
+    "colors": [
+      "#001219",
+      "#005F73",
+      "#0A9396",
+      "#94D2BD",
+      "#E9D8A6",
+      "#EE9B00",
+      "#CA6702",
+      "#BB3E03",
+      "#AE2012",
+      "#9B2226"
+    ],
+    "name": "Trending Palette 10",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 3457
+  },
+  {
+    "id": "trending-92",
+    "colors": [
+      "#FF6D00",
+      "#FF7900",
+      "#FF8500",
+      "#FF9100",
+      "#FF9E00",
+      "#240046",
+      "#3C096C",
+      "#5A189A",
+      "#7B2CBF",
+      "#9D4EDD"
+    ],
+    "name": "Popular Mix 10",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 2645
+  },
+  {
+    "id": "trending-93",
+    "colors": [
+      "#FF7B00",
+      "#FF8800",
+      "#FF9500",
+      "#FFA200",
+      "#FFAA00",
+      "#FFB700",
+      "#FFC300",
+      "#FFD000",
+      "#FFDD00",
+      "#FFEA00"
+    ],
+    "name": "Color Story 10",
+    "tags": [
+      "trending",
+      "vibrant",
+      "warm",
+      "gradient"
+    ],
+    "likes": 4666
+  },
+  {
+    "id": "trending-94",
+    "colors": [
+      "#10002B",
+      "#240046",
+      "#3C096C",
+      "#5A189A",
+      "#7B2CBF",
+      "#9D4EDD",
+      "#C77DFF",
+      "#E0AAFF"
+    ],
+    "name": "Modern Blend 10",
+    "tags": [
+      "trending",
+      "vibrant",
+      "cool",
+      "gradient"
+    ],
+    "likes": 3203
+  },
+  {
+    "id": "trending-95",
+    "colors": [
+      "#9B5DE5",
+      "#F15BB5",
+      "#FEE440",
+      "#00BBF9",
+      "#00F5D4"
+    ],
+    "name": "Creative Combo 10",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 667
+  },
+  {
+    "id": "trending-96",
+    "colors": [
+      "#0B132B",
+      "#1C2541",
+      "#3A506B",
+      "#5BC0BE",
+      "#FFFFFF"
+    ],
+    "name": "Fresh Palette 10",
+    "tags": [
+      "trending",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 1712
+  },
+  {
+    "id": "trending-97",
+    "colors": [
+      "#FDFFFC",
+      "#235789",
+      "#C1292E",
+      "#F1D302",
+      "#161925"
+    ],
+    "name": "Stylish Hues 10",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 2432
+  },
+  {
+    "id": "trending-98",
+    "colors": [
+      "#424B54",
+      "#93A8AC",
+      "#FFFFFF",
+      "#E2B4BD",
+      "#9B6A6C"
+    ],
+    "name": "Design Palette 10",
+    "tags": [
+      "trending",
+      "muted",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 2556
+  },
+  {
+    "id": "trending-99",
+    "colors": [
+      "#01161E",
+      "#124559",
+      "#598392",
+      "#AEC3B0",
+      "#EFF6E0"
+    ],
+    "name": "Artistic Blend 10",
+    "tags": [
+      "trending",
+      "cool",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 3179
+  },
+  {
+    "id": "trending-100",
+    "colors": [
+      "#223843",
+      "#EFF1F3",
+      "#DBD3D8",
+      "#D8B4A0",
+      "#D77A61"
+    ],
+    "name": "Visual Harmony 10",
+    "tags": [
+      "trending",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 3394
+  },
+  {
+    "id": "trending-101",
+    "colors": [
+      "#C4BBAF",
+      "#A5978B",
+      "#5C4742",
+      "#8D5B4C",
+      "#5A2A27"
+    ],
+    "name": "Trending Palette 11",
+    "tags": [
+      "trending",
+      "muted",
+      "warm",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 4357
+  },
+  {
+    "id": "trending-102",
+    "colors": [
+      "#8C1C13",
+      "#BF4342",
+      "#E7D7C1",
+      "#A78A7F",
+      "#735751"
+    ],
+    "name": "Popular Mix 11",
+    "tags": [
+      "trending",
+      "warm",
+      "gradient"
+    ],
+    "likes": 1653
+  },
+  {
+    "id": "trending-103",
+    "colors": [
+      "#461220",
+      "#8C2F39",
+      "#B23A48",
+      "#FCB9B2",
+      "#FED0BB"
+    ],
+    "name": "Color Story 11",
+    "tags": [
+      "trending",
+      "warm",
+      "gradient"
+    ],
+    "likes": 2898
+  },
+  {
+    "id": "trending-104",
+    "colors": [
+      "#C9E4CA",
+      "#87BBA2",
+      "#55828B",
+      "#3B6064",
+      "#364958"
+    ],
+    "name": "Modern Blend 11",
+    "tags": [
+      "trending",
+      "muted",
+      "cool",
+      "gradient"
+    ],
+    "likes": 3456
+  },
+  {
+    "id": "trending-105",
+    "colors": [
+      "#8FA9A0",
+      "#7F9A8B",
+      "#6F9A8F",
+      "#5F8A7A",
+      "#4F7A74",
+      "#4A6F5F"
+    ],
+    "name": "Creative Combo 11",
+    "tags": [
+      "trending",
+      "muted",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 1917
+  },
+  {
+    "id": "trending-106",
+    "colors": [
+      "#E6D2A2",
+      "#E2D09C",
+      "#D8C58A",
+      "#D1BC7C",
+      "#C4B17A",
+      "#A98F3A"
+    ],
+    "name": "Fresh Palette 11",
+    "tags": [
+      "trending",
+      "warm",
+      "gradient"
+    ],
+    "likes": 4869
+  },
+  {
+    "id": "trending-107",
+    "colors": [
+      "#00FFFF",
+      "#0800FF",
+      "#FC00D6",
+      "#600052",
+      "#000000"
+    ],
+    "name": "Stylish Hues 11",
+    "tags": [
+      "trending",
+      "vibrant",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 4008
+  },
+  {
+    "id": "trending-108",
+    "colors": [
+      "#EF00D1",
+      "#EFFD8A",
+      "#5D1CFF",
+      "#FCA177",
+      "#5AC038"
+    ],
+    "name": "Design Palette 11",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 2021
+  },
+  {
+    "id": "trending-109",
+    "colors": [
+      "#001F3F",
+      "#FF69B4",
+      "#FF007F",
+      "#66CDAA",
+      "#005F73"
+    ],
+    "name": "Artistic Blend 11",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 4283
+  },
+  {
+    "id": "trending-110",
+    "colors": [
+      "#EB6025",
+      "#FEC746",
+      "#1FA5B5"
+    ],
+    "name": "Visual Harmony 11",
+    "tags": [
+      "trending",
+      "vibrant"
+    ],
+    "likes": 3549
+  },
+  {
+    "id": "trending-111",
+    "colors": [
+      "#FFB777",
+      "#7AE7BF",
+      "#A3BCFB",
+      "#FF877B",
+      "#45D5DA"
+    ],
+    "name": "Trending Palette 12",
+    "tags": [
+      "trending",
+      "light",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 1717
+  },
+  {
+    "id": "trending-112",
+    "colors": [
+      "#03CDCD",
+      "#AEFBFF",
+      "#C9FFC4",
+      "#FEE266",
+      "#F54F9C"
+    ],
+    "name": "Popular Mix 12",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 4538
+  },
+  {
+    "id": "trending-113",
+    "colors": [
+      "#FF7F3B",
+      "#FFE1CF",
+      "#28B27F",
+      "#D3F2E5",
+      "#FFC845",
+      "#FFF3CF",
+      "#E35C5C",
+      "#F8D9D9",
+      "#5F63D8",
+      "#E0E2FF"
+    ],
+    "name": "Color Story 12",
+    "tags": [
+      "trending",
+      "light",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 2761
+  },
+  {
+    "id": "trending-114",
+    "colors": [
+      "#FBF2C0",
+      "#C0D6DF",
+      "#D74E09",
+      "#8F2D56",
+      "#477998",
+      "#2E1F27",
+      "#43281C",
+      "#141414"
+    ],
+    "name": "Modern Blend 12",
+    "tags": [
+      "trending",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 4024
+  },
+  {
+    "id": "trending-115",
+    "colors": [
+      "#28707C",
+      "#CF4B1D",
+      "#AF4E3B",
+      "#214247",
+      "#EBD5BD"
+    ],
+    "name": "Creative Combo 12",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 2289
+  },
+  {
+    "id": "trending-116",
+    "colors": [
+      "#F34213",
+      "#4CD964",
+      "#8CAAC3",
+      "#4C5B5C",
+      "#285943",
+      "#F4BBD3"
+    ],
+    "name": "Fresh Palette 12",
+    "tags": [
+      "trending",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 1523
+  },
+  {
+    "id": "trending-117",
+    "colors": [
+      "#262322",
+      "#E5FFDE",
+      "#4A7C59",
+      "#CEABB1",
+      "#9FA4C4"
+    ],
+    "name": "Stylish Hues 12",
+    "tags": [
+      "trending",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 4630
+  },
+  {
+    "id": "trending-118",
+    "colors": [
+      "#F5DA51",
+      "#69C05D",
+      "#FF8833",
+      "#B6B6B9",
+      "#140900",
+      "#FFF9FB"
+    ],
+    "name": "Design Palette 12",
+    "tags": [
+      "trending",
+      "vibrant",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 3166
+  },
+  {
+    "id": "trending-119",
+    "colors": [
+      "#454A4A",
+      "#4B5847",
+      "#476F5B",
+      "#5F957B",
+      "#ABC4B2",
+      "#704AA8",
+      "#605A44",
+      "#495750",
+      "#42433E",
+      "#55554E"
+    ],
+    "name": "Artistic Blend 12",
+    "tags": [
+      "trending",
+      "muted",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 3485
+  },
+  {
+    "id": "trending-120",
+    "colors": [
+      "#FFEDD8",
+      "#F3D5B5",
+      "#E7BC91",
+      "#D4A276",
+      "#BC8A5F",
+      "#A47148",
+      "#8B5E34",
+      "#6F4518",
+      "#603808",
+      "#583101"
+    ],
+    "name": "Visual Harmony 12",
+    "tags": [
+      "trending",
+      "warm",
+      "gradient"
+    ],
+    "likes": 4519
+  },
+  {
+    "id": "trending-121",
+    "colors": [
+      "#ABA59C",
+      "#4A6C6F",
+      "#846075",
+      "#7A3E42",
+      "#ED474A",
+      "#FFFFFF"
+    ],
+    "name": "Trending Palette 13",
+    "tags": [
+      "trending",
+      "muted",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 1573
+  },
+  {
+    "id": "trending-122",
+    "colors": [
+      "#D1B97E",
+      "#637483",
+      "#B0B45B",
+      "#3E461F",
+      "#97989E",
+      "#887976"
+    ],
+    "name": "Popular Mix 13",
+    "tags": [
+      "trending",
+      "muted",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 4125
+  },
+  {
+    "id": "trending-123",
+    "colors": [
+      "#171611",
+      "#3A3F43",
+      "#4C8939",
+      "#8E6C35",
+      "#CF4E31",
+      "#F0A22D",
+      "#DF5956",
+      "#C2D6D5",
+      "#EADBD7",
+      "#F0F0EE"
+    ],
+    "name": "Color Story 13",
+    "tags": [
+      "trending",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 3909
+  },
+  {
+    "id": "trending-124",
+    "colors": [
+      "#DAD3BE",
+      "#666B6A",
+      "#0A090C",
+      "#F1937E",
+      "#B08DF6"
+    ],
+    "name": "Modern Blend 13",
+    "tags": [
+      "trending",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 3212
+  },
+  {
+    "id": "trending-125",
+    "colors": [
+      "#374261",
+      "#89B0AE",
+      "#676A68",
+      "#979C99",
+      "#921C1F",
+      "#CC8B8C"
+    ],
+    "name": "Creative Combo 13",
+    "tags": [
+      "trending",
+      "muted",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 4957
+  },
+  {
+    "id": "trending-126",
+    "colors": [
+      "#4C72B0",
+      "#55A868",
+      "#C44E52",
+      "#8172B2",
+      "#CCB974",
+      "#64B5CD"
+    ],
+    "name": "Fresh Palette 13",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 2279
+  },
+  {
+    "id": "trending-127",
+    "colors": [
+      "#0C131B",
+      "#6D4935",
+      "#B17E4D",
+      "#933924",
+      "#00702C",
+      "#57B3E8"
+    ],
+    "name": "Stylish Hues 13",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 920
+  },
+  {
+    "id": "trending-128",
+    "colors": [
+      "#F09156",
+      "#4ABF5D",
+      "#808E93",
+      "#A268AC",
+      "#467ACE",
+      "#BF4551"
+    ],
+    "name": "Design Palette 13",
+    "tags": [
+      "trending",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 3567
+  },
+  {
+    "id": "trending-129",
+    "colors": [
+      "#070605",
+      "#FFFEFF",
+      "#ED254E",
+      "#22007C",
+      "#FE5F00",
+      "#60712F",
+      "#AF6818"
+    ],
+    "name": "Artistic Blend 13",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 3135
+  },
+  {
+    "id": "trending-130",
+    "colors": [
+      "#8E7A46",
+      "#5CAC48",
+      "#30474B",
+      "#8196A6",
+      "#E4572E"
+    ],
+    "name": "Visual Harmony 13",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 1221
+  },
+  {
+    "id": "trending-131",
+    "colors": [
+      "#B37BA4",
+      "#F69172",
+      "#EBF2FA",
+      "#99C24D",
+      "#E5CEDC"
+    ],
+    "name": "Trending Palette 14",
+    "tags": [
+      "trending",
+      "light",
+      "gradient"
+    ],
+    "likes": 4936
+  },
+  {
+    "id": "trending-132",
+    "colors": [
+      "#152325",
+      "#395558",
+      "#3448AD",
+      "#C3DDDE",
+      "#4CBA76",
+      "#EBF7F0",
+      "#F26C6C",
+      "#FF8779",
+      "#E4E0CF"
+    ],
+    "name": "Popular Mix 14",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 4424
+  },
+  {
+    "id": "trending-133",
+    "colors": [
+      "#E0ACD5",
+      "#3993DD",
+      "#F4EBE8",
+      "#29E7CD",
+      "#972D07",
+      "#FF4B3E",
+      "#63372C",
+      "#FFB20F"
+    ],
+    "name": "Color Story 14",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 2849
+  },
+  {
+    "id": "trending-134",
+    "colors": [
+      "#7FDE80",
+      "#98ACB4",
+      "#CA747A",
+      "#7ABBFA",
+      "#8232D9",
+      "#160E17",
+      "#262899",
+      "#094256",
+      "#C30699",
+      "#0D0F34"
+    ],
+    "name": "Modern Blend 14",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 3337
+  },
+  {
+    "id": "trending-135",
+    "colors": [
+      "#719BA9",
+      "#81F4E1",
+      "#FFFC31",
+      "#E0E2DB",
+      "#FFFEFF",
+      "#120309",
+      "#ED6A5A",
+      "#E2A0FF",
+      "#C3F73A"
+    ],
+    "name": "Creative Combo 14",
+    "tags": [
+      "trending",
+      "vibrant",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 4502
+  },
+  {
+    "id": "trending-136",
+    "colors": [
+      "#68990E",
+      "#F7B320",
+      "#F3FC1C",
+      "#B0288B",
+      "#8B7F3C",
+      "#70512C",
+      "#7A7BB6",
+      "#73B3CF",
+      "#8B4933",
+      "#8FE673"
+    ],
+    "name": "Fresh Palette 14",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 2309
+  },
+  {
+    "id": "trending-137",
+    "colors": [
+      "#CAF8F9",
+      "#C7FFED",
+      "#AAFAC8",
+      "#134611",
+      "#ABDF75",
+      "#20290F",
+      "#2A130D",
+      "#280707",
+      "#190804",
+      "#EFBFEA"
+    ],
+    "name": "Stylish Hues 14",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 963
+  },
+  {
+    "id": "trending-138",
+    "colors": [
+      "#0C0C16",
+      "#F3FDF6",
+      "#2C9E9C",
+      "#89CBDD",
+      "#88E58E",
+      "#F15D6E",
+      "#FA888C",
+      "#B57859",
+      "#F09460",
+      "#FFFC77"
+    ],
+    "name": "Design Palette 14",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 3538
+  },
+  {
+    "id": "trending-139",
+    "colors": [
+      "#90976B",
+      "#6F6C65",
+      "#483234",
+      "#716337",
+      "#C2C9B0",
+      "#290500",
+      "#B8B2C8",
+      "#B7AC92",
+      "#354E3F",
+      "#DBE1EB"
+    ],
+    "name": "Artistic Blend 14",
+    "tags": [
+      "trending",
+      "muted",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 2601
+  },
+  {
+    "id": "trending-140",
+    "colors": [
+      "#35FF69",
+      "#42BFDD",
+      "#0A090C",
+      "#F5B700",
+      "#00A1E4",
+      "#E63462",
+      "#D138BF",
+      "#F2F5EA",
+      "#D63230",
+      "#F06449"
+    ],
+    "name": "Visual Harmony 14",
+    "tags": [
+      "trending",
+      "vibrant",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 2582
+  },
+  {
+    "id": "trending-141",
+    "colors": [
+      "#E3F2FD",
+      "#BBDEFB",
+      "#90CAF9",
+      "#64B5F6",
+      "#42A5F5",
+      "#2196F3",
+      "#1E88E5",
+      "#1976D2",
+      "#1565C0",
+      "#0D47A1"
+    ],
+    "name": "Trending Palette 15",
+    "tags": [
+      "trending",
+      "vibrant",
+      "cool",
+      "gradient"
+    ],
+    "likes": 1258
+  },
+  {
+    "id": "trending-142",
+    "colors": [
+      "#493669",
+      "#DB5038",
+      "#6F1601",
+      "#F87B47",
+      "#B15E37",
+      "#7B4822",
+      "#F1CEB0",
+      "#FFA848",
+      "#4B7A96",
+      "#575C63"
+    ],
+    "name": "Popular Mix 15",
+    "tags": [
+      "trending",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 3957
+  },
+  {
+    "id": "trending-143",
+    "colors": [
+      "#35373B",
+      "#DCDCDD",
+      "#FFFFFC",
+      "#FFD900",
+      "#DFCEA1",
+      "#CC1C24"
+    ],
+    "name": "Color Story 15",
+    "tags": [
+      "trending",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 816
+  },
+  {
+    "id": "trending-144",
+    "colors": [
+      "#143601",
+      "#1A4301",
+      "#245501",
+      "#538D22",
+      "#73A942",
+      "#AAD576"
+    ],
+    "name": "Modern Blend 15",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 992
+  },
+  {
+    "id": "trending-145",
+    "colors": [
+      "#9FD356",
+      "#2A90EA",
+      "#1B4353",
+      "#D4C1C5",
+      "#FFC857"
+    ],
+    "name": "Creative Combo 15",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 4576
+  },
+  {
+    "id": "trending-146",
+    "colors": [
+      "#A41623",
+      "#F85E00",
+      "#FFB563",
+      "#FFD29D",
+      "#918450"
+    ],
+    "name": "Fresh Palette 15",
+    "tags": [
+      "trending",
+      "vibrant",
+      "warm",
+      "gradient"
+    ],
+    "likes": 4488
+  },
+  {
+    "id": "trending-147",
+    "colors": [
+      "#5D2A42",
+      "#FB6376",
+      "#FCB1A6",
+      "#FFDCCC",
+      "#FFF9EC"
+    ],
+    "name": "Stylish Hues 15",
+    "tags": [
+      "trending",
+      "light",
+      "vibrant",
+      "warm",
+      "gradient"
+    ],
+    "likes": 4734
+  },
+  {
+    "id": "trending-148",
+    "colors": [
+      "#0006BF",
+      "#FFFFFF",
+      "#6900CC",
+      "#F7FF23",
+      "#C90039"
+    ],
+    "name": "Design Palette 15",
+    "tags": [
+      "trending",
+      "vibrant",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 2762
+  },
+  {
+    "id": "trending-149",
+    "colors": [
+      "#FF715B",
+      "#1EA896",
+      "#4C5454",
+      "#FFFFFF",
+      "#523F38"
+    ],
+    "name": "Artistic Blend 15",
+    "tags": [
+      "trending",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 3347
+  },
+  {
+    "id": "trending-150",
+    "colors": [
+      "#4F000B",
+      "#720026",
+      "#CE4257",
+      "#FF7F51",
+      "#FF9B54"
+    ],
+    "name": "Visual Harmony 15",
+    "tags": [
+      "trending",
+      "vibrant",
+      "warm",
+      "gradient"
+    ],
+    "likes": 3166
+  },
+  {
+    "id": "trending-151",
+    "colors": [
+      "#FFA69E",
+      "#FAF3DD",
+      "#B8F2E6",
+      "#AED9E0",
+      "#5E6472"
+    ],
+    "name": "Trending Palette 16",
+    "tags": [
+      "trending",
+      "light",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 2953
+  },
+  {
+    "id": "trending-152",
+    "colors": [
+      "#0B3954",
+      "#087E8B",
+      "#BFD7EA",
+      "#FF5A5F",
+      "#C81D25"
+    ],
+    "name": "Popular Mix 16",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 3657
+  },
+  {
+    "id": "trending-153",
+    "colors": [
+      "#FE938C",
+      "#E6B89C",
+      "#EAD2AC",
+      "#9CAFB7",
+      "#4281A4"
+    ],
+    "name": "Color Story 16",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 3180
+  },
+  {
+    "id": "trending-154",
+    "colors": [
+      "#133C55",
+      "#386FA4",
+      "#59A5D8",
+      "#84D2F6",
+      "#91E5F6"
+    ],
+    "name": "Modern Blend 16",
+    "tags": [
+      "trending",
+      "cool",
+      "gradient"
+    ],
+    "likes": 500
+  },
+  {
+    "id": "trending-155",
+    "colors": [
+      "#2B2D42",
+      "#8D99AE",
+      "#EDF2F4",
+      "#EF233C",
+      "#D90429"
+    ],
+    "name": "Creative Combo 16",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 4507
+  },
+  {
+    "id": "trending-156",
+    "colors": [
+      "#780116",
+      "#F7B538",
+      "#DB7C26",
+      "#D8572A",
+      "#C32F27"
+    ],
+    "name": "Fresh Palette 16",
+    "tags": [
+      "trending",
+      "vibrant",
+      "warm",
+      "gradient"
+    ],
+    "likes": 4009
+  },
+  {
+    "id": "trending-157",
+    "colors": [
+      "#0D0A0B",
+      "#454955",
+      "#F3EFF5",
+      "#72B01D",
+      "#3F7D20"
+    ],
+    "name": "Stylish Hues 16",
+    "tags": [
+      "trending",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 3904
+  },
+  {
+    "id": "trending-158",
+    "colors": [
+      "#0D1321",
+      "#1D2D44",
+      "#3E5C76",
+      "#748CAB",
+      "#F0EBD8"
+    ],
+    "name": "Design Palette 16",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 1184
+  },
+  {
+    "id": "trending-159",
+    "colors": [
+      "#FFFFFA",
+      "#0D5C63",
+      "#44A1A0",
+      "#78CDD7",
+      "#247B7B"
+    ],
+    "name": "Artistic Blend 16",
+    "tags": [
+      "trending",
+      "cool",
+      "gradient"
+    ],
+    "likes": 3796
+  },
+  {
+    "id": "trending-160",
+    "colors": [
+      "#F1DAC4",
+      "#A69CAC",
+      "#474973",
+      "#161B33",
+      "#0D0C1D"
+    ],
+    "name": "Visual Harmony 16",
+    "tags": [
+      "trending",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 2995
+  },
+  {
+    "id": "trending-161",
+    "colors": [
+      "#493843",
+      "#61988E",
+      "#A0B2A6",
+      "#CBBFBB",
+      "#EABDA8"
+    ],
+    "name": "Trending Palette 17",
+    "tags": [
+      "trending",
+      "muted",
+      "warm",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 2244
+  },
+  {
+    "id": "trending-162",
+    "colors": [
+      "#C0BCB5",
+      "#4A6C6F",
+      "#846075",
+      "#AF5D63",
+      "#ED474A"
+    ],
+    "name": "Popular Mix 17",
+    "tags": [
+      "trending",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 962
+  },
+  {
+    "id": "trending-163",
+    "colors": [
+      "#BAF2BB",
+      "#BAF2D8",
+      "#BAD7F2",
+      "#F2BAC9",
+      "#F2E2BA"
+    ],
+    "name": "Color Story 17",
+    "tags": [
+      "trending",
+      "light",
+      "gradient"
+    ],
+    "likes": 2126
+  },
+  {
+    "id": "trending-164",
+    "colors": [
+      "#EFC7C2",
+      "#FFE5D4",
+      "#BFD3C1",
+      "#68A691",
+      "#694F5D"
+    ],
+    "name": "Modern Blend 17",
+    "tags": [
+      "trending",
+      "warm",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 589
+  },
+  {
+    "id": "trending-165",
+    "colors": [
+      "#808D8E",
+      "#766C7F",
+      "#947EB0",
+      "#A3A5C3",
+      "#A9D2D5"
+    ],
+    "name": "Creative Combo 17",
+    "tags": [
+      "trending",
+      "muted",
+      "cool",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 2053
+  },
+  {
+    "id": "trending-166",
+    "colors": [
+      "#C9CBA3",
+      "#FFE1A8",
+      "#E26D5C",
+      "#723D46",
+      "#472D30"
+    ],
+    "name": "Fresh Palette 17",
+    "tags": [
+      "trending",
+      "warm",
+      "gradient"
+    ],
+    "likes": 2339
+  },
+  {
+    "id": "trending-167",
+    "colors": [
+      "#DDD8C4",
+      "#A3C9A8",
+      "#84B59F",
+      "#69A297",
+      "#50808E"
+    ],
+    "name": "Stylish Hues 17",
+    "tags": [
+      "trending",
+      "muted",
+      "gradient"
+    ],
+    "likes": 1505
+  },
+  {
+    "id": "trending-168",
+    "colors": [
+      "#30343F",
+      "#FAFAFF",
+      "#E4D9FF",
+      "#273469",
+      "#1E2749"
+    ],
+    "name": "Design Palette 17",
+    "tags": [
+      "trending",
+      "cool",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 849
+  },
+  {
+    "id": "trending-169",
+    "colors": [
+      "#C4D6B0",
+      "#477998",
+      "#291F1E",
+      "#F64740",
+      "#A3333D"
+    ],
+    "name": "Artistic Blend 17",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 952
+  },
+  {
+    "id": "trending-170",
+    "colors": [
+      "#75F4F4",
+      "#90E0F3",
+      "#B8B3E9",
+      "#D999B9",
+      "#D17B88"
+    ],
+    "name": "Visual Harmony 17",
+    "tags": [
+      "trending",
+      "light",
+      "gradient"
+    ],
+    "likes": 2606
+  },
+  {
+    "id": "trending-171",
+    "colors": [
+      "#FAC9B8",
+      "#E5D4C0",
+      "#C5DECD",
+      "#A1E8CC",
+      "#495159"
+    ],
+    "name": "Trending Palette 18",
+    "tags": [
+      "trending",
+      "light",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 1496
+  },
+  {
+    "id": "trending-172",
+    "colors": [
+      "#C2A98A",
+      "#B39A7C",
+      "#A87F6A",
+      "#B38B59",
+      "#B68A5A"
+    ],
+    "name": "Popular Mix 18",
+    "tags": [
+      "trending",
+      "warm",
+      "gradient"
+    ],
+    "likes": 656
+  },
+  {
+    "id": "trending-173",
+    "colors": [
+      "#002D5D",
+      "#1D5582",
+      "#3A7DA6",
+      "#73C6E5",
+      "#8C4F2F",
+      "#B87333",
+      "#2F3437",
+      "#6B7280",
+      "#E6E4DF"
+    ],
+    "name": "Color Story 18",
+    "tags": [
+      "trending",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 2135
+  },
+  {
+    "id": "trending-174",
+    "colors": [
+      "#F26F5B",
+      "#FF7A5C",
+      "#E96A5A",
+      "#2FA4A9",
+      "#3AAFA9",
+      "#1F8A8A"
+    ],
+    "name": "Modern Blend 18",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 1338
+  },
+  {
+    "id": "trending-175",
+    "colors": [
+      "#F0E6D6",
+      "#52141F",
+      "#2F392C",
+      "#AA895F",
+      "#3C342A"
+    ],
+    "name": "Creative Combo 18",
+    "tags": [
+      "trending",
+      "warm",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 3288
+  },
+  {
+    "id": "trending-176",
+    "colors": [
+      "#8B4A5A",
+      "#9A5A6A",
+      "#A07A8A"
+    ],
+    "name": "Fresh Palette 18",
+    "tags": [
+      "trending",
+      "muted",
+      "warm"
+    ],
+    "likes": 4489
+  },
+  {
+    "id": "trending-177",
+    "colors": [
+      "#B97A7A",
+      "#8E5A5A",
+      "#A46A6A",
+      "#C07A6A",
+      "#C08A8A"
+    ],
+    "name": "Stylish Hues 18",
+    "tags": [
+      "trending",
+      "muted",
+      "warm",
+      "gradient"
+    ],
+    "likes": 2758
+  },
+  {
+    "id": "trending-178",
+    "colors": [
+      "#2FBF71",
+      "#FC0385",
+      "#FBCC62",
+      "#3A0A7E",
+      "#00B5D4",
+      "#280662"
+    ],
+    "name": "Design Palette 18",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 646
+  },
+  {
+    "id": "trending-179",
+    "colors": [
+      "#816759",
+      "#C3B6A2",
+      "#B09783",
+      "#4B3D32",
+      "#36302D"
+    ],
+    "name": "Artistic Blend 18",
+    "tags": [
+      "trending",
+      "muted",
+      "warm",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 1134
+  },
+  {
+    "id": "trending-180",
+    "colors": [
+      "#781B29",
+      "#951D23",
+      "#AB2836"
+    ],
+    "name": "Visual Harmony 18",
+    "tags": [
+      "trending",
+      "warm"
+    ],
+    "likes": 3291
+  },
+  {
+    "id": "trending-181",
+    "colors": [
+      "#EB6025",
+      "#FEC746",
+      "#20A8B9"
+    ],
+    "name": "Trending Palette 19",
+    "tags": [
+      "trending",
+      "vibrant"
+    ],
+    "likes": 4894
+  },
+  {
+    "id": "trending-182",
+    "colors": [
+      "#C9A227",
+      "#B68B5C",
+      "#9A5A3A",
+      "#8B7E6A",
+      "#B87333"
+    ],
+    "name": "Popular Mix 19",
+    "tags": [
+      "trending",
+      "warm",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 4274
+  },
+  {
+    "id": "trending-183",
+    "colors": [
+      "#EDE8D4",
+      "#E95807",
+      "#B874AD",
+      "#48A33A",
+      "#75A2B9",
+      "#063954",
+      "#A1865B",
+      "#392606"
+    ],
+    "name": "Color Story 19",
+    "tags": [
+      "trending",
+      "gradient"
+    ],
+    "likes": 2294
+  },
+  {
+    "id": "trending-184",
+    "colors": [
+      "#E3ECF0",
+      "#A5C0CB",
+      "#6A93A5",
+      "#3B6C7F",
+      "#133846"
+    ],
+    "name": "Modern Blend 19",
+    "tags": [
+      "trending",
+      "cool",
+      "gradient"
+    ],
+    "likes": 3259
+  },
+  {
+    "id": "trending-185",
+    "colors": [
+      "#E77E61",
+      "#A47351",
+      "#D590B6",
+      "#F28D9D",
+      "#B5A131",
+      "#9F9669"
+    ],
+    "name": "Creative Combo 19",
+    "tags": [
+      "trending",
+      "warm",
+      "gradient"
+    ],
+    "likes": 1753
+  },
+  {
+    "id": "trending-186",
+    "colors": [
+      "#250404",
+      "#440204",
+      "#85050B",
+      "#71190D",
+      "#8F3000",
+      "#C25A2A",
+      "#AD8064",
+      "#637247",
+      "#2C321F"
+    ],
+    "name": "Fresh Palette 19",
+    "tags": [
+      "trending",
+      "dark",
+      "warm",
+      "gradient"
+    ],
+    "likes": 1578
+  },
+  {
+    "id": "trending-187",
+    "colors": [
+      "#7D5442",
+      "#E4B089",
+      "#B4857B",
+      "#846960",
+      "#31262E"
+    ],
+    "name": "Stylish Hues 19",
+    "tags": [
+      "trending",
+      "muted",
+      "warm",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 1660
+  },
+  {
+    "id": "trending-188",
+    "colors": [
+      "#A3834A",
+      "#67533B",
+      "#582514",
+      "#573C35",
+      "#33241F"
+    ],
+    "name": "Design Palette 19",
+    "tags": [
+      "trending",
+      "dark",
+      "warm",
+      "gradient"
+    ],
+    "likes": 3689
+  },
+  {
+    "id": "trending-189",
+    "colors": [
+      "#405A51",
+      "#8A543C",
+      "#43281F",
+      "#613D47",
+      "#1E141D"
+    ],
+    "name": "Artistic Blend 19",
+    "tags": [
+      "trending",
+      "dark",
+      "muted",
+      "warm",
+      "gradient"
+    ],
+    "likes": 1456
+  },
+  {
+    "id": "trending-190",
+    "colors": [
+      "#363333",
+      "#6F736E",
+      "#8C9690",
+      "#BBC4BE"
+    ],
+    "name": "Visual Harmony 19",
+    "tags": [
+      "trending",
+      "muted",
+      "warm",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 4419
+  },
+  {
+    "id": "trending-191",
+    "colors": [
+      "#532929",
+      "#726445",
+      "#A79E91",
+      "#685957",
+      "#2D2F38"
+    ],
+    "name": "Trending Palette 20",
+    "tags": [
+      "trending",
+      "muted",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 1271
+  },
+  {
+    "id": "trending-192",
+    "colors": [
+      "#8B6552",
+      "#B4916A",
+      "#979676",
+      "#6C6B60",
+      "#57564C"
+    ],
+    "name": "Popular Mix 20",
+    "tags": [
+      "trending",
+      "muted",
+      "warm",
+      "neutral",
+      "gradient"
+    ],
+    "likes": 4103
+  },
+  {
+    "id": "trending-193",
+    "colors": [
+      "#FF5E5B",
+      "#D8D8D8",
+      "#FFFFEA",
+      "#00CECB",
+      "#FFED66"
+    ],
+    "name": "Color Story 20",
+    "tags": [
+      "trending",
+      "light",
+      "vibrant",
+      "warm",
+      "neutral"
+    ],
+    "likes": 1477
+  },
+  {
+    "id": "trending-194",
+    "colors": [
+      "#0A2E36",
+      "#27FB6B",
+      "#14CC60",
+      "#036D19",
+      "#09A129"
+    ],
+    "name": "Modern Blend 20",
+    "tags": [
+      "trending",
+      "vibrant",
+      "cool",
+      "gradient"
+    ],
+    "likes": 2427
+  },
+  {
+    "id": "trending-195",
+    "colors": [
+      "#D81159",
+      "#8F2D56",
+      "#218380",
+      "#FBB13C",
+      "#73D2DE"
+    ],
+    "name": "Creative Combo 20",
+    "tags": [
+      "trending",
+      "vibrant",
+      "gradient"
+    ],
+    "likes": 3102
+  }
+]

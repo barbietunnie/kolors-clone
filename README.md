@@ -55,6 +55,15 @@ A fast, intuitive color palette generator inspired by [Coolors.co](https://coolo
 - **Quick Actions** - Copy HEX, view in Color Picker
 - **One-Click Details** - Link to full color information
 
+### Trending Palettes (`/trending`)
+- **195 Trending Palettes** - Scraped from Coolors.co using Playwright
+- **Real-time Data** - Popular palettes loved by designers worldwide
+- **Filter by Color** - Red, Orange, Yellow, Green, Blue, Purple, Pink, Gray
+- **Filter by Style** - Light, Dark, Vibrant, Muted, Warm, Cool, Neutral, Gradient
+- **Search** - By name, tags, or HEX colors
+- **Sort** - Popular, Newest, Random
+- **Auto-Refresh** - Re-run the scraper to get latest trending palettes
+
 ### Explore Palettes (`/palettes`)
 - **Curated Collection** - 28 hand-picked palettes
 - **Filter by Color** - Red, Orange, Yellow, Green, Blue, Purple, Pink, Gray
@@ -136,6 +145,7 @@ src/
 │   ├── colors/            # Color library browser
 │   ├── gradients/         # Gradient library browser
 │   ├── palettes/          # Browse palettes
+│   ├── trending/          # Trending palettes from Coolors.co
 │   └── gradient-maker/    # Gradient creator
 ├── components/
 │   ├── ui/                # Reusable UI components
@@ -157,7 +167,9 @@ src/
 ├── hooks/                 # Custom React hooks
 ├── store/                 # Zustand state management
 ├── types/                 # TypeScript type definitions
-└── data/                  # Static data (seed palettes)
+└── data/                  # Static data (seed palettes, trending)
+scripts/
+└── scrape-trending-palettes.py  # Playwright scraper for Coolors.co
 ```
 
 ## Keyboard Shortcuts
@@ -196,8 +208,25 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 MIT License - feel free to use this project for personal or commercial purposes.
 
+## Updating Trending Palettes
+
+The trending palettes are scraped from Coolors.co using Playwright. To refresh the data:
+
+```bash
+# Run the Playwright scraper (requires Python + Playwright)
+python3 scripts/scrape-trending-palettes.py
+```
+
+This will:
+1. Open Coolors.co trending palettes page
+2. Scroll to load all palettes
+3. Extract color data from each palette
+4. Generate metadata (names, tags, likes)
+5. Save to `src/data/trending-palettes.json`
+
 ## Acknowledgments
 
 - Inspired by [Coolors.co](https://coolors.co)
+- Trending palettes data sourced from [Coolors.co](https://coolors.co/palettes/trending)
 - Color science from [chroma.js](https://gka.github.io/chroma.js/)
 - Icons from [Heroicons](https://heroicons.com/)
