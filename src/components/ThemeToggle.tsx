@@ -7,10 +7,10 @@ export function ThemeToggle() {
   const setMode = useThemeStore((state) => state.setMode);
 
   const cycleTheme = () => {
-    const themes: ('light' | 'dark' | 'system')[] = ['light', 'dark', 'system'];
-    const currentIndex = themes.indexOf(mode);
-    const nextIndex = (currentIndex + 1) % themes.length;
-    setMode(themes[nextIndex]);
+    const modes: ('light' | 'dark' | 'system')[] = ['light', 'dark', 'system'];
+    const currentIndex = modes.indexOf(mode);
+    const nextIndex = (currentIndex + 1) % modes.length;
+    setMode(modes[nextIndex]);
   };
 
   return (

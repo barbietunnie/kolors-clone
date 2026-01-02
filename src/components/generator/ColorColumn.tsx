@@ -56,11 +56,15 @@ export function ColorColumn({
   return (
     <motion.div
       layout
-      initial={{ opacity: 0, scale: 0.9 }}
-      animate={{ opacity: 1, scale: 1 }}
-      exit={{ opacity: 0, scale: 0.9 }}
-      transition={{ duration: 0.2 }}
-      className="relative flex-1 h-full flex flex-col items-center justify-center cursor-grab active:cursor-grabbing"
+      initial={{ opacity: 0, flex: 0 }}
+      animate={{ opacity: 1, flex: 1 }}
+      exit={{ opacity: 0, flex: 0 }}
+      transition={{
+        layout: { duration: 0.2, ease: 'easeInOut' },
+        opacity: { duration: 0.15 },
+        flex: { duration: 0.2 }
+      }}
+      className="relative h-full flex flex-col items-center justify-center cursor-grab active:cursor-grabbing transition-colors duration-150 ease-out"
       style={{ backgroundColor: color.hex }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -120,7 +124,7 @@ export function ColorColumn({
         className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2"
       >
         {/* Lock button */}
-        <Tooltip content={color.isLocked ? 'Unlock (L)' : 'Lock (L)'}>
+        <Tooltip content={color.isLocked ? 'Unlock' : 'Lock'} shortcut="L">
           <button
             onClick={onToggleLock}
             className={`p-2 rounded-lg ${buttonHoverBg} transition-colors ${iconColor}`}
@@ -138,7 +142,7 @@ export function ColorColumn({
         </Tooltip>
 
         {/* Copy button */}
-        <Tooltip content="Copy HEX (C)">
+        <Tooltip content="Copy HEX" shortcut="C">
           <button
             onClick={handleCopy}
             className={`p-2 rounded-lg ${buttonHoverBg} transition-colors ${iconColor}`}

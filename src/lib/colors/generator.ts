@@ -129,6 +129,7 @@ export function generateSplitComplementaryPalette(baseHue: number, count = 5): C
 
 /**
  * Regenerate colors in a palette, keeping locked colors
+ * Preserves color IDs for smooth CSS transitions
  */
 export function regeneratePalette(currentColors: Color[]): Color[] {
   // Get indices of locked colors
@@ -136,14 +137,22 @@ export function regeneratePalette(currentColors: Color[]): Color[] {
     .map((c, i) => (c.isLocked ? i : -1))
     .filter(i => i !== -1);
 
-  // If no colors are locked, generate a completely new harmonious palette
-  if (lockedIndices.length === 0) {
-    return generateHarmoniousPalette(currentColors.length);
-  }
-
   // If all colors are locked, return current colors
   if (lockedIndices.length === currentColors.length) {
     return currentColors;
+  }
+
+  // If no colors are locked, generate new colors but preserve IDs for smooth transitions
+  if (lockedIndices.length === 0) {
+    const baseHue = Math.random() * 360;
+    const scheme = Math.floor(Math.random() * 4);
+
+    return currentColors.map((color, index) => {
+      const newHex = generateHarmoniousColor(baseHue, scheme, index, currentColors.length);
+      // Preserve the original ID for smooth CSS transitions
+      const newColor = createColorFromHex(newHex);
+      return { ...newColor, id: color.id };
+    });
   }
 
   // Generate new colors for unlocked positions
@@ -151,7 +160,7 @@ export function regeneratePalette(currentColors: Color[]): Color[] {
   const lockedColors = lockedIndices.map(i => currentColors[i]);
   const avgHue = lockedColors.reduce((sum, c) => sum + c.hsl.h, 0) / lockedColors.length;
 
-  return currentColors.map((color, index) => {
+  return currentColors.map((color) => {
     if (color.isLocked) {
       return color;
     }
@@ -163,8 +172,45 @@ export function regeneratePalette(currentColors: Color[]): Color[] {
     const lightness = 0.35 + Math.random() * 0.4;
     const hex = chroma.hsl(newHue, saturation, lightness).hex().toUpperCase();
 
-    return createColorFromHex(hex);
+    // Preserve the original ID for smooth CSS transitions
+    const newColor = createColorFromHex(hex);
+    return { ...newColor, id: color.id };
   });
+}
+
+/**
+ * Generate a single harmonious color based on scheme
+ */
+function generateHarmoniousColor(baseHue: number, scheme: number, index: number, count: number): string {
+  let hue: number;
+
+  switch (scheme) {
+    case 0: // Analogous
+      const hueStep = 30;
+      const startHue = baseHue - ((count - 1) / 2) * hueStep;
+      hue = (startHue + index * hueStep + 360) % 360;
+      break;
+    case 1: // Complementary
+      const complementHue = (baseHue + 180) % 360;
+      hue = index % 2 === 0
+        ? (baseHue + (Math.random() - 0.5) * 20 + 360) % 360
+        : (complementHue + (Math.random() - 0.5) * 20 + 360) % 360;
+      break;
+    case 2: // Triadic
+      const triadicHues = [baseHue, (baseHue + 120) % 360, (baseHue + 240) % 360];
+      hue = triadicHues[index % 3] + (Math.random() - 0.5) * 15;
+      break;
+    case 3: // Split-complementary
+      const splitHues = [baseHue, (baseHue + 150) % 360, (baseHue + 210) % 360];
+      hue = splitHues[index % 3] + (Math.random() - 0.5) * 15;
+      break;
+    default:
+      hue = Math.random() * 360;
+  }
+
+  const saturation = 0.5 + Math.random() * 0.4;
+  const lightness = 0.35 + Math.random() * 0.4;
+  return chroma.hsl(hue, saturation, lightness).hex().toUpperCase();
 }
 
 /**

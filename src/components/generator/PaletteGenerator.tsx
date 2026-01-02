@@ -14,6 +14,7 @@ import { ExportModal } from './ExportModal';
 import { ShareModal } from './ShareModal';
 import { FavoritesPanel } from './FavoritesPanel';
 import { HistoryPanel } from './HistoryPanel';
+import { KeyboardShortcutsHelp } from '@/components/ui/KeyboardShortcutsHelp';
 
 interface PaletteGeneratorProps {
   initialColors?: string;
@@ -177,8 +178,8 @@ export function PaletteGenerator({ initialColors }: PaletteGeneratorProps) {
   return (
     <div className="h-screen flex flex-col">
       {/* Main palette area */}
-      <div className="flex-1 flex">
-        <AnimatePresence mode="popLayout">
+      <div className="flex-1 flex overflow-hidden">
+        <AnimatePresence mode="sync">
           {colors.map((color, index) => (
             <ColorColumn
               key={color.id}
@@ -243,6 +244,9 @@ export function PaletteGenerator({ initialColors }: PaletteGeneratorProps) {
         isOpen={showHistory}
         onClose={() => setShowHistory(false)}
       />
+
+      {/* Keyboard shortcuts help */}
+      <KeyboardShortcutsHelp />
     </div>
   );
 }

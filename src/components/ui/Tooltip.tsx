@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 interface TooltipProps {
@@ -8,6 +8,7 @@ interface TooltipProps {
   children: React.ReactNode;
   position?: 'top' | 'bottom' | 'left' | 'right';
   delay?: number;
+  shortcut?: string;
 }
 
 export function Tooltip({
@@ -15,22 +16,23 @@ export function Tooltip({
   children,
   position = 'top',
   delay = 200,
+  shortcut,
 }: TooltipProps) {
   const [isVisible, setIsVisible] = useState(false);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
-  const handleMouseEnter = () => {
+  const show = useCallback(() => {
     timeoutRef.current = setTimeout(() => {
       setIsVisible(true);
     }, delay);
-  };
+  }, [delay]);
 
-  const handleMouseLeave = () => {
+  const hide = useCallback(() => {
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current);
     }
     setIsVisible(false);
-  };
+  }, []);
 
   useEffect(() => {
     return () => {
@@ -50,8 +52,10 @@ export function Tooltip({
   return (
     <div
       className="relative inline-flex"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
+      onMouseEnter={show}
+      onMouseLeave={hide}
+      onFocus={show}
+      onBlur={hide}
     >
       {children}
       <AnimatePresence>
@@ -61,9 +65,15 @@ export function Tooltip({
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.95 }}
             transition={{ duration: 0.1 }}
-            className={`absolute ${positionClasses[position]} z-50 px-2 py-1 text-xs font-medium text-white bg-gray-900 rounded shadow-lg whitespace-nowrap pointer-events-none`}
+            role="tooltip"
+            className={`absolute ${positionClasses[position]} z-50 px-2.5 py-1.5 text-xs font-medium text-white bg-gray-900 dark:bg-gray-100 dark:text-gray-900 rounded-lg shadow-lg whitespace-nowrap pointer-events-none flex items-center gap-2`}
           >
-            {content}
+            <span>{content}</span>
+            {shortcut && (
+              <kbd className="inline-flex items-center px-1.5 py-0.5 text-[10px] font-medium bg-gray-700 dark:bg-gray-300 rounded">
+                {shortcut}
+              </kbd>
+            )}
           </motion.div>
         )}
       </AnimatePresence>
