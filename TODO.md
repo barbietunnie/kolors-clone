@@ -2,24 +2,6 @@
 
 ## Pending Features
 
-### Medium Priority
-
-- [ ] **Local Storage**
-  - [ ] Save favorite palettes
-  - [ ] Recently viewed palettes history
-  - [ ] User preferences (default palette size, etc.)
-
-- [ ] **More Export Formats**
-  - [ ] PDF export with color info
-  - [ ] ASE (Adobe Swatch Exchange) format
-  - [ ] PNG image of palette
-  - [ ] SVG palette graphic
-
-- [ ] **Share Features**
-  - [ ] Copy shareable link
-  - [ ] Social media sharing (Twitter, Pinterest)
-  - [ ] Embed code generation
-
 ### Low Priority
 
 - [ ] **Mobile Responsiveness** (Improvements)
@@ -101,3 +83,22 @@
 - [x] Export as PNG
 - [x] Export as SVG
 - [x] Adjustable spacing and border radius
+
+### Local Storage
+- [x] Save favorite palettes with localStorage persistence
+- [x] Palette generation history with localStorage persistence
+- [x] User preferences store (color format, export format, auto-save)
+- [x] Favorites panel with rename and remove actions
+- [x] History panel with quick access to recent palettes
+
+### Export Formats
+- [x] PDF export with color swatches
+- [x] ASE (Adobe Swatch Exchange) format for Photoshop/Illustrator
+- [x] PNG image export of palette
+- [x] SVG vector graphic export
+
+### Share Features
+- [x] Copy shareable link
+- [x] Social media sharing (X/Twitter, Facebook, Pinterest)
+- [x] HTML embed code generation
+- [x] iFrame embed code with size options
