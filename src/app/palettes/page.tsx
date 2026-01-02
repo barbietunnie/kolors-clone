@@ -1,9 +1,9 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import Link from 'next/link';
-import { seedPalettes, allTags, colorFilters, type SeedPalette } from '@/data/palettes';
+import { seedPalettes, allTags, colorFilters } from '@/data/palettes';
 import { PaletteCard } from '@/components/palettes/PaletteCard';
+import { Header } from '@/components/ui/Header';
 import chroma from 'chroma-js';
 
 type SortOption = 'popular' | 'newest' | 'random';
@@ -79,46 +79,25 @@ export default function PalettesPage() {
   const hasActiveFilters = search || selectedTags.length > 0 || selectedColor;
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="text-2xl font-bold text-gray-900">
-            Kolors
-          </Link>
-          <nav className="flex items-center gap-6">
-            <Link href="/generate" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Generate
-            </Link>
-            <Link href="/color-picker" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Color Picker
-            </Link>
-            <Link href="/contrast-checker" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Contrast Checker
-            </Link>
-            <Link href="/palettes" className="text-gray-900 font-medium">
-              Explore
-            </Link>
-          </nav>
-        </div>
-      </header>
+    <div className="min-h-screen bg-background">
+      <Header />
 
       <div className="max-w-7xl mx-auto px-6 py-12">
         {/* Page header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Explore Palettes</h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <h1 className="text-4xl font-bold text-foreground mb-4">Explore Palettes</h1>
+          <p className="text-lg text-muted max-w-2xl mx-auto">
             Browse our curated collection of color palettes. Find inspiration for your next project.
           </p>
         </div>
 
         {/* Search and filters */}
-        <div className="bg-white rounded-xl border border-gray-200 p-6 mb-8">
+        <div className="bg-card-bg rounded-xl border border-card-border p-6 mb-8">
           {/* Search bar */}
-          <div className="flex items-center gap-4 mb-6">
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mb-6">
             <div className="flex-1 relative">
               <svg
-                className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400"
+                className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -135,7 +114,7 @@ export default function PalettesPage() {
                 placeholder="Search palettes, tags, or colors..."
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                className="w-full pl-12 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-900"
+                className="w-full pl-12 pr-4 py-3 border border-card-border rounded-lg focus:outline-none focus:ring-2 focus:ring-foreground bg-background text-foreground"
               />
             </div>
 
@@ -143,7 +122,7 @@ export default function PalettesPage() {
             <select
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value as SortOption)}
-              className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-900 bg-white"
+              className="px-4 py-3 border border-card-border rounded-lg focus:outline-none focus:ring-2 focus:ring-foreground bg-background text-foreground"
             >
               <option value="popular">Most Popular</option>
               <option value="newest">Newest</option>
@@ -153,7 +132,7 @@ export default function PalettesPage() {
 
           {/* Color filters */}
           <div className="mb-4">
-            <p className="text-sm font-medium text-gray-700 mb-2">Filter by color</p>
+            <p className="text-sm font-medium text-foreground mb-2">Filter by color</p>
             <div className="flex flex-wrap gap-2">
               {colorFilters.map((color) => (
                 <button
@@ -163,7 +142,7 @@ export default function PalettesPage() {
                   }
                   className={`w-8 h-8 rounded-full border-2 transition-transform hover:scale-110 ${
                     selectedColor === color.hex
-                      ? 'border-gray-900 scale-110'
+                      ? 'border-foreground scale-110'
                       : 'border-transparent'
                   }`}
                   style={{ backgroundColor: color.hex }}
@@ -175,7 +154,7 @@ export default function PalettesPage() {
 
           {/* Tag filters */}
           <div>
-            <p className="text-sm font-medium text-gray-700 mb-2">Filter by style</p>
+            <p className="text-sm font-medium text-foreground mb-2">Filter by style</p>
             <div className="flex flex-wrap gap-2">
               {allTags.map((tag) => (
                 <button
@@ -183,8 +162,8 @@ export default function PalettesPage() {
                   onClick={() => toggleTag(tag)}
                   className={`px-3 py-1.5 text-sm font-medium rounded-full transition-colors ${
                     selectedTags.includes(tag)
-                      ? 'bg-gray-900 text-white'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                      ? 'bg-foreground text-background'
+                      : 'bg-muted-bg text-foreground hover:bg-card-border'
                   }`}
                 >
                   {tag}
@@ -197,7 +176,7 @@ export default function PalettesPage() {
           {hasActiveFilters && (
             <button
               onClick={clearFilters}
-              className="mt-4 text-sm text-gray-600 hover:text-gray-900 underline"
+              className="mt-4 text-sm text-muted hover:text-foreground underline"
             >
               Clear all filters
             </button>
@@ -205,7 +184,7 @@ export default function PalettesPage() {
         </div>
 
         {/* Results count */}
-        <p className="text-sm text-gray-600 mb-6">
+        <p className="text-sm text-muted mb-6">
           Showing {filteredPalettes.length} palette{filteredPalettes.length !== 1 ? 's' : ''}
         </p>
 
@@ -219,7 +198,7 @@ export default function PalettesPage() {
         ) : (
           <div className="text-center py-16">
             <svg
-              className="w-16 h-16 text-gray-300 mx-auto mb-4"
+              className="w-16 h-16 text-muted mx-auto mb-4"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -231,8 +210,8 @@ export default function PalettesPage() {
                 d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
               />
             </svg>
-            <h3 className="text-lg font-medium text-gray-900 mb-2">No palettes found</h3>
-            <p className="text-gray-600">Try adjusting your filters or search terms.</p>
+            <h3 className="text-lg font-medium text-foreground mb-2">No palettes found</h3>
+            <p className="text-muted">Try adjusting your filters or search terms.</p>
           </div>
         )}
       </div>
