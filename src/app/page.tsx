@@ -3,39 +3,6 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Header */}
-      <header className="flex items-center justify-between px-6 py-4 border-b border-gray-200">
-        <Link href="/" className="text-2xl font-bold text-gray-900">
-          Kolors
-        </Link>
-        <nav className="flex items-center gap-6">
-          <Link
-            href="/generate"
-            className="text-gray-600 hover:text-gray-900 transition-colors"
-          >
-            Generate
-          </Link>
-          <Link
-            href="/image-picker"
-            className="text-gray-600 hover:text-gray-900 transition-colors"
-          >
-            Image Picker
-          </Link>
-          <Link
-            href="/visualizer"
-            className="text-gray-600 hover:text-gray-900 transition-colors"
-          >
-            Visualizer
-          </Link>
-          <Link
-            href="/palettes"
-            className="text-gray-600 hover:text-gray-900 transition-colors"
-          >
-            Explore
-          </Link>
-        </nav>
-      </header>
-
       {/* Hero */}
       <main className="flex-1 flex flex-col items-center justify-center px-6 text-center">
         <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">

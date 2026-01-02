@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import Link from 'next/link';
 import { seedPalettes, allTags, colorFilters, type SeedPalette } from '@/data/palettes';
 import { PaletteCard } from '@/components/palettes/PaletteCard';
 import chroma from 'chroma-js';
@@ -80,29 +79,6 @@ export default function PalettesPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="text-2xl font-bold text-gray-900">
-            Kolors
-          </Link>
-          <nav className="flex items-center gap-6">
-            <Link href="/generate" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Generate
-            </Link>
-            <Link href="/color-picker" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Color Picker
-            </Link>
-            <Link href="/contrast-checker" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Contrast Checker
-            </Link>
-            <Link href="/palettes" className="text-gray-900 font-medium">
-              Explore
-            </Link>
-          </nav>
-        </div>
-      </header>
-
       <div className="max-w-7xl mx-auto px-6 py-12">
         {/* Page header */}
         <div className="text-center mb-12">
