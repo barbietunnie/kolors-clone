@@ -10,6 +10,7 @@ import { ColorHarmonies } from '@/components/color-picker/ColorHarmonies';
 import { ColorVariations } from '@/components/color-picker/ColorVariations';
 import { BlindnessSimulator } from '@/components/color-picker/BlindnessSimulator';
 import { QuickContrast } from '@/components/color-picker/QuickContrast';
+import { Header } from '@/components/ui/Header';
 
 function ColorPickerContent() {
   const searchParams = useSearchParams();
@@ -52,7 +53,9 @@ function ColorPickerContent() {
   const textColor = getContrastingTextColor(color);
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-background">
+      <Header />
+
       {/* Hero color section */}
       <div
         className="py-16 transition-colors duration-300"
@@ -61,7 +64,7 @@ function ColorPickerContent() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center gap-8">
             {/* Color picker */}
-            <div className="bg-white p-4 rounded-xl shadow-lg">
+            <div className="bg-card-bg p-4 rounded-xl shadow-lg">
               <HexColorPicker color={color} onChange={handlePickerChange} />
             </div>
 
@@ -81,7 +84,7 @@ function ColorPickerContent() {
               <p style={{ color: textColor }} className="text-lg opacity-80">
                 Click anywhere on the picker or enter a HEX value
               </p>
-              <div className="mt-6 flex gap-3">
+              <div className="mt-6 flex flex-wrap gap-3">
                 <Link
                   href={`/generate/${color.replace('#', '')}`}
                   className="px-6 py-3 bg-white/20 backdrop-blur rounded-full font-medium transition-colors hover:bg-white/30"
@@ -121,8 +124,8 @@ function ColorPickerContent() {
 export default function ColorPickerPage() {
   return (
     <Suspense fallback={
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900" />
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-foreground" />
       </div>
     }>
       <ColorPickerContent />

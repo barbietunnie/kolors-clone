@@ -2,72 +2,11 @@
 
 ## Pending Features
 
-### High Priority
-
-- [ ] **Image Picker** (`/image-picker`)
-  - [ ] Drag & drop image upload (react-dropzone already installed)
-  - [ ] Display uploaded image with canvas overlay
-  - [ ] Auto-extract dominant colors (5-10 colors) using median cut algorithm
-  - [ ] Manual color picker - click on image to sample colors
-  - [ ] Adjustable palette size slider (2-10 colors)
-  - [ ] "Open in Generator" button
-  - [ ] Support JPG, PNG, WebP (max 10MB)
-  - [ ] Consider using `color-thief-browser` or `quantize` library
-
-- [ ] **Palette Visualizer** (`/visualizer`)
-  - [ ] Template gallery with SVG mockups:
-    - [ ] Website landing page
-    - [ ] Mobile app UI
-    - [ ] Business card
-    - [ ] Social media post
-    - [ ] Logo template
-    - [ ] Dashboard UI
-  - [ ] Upload custom SVG option
-  - [ ] Apply palette to template (color replacement)
-  - [ ] Spacebar to shuffle palette colors
-  - [ ] Download recolored design (SVG/PNG)
-  - [ ] Color mapping UI
-
-### Medium Priority
-
-- [ ] **Local Storage**
-  - [ ] Save favorite palettes
-  - [ ] Recently viewed palettes history
-  - [ ] User preferences (default palette size, etc.)
-
-- [ ] **More Export Formats**
-  - [ ] PDF export with color info
-  - [ ] ASE (Adobe Swatch Exchange) format
-  - [ ] PNG image of palette
-  - [ ] SVG palette graphic
-
-- [ ] **Share Features**
-  - [ ] Copy shareable link
-  - [ ] Social media sharing (Twitter, Pinterest)
-  - [ ] Embed code generation
-
 ### Low Priority
 
-- [ ] **Dark Mode**
-  - [ ] App-wide dark theme toggle
-  - [ ] Persist preference
-  - [ ] Auto-detect system preference
-
-- [ ] **Mobile Responsiveness**
-  - [ ] Improve palette generator on mobile
+- [ ] **Mobile Responsiveness** (Improvements)
   - [ ] Touch-friendly color picker
   - [ ] Swipe gestures for color navigation
-
-- [ ] **Collage Maker**
-  - [ ] Create color collages
-  - [ ] Grid layouts (2x2, 3x3, custom)
-  - [ ] Export as image
-
-- [ ] **Color Libraries**
-  - [ ] Pantone color matching
-  - [ ] Material Design colors
-  - [ ] Tailwind CSS colors
-  - [ ] CSS named colors
 
 ## Bug Fixes
 
@@ -83,7 +22,6 @@
 
 ## UI/UX Improvements
 
-- [ ] Add Gradient Maker to main navigation on all pages
 - [ ] Loading skeletons for better perceived performance
 - [ ] Keyboard navigation improvements
 - [ ] Tooltip consistency across all tools
@@ -108,6 +46,10 @@
 - [x] Contrast Checker (`/contrast-checker`)
 - [x] Explore Palettes (`/palettes`)
 - [x] Gradient Maker (`/gradient-maker`)
+- [x] Image Picker (`/image-picker`)
+- [x] Palette Visualizer (`/visualizer`)
+- [x] Collage Maker (`/collage`)
+- [x] Color Libraries (`/color-libraries`)
 
 ### Core Features
 - [x] Color conversions (HEX, RGB, HSL, HSB, CMYK, LAB)
@@ -123,22 +65,40 @@
 - [x] URL-based palette sharing
 - [x] Curated palette collection with filters
 
----
+### UI/UX
+- [x] Dark Mode with system preference detection
+- [x] Persist theme preference
+- [x] Responsive header with mobile menu
+- [x] Gradient Maker in main navigation
 
-## Next Session Prompt
+### Color Libraries
+- [x] Material Design colors
+- [x] Tailwind CSS colors
+- [x] CSS named colors
+- [x] Color of the Year (Pantone-inspired)
 
-```
-Continue building the Kolors clone by implementing Image Picker and Palette Visualizer.
+### Collage Maker
+- [x] Create color collages
+- [x] Grid layouts (2x2, 3x3, 4x4, 2x3, 3x2, 1x4, 4x1)
+- [x] Export as PNG
+- [x] Export as SVG
+- [x] Adjustable spacing and border radius
 
-Project: /home/user/kolors-clone (Next.js 14, TypeScript, Tailwind, pnpm)
-Branch: claude/clone-coolors-app-UQK08
+### Local Storage
+- [x] Save favorite palettes with localStorage persistence
+- [x] Palette generation history with localStorage persistence
+- [x] User preferences store (color format, export format, auto-save)
+- [x] Favorites panel with rename and remove actions
+- [x] History panel with quick access to recent palettes
 
-Implemented: Palette Generator, Color Picker, Contrast Checker, Explore Palettes, Gradient Maker
-Libraries: chroma-js, react-colorful, framer-motion, zustand, react-dropzone
+### Export Formats
+- [x] PDF export with color swatches
+- [x] ASE (Adobe Swatch Exchange) format for Photoshop/Illustrator
+- [x] PNG image export of palette
+- [x] SVG vector graphic export
 
-Tasks:
-1. Image Picker (/image-picker) - Extract colors from uploaded images
-2. Palette Visualizer (/visualizer) - Preview palettes on SVG mockups
-
-Follow existing patterns, wrap useSearchParams in Suspense, test with pnpm build, commit and push.
-```
+### Share Features
+- [x] Copy shareable link
+- [x] Social media sharing (X/Twitter, Facebook, Pinterest)
+- [x] HTML embed code generation
+- [x] iFrame embed code with size options

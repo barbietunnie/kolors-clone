@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
 import chroma from 'chroma-js';
 import { useClipboard } from '@/hooks/useClipboard';
 import { getContrastingTextColor } from '@/lib/colors';
+import { Header } from '@/components/ui/Header';
 
 interface ColorStop {
   id: string;
@@ -117,11 +118,13 @@ export default function GradientMakerPage() {
   const activeStop = stops.find((s) => s.id === activeStopId);
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-background">
+      <Header />
+
       <div className="max-w-6xl mx-auto px-6 py-12">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Gradient Maker</h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <h1 className="text-4xl font-bold text-foreground mb-4">Gradient Maker</h1>
+          <p className="text-lg text-muted max-w-2xl mx-auto">
             Create beautiful CSS gradients with multiple color stops. Export as CSS or convert to a color palette.
           </p>
         </div>
@@ -137,13 +140,13 @@ export default function GradientMakerPage() {
             />
 
             {/* Color stops slider */}
-            <div className="bg-white rounded-xl border border-gray-200 p-6">
+            <div className="bg-card-bg rounded-xl border border-card-border p-6">
               <div className="flex items-center justify-between mb-4">
-                <h3 className="font-medium text-gray-900">Color Stops</h3>
+                <h3 className="font-medium text-foreground">Color Stops</h3>
                 <button
                   onClick={addStop}
                   disabled={stops.length >= 5}
-                  className="px-3 py-1.5 text-sm font-medium bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="px-3 py-1.5 text-sm font-medium bg-muted-bg text-foreground rounded-lg hover:bg-card-border transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   Add Stop
                 </button>
@@ -156,7 +159,7 @@ export default function GradientMakerPage() {
                     key={stop.id}
                     onClick={() => setActiveStopId(stop.id === activeStopId ? null : stop.id)}
                     className={`absolute top-1/2 -translate-y-1/2 w-5 h-5 rounded-full border-2 border-white shadow-md cursor-pointer transition-transform hover:scale-110 ${
-                      activeStopId === stop.id ? 'ring-2 ring-gray-900 scale-110' : ''
+                      activeStopId === stop.id ? 'ring-2 ring-foreground scale-110' : ''
                     }`}
                     style={{
                       left: `calc(${stop.position}% - 10px)`,
@@ -172,7 +175,7 @@ export default function GradientMakerPage() {
                   <div
                     key={stop.id}
                     className={`flex items-center gap-3 p-3 rounded-lg cursor-pointer transition-colors ${
-                      activeStopId === stop.id ? 'bg-gray-100' : 'hover:bg-gray-50'
+                      activeStopId === stop.id ? 'bg-muted-bg' : 'hover:bg-muted-bg/50'
                     }`}
                     onClick={() => setActiveStopId(stop.id === activeStopId ? null : stop.id)}
                   >
@@ -180,7 +183,7 @@ export default function GradientMakerPage() {
                       className="w-8 h-8 rounded-lg"
                       style={{ backgroundColor: stop.color }}
                     />
-                    <code className="text-sm font-mono text-gray-700 flex-1">
+                    <code className="text-sm font-mono text-muted flex-1">
                       {stop.color}
                     </code>
                     <input
@@ -194,7 +197,7 @@ export default function GradientMakerPage() {
                       onClick={(e) => e.stopPropagation()}
                       className="w-24"
                     />
-                    <span className="text-sm text-gray-500 w-12">
+                    <span className="text-sm text-muted w-12">
                       {stop.position}%
                     </span>
                     {stops.length > 2 && (
@@ -203,7 +206,7 @@ export default function GradientMakerPage() {
                           e.stopPropagation();
                           removeStop(stop.id);
                         }}
-                        className="p-1 text-gray-400 hover:text-red-500 transition-colors"
+                        className="p-1 text-muted hover:text-red-500 transition-colors"
                       >
                         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -216,7 +219,7 @@ export default function GradientMakerPage() {
 
               {/* Color picker for active stop */}
               {activeStop && (
-                <div className="mt-4 p-4 bg-gray-50 rounded-lg">
+                <div className="mt-4 p-4 bg-muted-bg rounded-lg">
                   <HexColorPicker
                     color={activeStop.color}
                     onChange={(color) =>
@@ -231,8 +234,8 @@ export default function GradientMakerPage() {
           {/* Controls */}
           <div className="space-y-6">
             {/* Gradient type and angle */}
-            <div className="bg-white rounded-xl border border-gray-200 p-6">
-              <h3 className="font-medium text-gray-900 mb-4">Gradient Type</h3>
+            <div className="bg-card-bg rounded-xl border border-card-border p-6">
+              <h3 className="font-medium text-foreground mb-4">Gradient Type</h3>
 
               <div className="flex gap-2 mb-6">
                 {(['linear', 'radial', 'conic'] as const).map((type) => (
@@ -241,8 +244,8 @@ export default function GradientMakerPage() {
                     onClick={() => setGradientType(type)}
                     className={`flex-1 py-2 px-4 text-sm font-medium rounded-lg transition-colors capitalize ${
                       gradientType === type
-                        ? 'bg-gray-900 text-white'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        ? 'bg-foreground text-background'
+                        : 'bg-muted-bg text-foreground hover:bg-card-border'
                     }`}
                   >
                     {type}
@@ -253,10 +256,10 @@ export default function GradientMakerPage() {
               {(gradientType === 'linear' || gradientType === 'conic') && (
                 <div>
                   <div className="flex items-center justify-between mb-2">
-                    <label className="text-sm font-medium text-gray-700">
+                    <label className="text-sm font-medium text-muted">
                       {gradientType === 'linear' ? 'Angle' : 'Start Angle'}
                     </label>
-                    <span className="text-sm text-gray-500">{angle}°</span>
+                    <span className="text-sm text-muted">{angle}°</span>
                   </div>
                   <input
                     type="range"
@@ -273,8 +276,8 @@ export default function GradientMakerPage() {
                         onClick={() => setAngle(a)}
                         className={`px-2 py-1 text-xs rounded ${
                           angle === a
-                            ? 'bg-gray-900 text-white'
-                            : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                            ? 'bg-foreground text-background'
+                            : 'bg-muted-bg text-muted hover:bg-card-border'
                         }`}
                       >
                         {a}°
@@ -286,12 +289,12 @@ export default function GradientMakerPage() {
             </div>
 
             {/* CSS Output */}
-            <div className="bg-white rounded-xl border border-gray-200 p-6">
+            <div className="bg-card-bg rounded-xl border border-card-border p-6">
               <div className="flex items-center justify-between mb-4">
-                <h3 className="font-medium text-gray-900">CSS Code</h3>
+                <h3 className="font-medium text-foreground">CSS Code</h3>
                 <button
                   onClick={() => copy(cssCode)}
-                  className="px-3 py-1.5 text-sm font-medium bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors"
+                  className="px-3 py-1.5 text-sm font-medium bg-muted-bg text-foreground rounded-lg hover:bg-card-border transition-colors"
                 >
                   {hasCopied ? 'Copied!' : 'Copy'}
                 </button>
@@ -302,12 +305,12 @@ export default function GradientMakerPage() {
             </div>
 
             {/* Actions */}
-            <div className="bg-white rounded-xl border border-gray-200 p-6">
-              <h3 className="font-medium text-gray-900 mb-4">Actions</h3>
+            <div className="bg-card-bg rounded-xl border border-card-border p-6">
+              <h3 className="font-medium text-foreground mb-4">Actions</h3>
               <div className="space-y-3">
                 <Link
                   href={generatePalette()}
-                  className="flex items-center justify-center gap-2 w-full py-3 bg-gray-900 text-white rounded-lg font-medium hover:bg-gray-800 transition-colors"
+                  className="flex items-center justify-center gap-2 w-full py-3 bg-foreground text-background rounded-lg font-medium hover:opacity-90 transition-opacity"
                 >
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
@@ -322,7 +325,7 @@ export default function GradientMakerPage() {
                     const svg = "<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'><defs><linearGradient id='g' x1='0%' y1='0%' x2='100%' y2='0%'>" + svgStops + "</linearGradient></defs><rect fill='url(#g)' width='100%' height='100%'/></svg>";
                     copy('url("data:image/svg+xml,' + encodeURIComponent(svg) + '")');
                   }}
-                  className="flex items-center justify-center gap-2 w-full py-3 bg-gray-100 text-gray-700 rounded-lg font-medium hover:bg-gray-200 transition-colors"
+                  className="flex items-center justify-center gap-2 w-full py-3 bg-muted-bg text-foreground rounded-lg font-medium hover:bg-card-border transition-colors"
                 >
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
@@ -333,8 +336,8 @@ export default function GradientMakerPage() {
             </div>
 
             {/* Presets */}
-            <div className="bg-white rounded-xl border border-gray-200 p-6">
-              <h3 className="font-medium text-gray-900 mb-4">Presets</h3>
+            <div className="bg-card-bg rounded-xl border border-card-border p-6">
+              <h3 className="font-medium text-foreground mb-4">Presets</h3>
               <div className="grid grid-cols-2 gap-3">
                 {presetGradients.map((preset, index) => (
                   <button

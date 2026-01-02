@@ -4,6 +4,7 @@ import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { HexColorPicker } from 'react-colorful';
 import { normalizeHex, checkContrast, getContrastRating, suggestAccessibleColor } from '@/lib/colors';
+import { Header } from '@/components/ui/Header';
 
 function ContrastCheckerContent() {
   const searchParams = useSearchParams();
@@ -94,10 +95,10 @@ function ContrastCheckerContent() {
   const PassFailBadge = ({ passes, label }: { passes: boolean; label: string }) => (
     <div
       className={`flex items-center justify-between p-4 rounded-lg ${
-        passes ? 'bg-green-50 border border-green-200' : 'bg-red-50 border border-red-200'
+        passes ? 'bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800' : 'bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800'
       }`}
     >
-      <span className="font-medium text-gray-900">{label}</span>
+      <span className="font-medium text-foreground">{label}</span>
       <span
         className={`px-3 py-1 rounded-full text-sm font-bold ${
           passes ? 'bg-green-500 text-white' : 'bg-red-500 text-white'
@@ -109,11 +110,13 @@ function ContrastCheckerContent() {
   );
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-background">
+      <Header />
+
       <div className="max-w-6xl mx-auto px-6 py-12">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Contrast Checker</h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <h1 className="text-4xl font-bold text-foreground mb-4">Contrast Checker</h1>
+          <p className="text-lg text-muted max-w-2xl mx-auto">
             Check the contrast ratio between text and background colors to ensure
             accessibility compliance with WCAG guidelines.
           </p>
@@ -121,28 +124,28 @@ function ContrastCheckerContent() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Color inputs */}
-          <div className="bg-white rounded-xl border border-gray-200 p-6">
-            <h2 className="text-lg font-semibold text-gray-900 mb-6">Colors</h2>
+          <div className="bg-card-bg rounded-xl border border-card-border p-6">
+            <h2 className="text-lg font-semibold text-foreground mb-6">Colors</h2>
 
             {/* Foreground color */}
             <div className="mb-6">
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-muted mb-2">
                 Text Color (Foreground)
               </label>
               <div className="flex items-center gap-3">
                 <button
                   onClick={() => setActiveColorPicker(activeColorPicker === 'fg' ? null : 'fg')}
-                  className="w-12 h-12 rounded-lg border-2 border-gray-300 cursor-pointer transition-transform hover:scale-105"
+                  className="w-12 h-12 rounded-lg border-2 border-card-border cursor-pointer transition-transform hover:scale-105"
                   style={{ backgroundColor: foreground }}
                 />
-                <div className="flex items-center bg-gray-100 rounded-lg px-3 py-2 flex-1">
-                  <span className="text-gray-500 font-mono">#</span>
+                <div className="flex items-center bg-muted-bg rounded-lg px-3 py-2 flex-1">
+                  <span className="text-muted font-mono">#</span>
                   <input
                     type="text"
                     value={fgInput}
                     onChange={(e) => handleFgChange(e.target.value.toUpperCase())}
                     maxLength={6}
-                    className="bg-transparent border-none outline-none font-mono uppercase flex-1 ml-1"
+                    className="bg-transparent border-none outline-none font-mono uppercase flex-1 ml-1 text-foreground"
                   />
                 </div>
               </div>
@@ -157,10 +160,10 @@ function ContrastCheckerContent() {
             <div className="flex justify-center my-4">
               <button
                 onClick={swapColors}
-                className="p-3 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
+                className="p-3 bg-muted-bg rounded-full hover:bg-card-border transition-colors"
                 title="Swap colors"
               >
-                <svg className="w-5 h-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="w-5 h-5 text-muted" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
                 </svg>
               </button>
@@ -168,23 +171,23 @@ function ContrastCheckerContent() {
 
             {/* Background color */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-muted mb-2">
                 Background Color
               </label>
               <div className="flex items-center gap-3">
                 <button
                   onClick={() => setActiveColorPicker(activeColorPicker === 'bg' ? null : 'bg')}
-                  className="w-12 h-12 rounded-lg border-2 border-gray-300 cursor-pointer transition-transform hover:scale-105"
+                  className="w-12 h-12 rounded-lg border-2 border-card-border cursor-pointer transition-transform hover:scale-105"
                   style={{ backgroundColor: background }}
                 />
-                <div className="flex items-center bg-gray-100 rounded-lg px-3 py-2 flex-1">
-                  <span className="text-gray-500 font-mono">#</span>
+                <div className="flex items-center bg-muted-bg rounded-lg px-3 py-2 flex-1">
+                  <span className="text-muted font-mono">#</span>
                   <input
                     type="text"
                     value={bgInput}
                     onChange={(e) => handleBgChange(e.target.value.toUpperCase())}
                     maxLength={6}
-                    className="bg-transparent border-none outline-none font-mono uppercase flex-1 ml-1"
+                    className="bg-transparent border-none outline-none font-mono uppercase flex-1 ml-1 text-foreground"
                   />
                 </div>
               </div>
@@ -209,18 +212,18 @@ function ContrastCheckerContent() {
           {/* Results */}
           <div className="space-y-6">
             {/* Contrast ratio */}
-            <div className="bg-white rounded-xl border border-gray-200 p-6 text-center">
-              <p className="text-sm text-gray-500 mb-2">Contrast Ratio</p>
-              <p className="text-6xl font-bold text-gray-900">{contrast.ratio}</p>
-              <p className="text-2xl text-gray-400">:1</p>
+            <div className="bg-card-bg rounded-xl border border-card-border p-6 text-center">
+              <p className="text-sm text-muted mb-2">Contrast Ratio</p>
+              <p className="text-6xl font-bold text-foreground">{contrast.ratio}</p>
+              <p className="text-2xl text-muted">:1</p>
               <div className="mt-4">
                 <span
                   className={`inline-block px-4 py-2 rounded-full text-lg font-bold ${
                     rating === 'AAA'
-                      ? 'bg-green-100 text-green-700'
+                      ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400'
                       : rating.includes('AA')
-                      ? 'bg-yellow-100 text-yellow-700'
-                      : 'bg-red-100 text-red-700'
+                      ? 'bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-400'
+                      : 'bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400'
                   }`}
                 >
                   {rating}
@@ -229,8 +232,8 @@ function ContrastCheckerContent() {
             </div>
 
             {/* WCAG levels */}
-            <div className="bg-white rounded-xl border border-gray-200 p-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">WCAG Compliance</h3>
+            <div className="bg-card-bg rounded-xl border border-card-border p-6">
+              <h3 className="text-lg font-semibold text-foreground mb-4">WCAG Compliance</h3>
               <div className="space-y-3">
                 <PassFailBadge passes={contrast.aa.large} label="AA Large Text (3:1)" />
                 <PassFailBadge passes={contrast.aa.normal} label="AA Normal Text (4.5:1)" />
@@ -243,7 +246,7 @@ function ContrastCheckerContent() {
 
         {/* Preview section */}
         <div className="mt-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Preview</h2>
+          <h2 className="text-2xl font-bold text-foreground mb-6">Preview</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Normal text preview */}
             <div
@@ -294,32 +297,32 @@ function ContrastCheckerContent() {
         </div>
 
         {/* Guidelines */}
-        <div className="mt-12 bg-white rounded-xl border border-gray-200 p-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">WCAG Guidelines</h2>
+        <div className="mt-12 bg-card-bg rounded-xl border border-card-border p-8">
+          <h2 className="text-2xl font-bold text-foreground mb-6">WCAG Guidelines</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Level AA (Minimum)</h3>
-              <ul className="space-y-2 text-gray-600">
+              <h3 className="text-lg font-semibold text-foreground mb-3">Level AA (Minimum)</h3>
+              <ul className="space-y-2 text-muted">
                 <li className="flex items-start gap-2">
                   <span className="text-green-500 mt-1">✓</span>
-                  <span><strong>4.5:1</strong> for normal text (under 18pt or 14pt bold)</span>
+                  <span><strong className="text-foreground">4.5:1</strong> for normal text (under 18pt or 14pt bold)</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-500 mt-1">✓</span>
-                  <span><strong>3:1</strong> for large text (18pt+ or 14pt+ bold)</span>
+                  <span><strong className="text-foreground">3:1</strong> for large text (18pt+ or 14pt+ bold)</span>
                 </li>
               </ul>
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Level AAA (Enhanced)</h3>
-              <ul className="space-y-2 text-gray-600">
+              <h3 className="text-lg font-semibold text-foreground mb-3">Level AAA (Enhanced)</h3>
+              <ul className="space-y-2 text-muted">
                 <li className="flex items-start gap-2">
                   <span className="text-green-500 mt-1">✓</span>
-                  <span><strong>7:1</strong> for normal text</span>
+                  <span><strong className="text-foreground">7:1</strong> for normal text</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-500 mt-1">✓</span>
-                  <span><strong>4.5:1</strong> for large text</span>
+                  <span><strong className="text-foreground">4.5:1</strong> for large text</span>
                 </li>
               </ul>
             </div>
@@ -333,8 +336,8 @@ function ContrastCheckerContent() {
 export default function ContrastCheckerPage() {
   return (
     <Suspense fallback={
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900" />
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-foreground" />
       </div>
     }>
       <ContrastCheckerContent />

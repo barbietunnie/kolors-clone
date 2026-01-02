@@ -8,6 +8,7 @@ import { TemplateGallery } from '@/components/visualizer/TemplateGallery';
 import { ColorMappingUI } from '@/components/visualizer/ColorMappingUI';
 import { VisualizerPreview } from '@/components/visualizer/VisualizerPreview';
 import { CustomSVGUpload } from '@/components/visualizer/CustomSVGUpload';
+import { Header } from '@/components/ui/Header';
 
 function VisualizerContent() {
   const searchParams = useSearchParams();
@@ -99,15 +100,17 @@ function VisualizerContent() {
   const allTemplates = useMemo(() => [...templates, ...customTemplates], [customTemplates]);
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-background">
+      <Header />
+
       {/* Main content */}
       <main className="max-w-7xl mx-auto px-6 py-12">
         {/* Page title */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl font-bold text-foreground mb-4">
             Palette Visualizer
           </h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg text-muted max-w-2xl mx-auto">
             Preview your color palette on real design mockups. Select a template and see how your colors look in context.
           </p>
         </div>
@@ -115,8 +118,8 @@ function VisualizerContent() {
         <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
           {/* Left column - Template Gallery */}
           <div className="xl:col-span-1 space-y-6">
-            <div className="bg-white rounded-xl border border-gray-200 p-6">
-              <h2 className="text-lg font-semibold text-gray-900 mb-4">Templates</h2>
+            <div className="bg-card-bg rounded-xl border border-card-border p-6">
+              <h2 className="text-lg font-semibold text-foreground mb-4">Templates</h2>
               <TemplateGallery
                 selectedTemplate={selectedTemplate}
                 onSelectTemplate={setSelectedTemplate}
@@ -128,11 +131,11 @@ function VisualizerContent() {
             <CustomSVGUpload onSVGUpload={handleCustomSVGUpload} />
 
             {/* Tips */}
-            <div className="bg-gray-100 rounded-xl p-6">
-              <h3 className="font-semibold text-gray-900 mb-3">Keyboard Shortcuts</h3>
-              <ul className="space-y-2 text-sm text-gray-600">
+            <div className="bg-muted-bg rounded-xl p-6">
+              <h3 className="font-semibold text-foreground mb-3">Keyboard Shortcuts</h3>
+              <ul className="space-y-2 text-sm text-muted">
                 <li className="flex items-center gap-2">
-                  <kbd className="px-2 py-1 bg-white rounded text-xs font-mono shadow">Space</kbd>
+                  <kbd className="px-2 py-1 bg-card-bg rounded text-xs font-mono shadow">Space</kbd>
                   <span>Shuffle palette mapping</span>
                 </li>
               </ul>
@@ -165,8 +168,8 @@ export default function VisualizerPage() {
   return (
     <Suspense
       fallback={
-        <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900" />
+        <div className="min-h-screen bg-background flex items-center justify-center">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-foreground" />
         </div>
       }
     >
