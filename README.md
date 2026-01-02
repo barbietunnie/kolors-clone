@@ -16,6 +16,24 @@ A fast, intuitive color palette generator inspired by [Coolors.co](https://coolo
 - **Export** - CSS, SCSS, Tailwind, JSON, Array formats
 - **URL Sharing** - Palettes encoded in URL for easy sharing
 
+### Image Picker (`/image-picker`)
+- **Image Upload** - Drag and drop or click to upload images
+- **Auto Extraction** - Automatically extract dominant colors from images
+- **Click to Pick** - Click anywhere on the image to pick specific colors
+- **Adjustable Palette Size** - Control how many colors to extract (1-10)
+- **Drag & Reorder** - Rearrange extracted colors
+- **Re-Extract** - Press R to re-extract colors with different results
+- **Export to Generator** - Send extracted palette to the generator
+
+### Palette Visualizer (`/visualizer`)
+- **Design Mockups** - Preview palettes on real design templates
+- **Template Gallery** - Website, app, dashboard, and brand mockups
+- **Custom SVG Upload** - Upload your own SVG templates
+- **Color Mapping** - Assign colors to specific template slots
+- **Auto-Map** - Automatically assign colors to template
+- **Shuffle** - Rotate color assignments with spacebar
+- **URL Colors** - Load palettes directly from URL parameters
+
 ### Color Picker (`/color-picker`)
 - **Color Conversions** - HEX, RGB, HSL, HSB, CMYK, LAB
 - **Color Harmonies** - Complementary, Analogous, Triadic, Split-complementary, Tetradic, Square
@@ -51,6 +69,14 @@ A fast, intuitive color palette generator inspired by [Coolors.co](https://coolo
 - **CSS Export** - Copy CSS gradient code
 - **SVG Export** - Copy as SVG data URL
 - **Convert to Palette** - Generate palette from gradient
+
+### Gradient Library (`/gradients`)
+- **284 Named Gradients** - Curated collection of beautiful gradients
+- **Search** - By gradient name or HEX code
+- **Filter by Style** - Warm, Cool, Neon, Pastel, Nature, Sunset, Purple, Pink
+- **Sort Options** - Alphabetical, by Color Count
+- **Quick Actions** - Copy CSS, copy colors, edit in Gradient Maker
+- **Color Stops Display** - View all color stops on hover
 
 ## Tech Stack
 
@@ -103,9 +129,12 @@ src/
 ├── app/                    # Next.js App Router pages
 │   ├── page.tsx           # Home page
 │   ├── generate/          # Palette generator
+│   ├── image-picker/      # Extract colors from images
+│   ├── visualizer/        # Preview palettes on mockups
 │   ├── color-picker/      # Color info tool
 │   ├── contrast-checker/  # WCAG accessibility
 │   ├── colors/            # Color library browser
+│   ├── gradients/         # Gradient library browser
 │   ├── palettes/          # Browse palettes
 │   └── gradient-maker/    # Gradient creator
 ├── components/
@@ -113,6 +142,9 @@ src/
 │   ├── generator/         # Palette generator components
 │   ├── color-picker/      # Color picker components
 │   ├── colors/            # Color library components
+│   ├── gradients/         # Gradient library components
+│   ├── image-picker/      # Image color extraction
+│   ├── visualizer/        # Palette preview components
 │   └── palettes/          # Palette browsing components
 ├── lib/
 │   └── colors/            # Color utility functions

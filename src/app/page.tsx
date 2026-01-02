@@ -34,6 +34,12 @@ export default function Home() {
             Colors
           </Link>
           <Link
+            href="/gradients"
+            className="text-gray-600 hover:text-gray-900 transition-colors"
+          >
+            Gradients
+          </Link>
+          <Link
             href="/palettes"
             className="text-gray-600 hover:text-gray-900 transition-colors"
           >
